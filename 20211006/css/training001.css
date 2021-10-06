@@ -1,0 +1,8 @@
+h1 {font-size: 100px; color: #444; ;}
+div {color:#f00;}
+.div1006 {color:#00f;}
+#div10062 {color:#abab;}
+
+figure {background:#ff0;}
+figure img {margin-left:100px;transition: 2s;}
+figure.on img {margin-left:1000px;}
