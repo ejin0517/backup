@@ -1,0 +1,48 @@
+
+.container {width: 1200px; margin:0 auto;}
+
+body {color:#333;}
+#header {background:#121212;}
+#header .container {display:flex;padding:10px 0;}
+#header h1 {padding:0 15px;}
+#header nav {margin-left:auto;padding:0 15px;}
+#header nav>ul {display:flex;line-height: 100px;}
+#header nav>ul>li {padding:0 15px;color:#fff;}
+#header .search {padding:0 15px; line-height: 100px;color:#fff;}
+#header .search i {font-size:20px;}
+
+#visual {position:relative;height:600px;background:url(../img/main_visual02.jpg) no-repeat center/cover;}
+
+#visual .container{position:absolute;top:50%;left:50%;transform: translate(-50%, -50%);padding:0 15px;color:#fff;}
+#visual h2 {font-size: 40px; font-weight: 700;margin-bottom: 20px;text-shadow: 0 0 2px #333;}
+#visual p {font-size: 20px; font-weight: 300;}
+
+
+#content01 {padding:150px 0; text-align:center;}
+#content01 .container {display: flex;}
+#content01 .container figure {flex:1;padding:0 15px;}
+#content01 .container figure img {width:100%;}
+
+#content01 h2 {font-size:30px;font-weight: 500; margin-bottom:10px;}
+#content01 h2:after {content:"";display:block;width:60px;height:1px;background:#333;margin:10px auto;}
+#content01 p {font-size:15px;font-weight: 300; margin-bottom:50px;}
+
+
+#content02 {position:relative;height:300px;background:url(../img/main_visual04.jpg) no-repeat center/cover;background-attachment: fixed;}
+#content02 .container{position:absolute;top:50%;left:50%;transform: translate(-50%, -50%);padding:0 15px;color:#fff;text-align:center;}
+#content02 h2 {font-size:30px; font-weight: 500;margin-bottom:20px;}
+#conent02 p {font-size:16px;letter-spacing:-0.25em;font-weight: 100;}
+#content02 button {margin-top:30px;background:#fff;color:#121212;padding:10px 20px 12px 20px; border-style: none;}
+
+
+#content03 {padding:150px 0; text-align:center;}
+#content03 .container {display: flex;}
+#content03 .container figure {flex:1;padding:0 15px;}
+#content03 .container figure img {width:100%;}
+
+#content03 h2 {font-size:30px;font-weight: 500; margin-bottom:10px;}
+#content03 h2:after {content:"";display:block;width:20px;height:2px;background:#333;margin:20px auto;transform:rotate(-60deg);}
+#content03 p {font-size:15px;font-weight: 300; margin-bottom:50px;}
+
+
+#footer {padding:60px 0;background:#444; color:#fff; text-align:center;}
