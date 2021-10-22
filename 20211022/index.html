@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기본레이아웃반복01 + 탭메뉴</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <h1>
+                <a href="index.html"><img src="./img/logo.png" alt="기본레이아웃반복01 + 탭메뉴"></a>
+            </h1>
+        
+            <nav id="gnb">
+                <ul>
+                    <li><a href="#!">menu01</a></li>
+                    <li><a href="#!">menu02</a></li>
+                    <li><a href="#!">menu03</a></li>
+                    <li><a href="#!">menu04</a></li>
+                    <li><a href="#!">menu05</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="main_visual">
+                <figure>
+                    <img src="img/main_visual03.jpg" alt="">
+                </figure>
+                <div class="slogan">
+                    <h2>Lorem ipsum</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores sequi et soluta iure,<br>deleniti expedita, laboriosam velit quisquam modi, dolorum fuga error veniam tempore architecto?</p>
+                </div>
+            </section>
+            <section id="event">
+                <h2>EVENT</h2>
+                <div class="container">
+                    <figure>
+                        <img src="./img/main_item01.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="./img/main_item02.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="./img/main_item03.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="./img/main_item01.jpg" alt="">
+                    </figure>
+                    <figure>
+                        <img src="./img/main_item02.jpg" alt="">
+                    </figure>
+                </div>
+            </section>
+            <section id="tab_content">
+                <div class="container">
+                    <ul>
+                        <li class="on">tab01</li> <!--css에서 nth-child(1)은 java에서 index 0 이라고함, 고유번호를 가지고 있음-->
+                        <li>tab02</li>
+                        <li>tab03</li>
+                    </ul>
+                    <div class="tab">
+                        <div class="on">
+                            001 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at quam nisi iusto distinctio recusandae, nulla mollitia adipisci labore voluptas laboriosam minus explicabo, aliquid consequuntur odit. Consequatur unde non exercitationem.
+                        </div>
+                        <div>
+                            002 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at quam nisi iusto distinctio recusandae.
+                        </div>
+                        <div>
+                            003 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at quam nisi iusto distinctio recusandae, nulla mollitia adipisci labore voluptas laboriosam minus explicabo, aliquid consequuntur odit. 
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            &copy; 2021 Audi Korea. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
