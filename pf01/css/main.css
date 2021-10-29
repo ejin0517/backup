@@ -154,4 +154,4 @@
 #right_banner span {display:block;color:#292929;padding:30px 20px;line-height: 24px;text-align:center;border-top:1px dashed #ddd;}
 
 #right_banner i.xi-angle-left-min {position:absolute;top:300px;left:-40px;background: #333;color:#fff;padding:5px;font-size: 30px;}
-#right_banner i.xi-angle-left-min.on {transform: rotate(-180deg);left:-39px;}
+#right_banner i.xi-angle-left-min.on {transform: rotate(-180deg);left:-41px;}
