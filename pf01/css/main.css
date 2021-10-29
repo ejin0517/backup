@@ -12,7 +12,7 @@
 #header .container nav {}
 #header .container nav ul{display: flex;}
 #header .container nav ul>li{font-size:18px;font-weight:400;}
-#header .container nav ul>li~li {padding-left:30px;}
+#header .container nav ul>li~li {padding-left:35px;}
 #header .container nav ul>li>a{display:block;}
 
 
@@ -63,12 +63,20 @@
 
 
 #content02 {color:#282828;}
-#content02 .container {display: flex; width:1200px; margin:150px auto; padding:0 15px;}
+#content02 .container {position:relative;display: flex; width:1200px; margin:150px auto; padding:0 15px;}
 
 #content02 .title {margin-right:215px;}
 #content02 .title h2 {font-size: 48px;font-weight: 400;margin-bottom: 20px;}
 #content02 .title p {font-size: 24px;font-weight: 300;margin-bottom: 30px;}
 #content02 .title i {font-size: 36px;font-weight: 300;}
+
+#content02 .more_ex {display:none;position:absolute;top:180px;left:15px;transition: 0.5s;}
+#content02 .more_ex.on {display:block;}
+#content02 .more_ex ul {width:260px;border:1px solid #ddd;text-align: center;}
+#content02 .more_ex ul li {padding:25px 20px;font-size:18px;}
+#content02 .more_ex ul li:hover {background: #292929;color:#fff;}
+#content02 .more_ex ul li {border-top: 1px solid #ddd;}
+#content02 .more_ex ul li.li01 {border:0;}
 
 #content02 .exhibition {border-left:1px solid #b0b0b0;padding:0 30px;}
 #content02 .exhibition figure {margin-bottom:55px}
@@ -138,10 +146,12 @@
 #footer .footer_menu02 .info .copyright {margin-top:55px;}
 #footer .footer_menu02 .site_btn {display:block;background: #b6b6b6; color:#292929;width:250px;height:40px;text-align: center;line-height:40px;margin-top:25px;font-weight: 400;letter-spacing: 0.3em;}
 
-#right_banner {position:fixed;top:0;right:-300px;background: #fff; width:300px;height:100%;z-index: 999;transition: 0.5s;border-left:1px solid #ddd;}
+
+
+#right_banner {position:fixed;top:0;right:-310px;background: #fff; width:310px;height:100%;z-index: 999;transition: 0.5s;border-left:1px solid #ddd;}
 #right_banner.on {right:0;}
 #right_banner h2 {color:#292929;font-size: 18px;font-weight: 500;letter-spacing: 0.5em;text-align:center;padding:70px 0 35px 0;border-bottom: 1px dashed #ddd;}
-#right_banner ul{padding:35px 25px;text-align:center;}
+#right_banner ul{padding:30px;text-align:center;}
 #right_banner ul>li {background: #f7f7f7; width:250px;padding:20px 0;}
 #right_banner ul>li:first-child {background: #e8eef2;}
 #right_banner ul>li:nth-child(2) {margin:19px 0;}
@@ -149,8 +159,8 @@
 #right_banner ul>li strong {display:block;font-size:18px; color:#292929;font-weight: 400;margin-bottom:10px;}
 #right_banner ul>li p {font-size:14px;color:#292929;font-weight: 300;line-height: 1.2em;}
 
-#right_banner .banner_btn01 {background: #72889f;padding:17px 0;width:250px;margin:0 25px 12px 25px;color:#fff;text-align:center;font-size:18px;font-weight:200;}
-#right_banner .banner_btn02 {background: #292929;padding:17px 0;width:250px;margin:0 25px 35px 25px;color:#fff;text-align:center;font-size:18px;font-weight:200;}
+#right_banner .banner_btn01 {background: #72889f;padding:17px 0;width:250px;margin:0 30px 12px 30px;color:#fff;text-align:center;font-size:18px;font-weight:200;}
+#right_banner .banner_btn02 {background: #292929;padding:17px 0;width:250px;margin:0 30px 35px 30px;color:#fff;text-align:center;font-size:18px;font-weight:200;}
 #right_banner span {display:block;color:#292929;padding:30px 20px;line-height: 24px;text-align:center;border-top:1px dashed #ddd;}
 
 #right_banner i.xi-angle-left-min {position:absolute;top:300px;left:-40px;background: #333;color:#fff;padding:5px;font-size: 30px;}

@@ -23,6 +23,10 @@ $(function(){
 
 
 
+    $('#content02 .title i').on('click', function(){
+        $('#content02 .more_ex').toggleClass('on')
+    });
+
 
     $( "#datepicker" ).datepicker();
 
