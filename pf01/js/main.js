@@ -27,6 +27,23 @@ $(function(){
         $('#content02 .more_ex').toggleClass('on')
     });
 
+    //---------------------------------------------------날짜표시 시작
+    var Target = document.getElementById("date");
+    function clock() {
+        var time = new Date();
+
+        var month = time.getMonth();
+        var date = time.getDate();
+        var day = time.getDay();
+        var week = ['일', '월', '화', '수', '목', '금', '토'];
+
+        Target.innerText = 
+        `${month + 1}월 ${date}일 ${week[day]}요일 `;
+            
+    }
+    clock();
+    setInterval(clock, 1000);
+    //---------------------------------------------------날짜표시 끝
 
     $( "#datepicker" ).datepicker();
 

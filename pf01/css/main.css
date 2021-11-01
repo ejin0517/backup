@@ -1,19 +1,28 @@
 #wrap {}
 
-#top_banner {background: #fef342;height:60px;text-align: center;}
+#top_banner {background: #fef342;height:50px;text-align: center;}
 #top_banner .container {position:relative; width:1200px; margin:0 auto; padding:0 15px;}
-#top_banner .container p {line-height: 60px;font-weight: 400;}
-#top_banner .container i.xi-close {position:absolute; top:23px; right:15px;}
+#top_banner .container p {line-height: 50px;font-size:14px;font-weight:400;}
+#top_banner .container i.xi-close {position:absolute; top:18px; right:15px;}
 
 
-#header {}
-#header .container {display: flex;width:1200px;margin:0 auto;justify-content: space-between;padding:0 15px;line-height: 100px;}
+#header {position:relative;}
+#header .container {display: flex;width:1200px;margin:0 auto;padding:0 15px;line-height: 100px;}
 #header .container h1 {}
-#header .container nav {}
-#header .container nav ul{display: flex;}
-#header .container nav ul>li{font-size:18px;font-weight:400;}
-#header .container nav ul>li~li {padding-left:35px;}
-#header .container nav ul>li>a{display:block;}
+#header .container nav {margin-left:auto;}
+#header .container nav:after {content:"";position:absolute;top:100px;left:0;width:100%;height:0;background: #fff;opacity:0.95;z-index: 1;transition: 0.4s;}
+#header .container nav:hover:after {height:300px;border-top: 1px solid #ddd;}
+
+#header .container nav>ul{display: flex;}
+#header .container nav>ul>li{position:relative;font-size:18px;font-weight:400;}
+#header .container nav>ul>li>a{display:block;padding:0 25px;} /*패딩을 여기에 줘야 서브메뉴 위치가 가운데로 옴*/
+
+#header .container nav>ul li ul {position:absolute;top:100px;left:0;z-index:999;height:0;width:100%;overflow:hidden;padding-top:20px;text-align: center;transition:0.4s;}
+#header .container nav:hover ul li ul {height:300px;}
+
+#header .container nav>ul li ul>li {text-align: center;}
+#header .container nav>ul li ul>li>a{display:block;line-height:35px;font-size: 14px;}
+#header .container nav>ul li ul>li>a:hover {font-weight: 600;}
 
 
 #main_visual {}
@@ -102,7 +111,7 @@
 #content03 .pr_slider figure {text-align:center;}
 #content03 .pr_slider img {margin-bottom:30px;}
 #content03 .pr_slider a {display:block;font-size:18px; font-weight:400;margin-bottom:15px; }
-#content03 .pr_slider p {width:570px;font-weight:300;line-height: 1.2em;text-align:center;padding:0 25px;}
+#content03 .pr_slider p {width:570px;font-size:14px;font-weight:300;line-height: 1.3em;text-align:center;padding:0 25px;}
 #content03 .btn i {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index: 999;background: #f2f2f2;border-radius: 50%;padding:10px;font-size:20px;}
 
 #content03 .btn .xi-angle-left-min {margin-left:-650px;}
@@ -117,7 +126,7 @@
 #content04 .container p{font-size:16px; font-weight: 300;margin-top:15px;}
 
 
-#content05 {color:#282828;padding:150px 0;}
+#content05 {color:#282828;padding:120px 0;}
 #content05 .container {display: flex; justify-content:space-between;width:1200px; margin:0 auto; padding:0 15px;}
 #content05 .title {}
 #content05 .title h2 {font-size: 48px;font-weight: 400;margin-bottom: 20px;}
@@ -130,21 +139,22 @@
 #content05 .news .news_title i {transform:rotate(90deg);}
 
 
-#footer {background: #545454; color:#f7f7f7;padding:70px 0 100px 0;}
+#footer {background: #545454; color:#dedede;padding:70px 0 100px 0;}
 #footer .container {width:1200px; margin:0 auto;padding:0 15px;}
 #footer .footer_menu01 {display:flex;justify-content: space-between;border-bottom:1px solid #6f6f6f;}
 #footer .footer_menu01 ul {display:flex;}
-#footer .footer_menu01 ul:first-child>li {padding-right:20px;line-height: 45px;}
-#footer .footer_menu01 ul>li {padding-left:5px;}
-#footer .footer_menu01 ul>li i{background: #292929;padding:10px;border-radius: 50%;font-size:25px;margin-bottom:10px;}
+#footer .footer_menu01 ul:first-child li {line-height: 34px;padding-right:20px;}
+#footer .footer_menu01 ul>li {font-size:14px;}
+#footer .footer_menu01 ul>li~li {padding-left:10px;}
+#footer .footer_menu01 ul>li i{background: #292929;padding:7px;border-radius: 50%;font-size:20px;margin-bottom:10px;}
 #footer .footer_menu01 ul>li i:hover{background: #f7f7f7;color:#292929;}
 
 #footer .footer_menu02 {display:flex;justify-content: space-between;}
 #footer .footer_menu02 .info {line-height: 1.2em;}
-#footer .footer_menu02 .info strong {display:block;margin:25px 0 10px 0;}
-#footer .footer_menu02 .info span {display:block;font-size:14px;font-weight: 300;}
-#footer .footer_menu02 .info .copyright {margin-top:55px;}
-#footer .footer_menu02 .site_btn {display:block;background: #b6b6b6; color:#292929;width:250px;height:40px;text-align: center;line-height:40px;margin-top:25px;font-weight: 400;letter-spacing: 0.3em;}
+#footer .footer_menu02 .info strong {display:block;margin:20px 0 10px 0;}
+#footer .footer_menu02 .info span {display:block;font-size:14px;font-weight: 200;}
+#footer .footer_menu02 .info .copyright {margin-top:55px;font-size:12px;font-weight:300;}
+#footer .footer_menu02 .site_btn {display:block;background: #b6b6b6; color:#292929;width:250px;height:40px;text-align: center;line-height:40px;margin-top:20px;font-size:14px;letter-spacing: 0.3em;}
 
 
 
@@ -159,9 +169,9 @@
 #right_banner ul>li strong {display:block;font-size:18px; color:#292929;font-weight: 400;margin-bottom:10px;}
 #right_banner ul>li p {font-size:14px;color:#292929;font-weight: 300;line-height: 1.2em;}
 
-#right_banner .banner_btn01 {background: #72889f;padding:17px 0;width:250px;margin:0 30px 12px 30px;color:#fff;text-align:center;font-size:18px;font-weight:200;}
-#right_banner .banner_btn02 {background: #292929;padding:17px 0;width:250px;margin:0 30px 35px 30px;color:#fff;text-align:center;font-size:18px;font-weight:200;}
+#right_banner .banner_btn01 {background: #72889f;padding:17px 0;width:250px;margin:0 30px 12px 30px;color:#fff;text-align:center;}
+#right_banner .banner_btn02 {background: #292929;padding:17px 0;width:250px;margin:0 30px 35px 30px;color:#fff;text-align:center;}
 #right_banner span {display:block;color:#292929;padding:30px 20px;line-height: 24px;text-align:center;border-top:1px dashed #ddd;}
 
-#right_banner i.xi-angle-left-min {position:absolute;top:300px;left:-40px;background: #333;color:#fff;padding:5px;font-size: 30px;}
+#right_banner i.xi-angle-left-min {position:absolute;top:400px;left:-40px;background: #333;color:#fff;padding:5px;font-size: 30px;}
 #right_banner i.xi-angle-left-min.on {transform: rotate(-180deg);left:-41px;}
