@@ -36,16 +36,16 @@ $("#mv01").YTPlayer({
     optimizeDisplay:false,
 });
 
-$('#visual i.xi-pause').on('click', function(){
-    $("#m01").YTPPause();
+$('#movie02 i.xi-pause').on('click', function(){
+    $("#mv01").YTPPause();
 });
 
-$('#visual i.xi-play').on('click', function(){
-    $("#m01").YTPPlay();
+$('#movie02 i.xi-play').on('click', function(){
+    $("#mv01").YTPPlay();
 });
 
-$('#visual i.xi-tv').on('click', function(){
-    $("#m01").YTPFullscreen();
+$('#movie02 i.xi-tv').on('click', function(){
+    $("#mv01").YTPFullscreen();
 });
 
 //--------------------------------------------
