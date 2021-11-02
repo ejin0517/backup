@@ -9,7 +9,6 @@ $("#m01").YTPlayer({
     startAt:0, 
     opacity:1,
     showControls:false, //control이 안보이게, 보이게하려면 true
-    playsinline:1,
 });
 
 $('#visual i.xi-pause').on('click', function(){
@@ -35,7 +34,6 @@ $("#mv01").YTPlayer({
     showControls:false, //control이 안보이게, 보이게하려면 true
     playOnlyfVisible:true,
     optimizeDisplay:false,
-    playsinline:1,
 });
 
 $('#movie02 i.xi-pause').on('click', function(){
