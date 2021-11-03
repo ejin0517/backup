@@ -43,7 +43,7 @@ body {color:#333}
 #product01 h2 {font-size:30px;font-weight:400;margin-bottom:10px;}
 #product01 p {font-weight:200;margin-bottom:30px;letter-spacing: -0.025em;}
 
-#product01 .container {display:flex;width:1200px;margin:0 auto;overflow:hidden;}
+#product01 .container {display:flex;width:1200px;margin:0 auto;}
 #product01 .container figure {flex:1;padding:0 15px}
 #product01 .container figure:hover img {transform:scale(1.2);}
 #product01 .container figure .case {overflow:hidden;}
