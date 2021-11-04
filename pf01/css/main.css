@@ -146,7 +146,7 @@
 
 
 /*  footer  */
-#footer {background: #545454; color:#dedede;padding:70px 0 100px 0;}
+#footer {background: #545454; color:#dedede;padding:50px 0 70px 0;}
 #footer .container {width:1200px; margin:0 auto;padding:0 15px;}
 #footer .footer_menu01 {display:flex;justify-content: space-between;border-bottom:1px solid #6f6f6f;}
 #footer .footer_menu01 ul {display:flex;}
