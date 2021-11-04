@@ -9,24 +9,29 @@
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/jquery-ui.min.css">
     <link rel="stylesheet" href="./css/datepicker.css">
+    <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <script src="./js/jquery-1.12.4.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-  <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.mb.YTPlayer.min.js"></script>
     <script src="./js/main.js"></script>
 </head>
 <body>
     <div id="wrap">
 
+        <!-- { top_banner -->
         <div id="top_banner">
             <div class="container">
                 <p>코로나-19로 인하여 사전예약 후 이용가능합니다.&nbsp;&nbsp;&nbsp;<a href="#!">사전예약하러가기</a><i class="xi-angle-right-min"></i></p>
                  <i class="xi-close"></i>
             </div>
         </div>
+        <!-- top_banner } -->
 
 
+        <!-- { header -->
         <header id="header">
             <div class="container">
                 <h1><a href="index.html">
@@ -96,36 +101,40 @@
                 </nav>
             </div>  
         </header>
+        <!-- header } -->
    
-    <section id="main_visual">
-        <div class="main_slider">
-        <a href="#!"><figure class="main_slider01">
-            <div class="slogan sl01">
-                <h2>《크리스티앙 볼탕스키 : 4.4》</h2>
-                <p>'삶과 죽음'에 대한 메시지를 되짚어볼 수 있는 순간을 선사합니다.</p>
+
+        <!-- { main_visual -->
+        <section id="main_visual">
+            <div class="main_slider">
+            <a href="#!"><figure class="main_slider01">
+                <div class="slogan sl01">
+                    <h2>《크리스티앙 볼탕스키 : 4.4》</h2>
+                    <p>'삶과 죽음'에 대한 메시지를 되짚어볼 수 있는 순간을 선사합니다.</p>
+                </div>
+            </figure></a>
+            <a href="#!"><figure class="main_slider02">
+                <div class="slogan sl02">
+                    <h2>《오노프ONOOOFF》</h2>
+                        <p>온라인 공간에 설립된 가상의 미술관을 만나보세요.</p>
+                </div>
+            </figure></a>
+            <a href="#!"><figure class="main_slider03">
+                <div class="slogan sl03">
+                    <h2>《BMA 소장품보고 COLLECTION REPORT》</h2>
+                    <p>전체 소장품의 역사와 활동을 정리하고 새로운 방향성을 제시합니다.</p>
+                </div>
+            </figure></a>
             </div>
-        </figure></a>
-        <a href="#!"><figure class="main_slider02">
-            <div class="slogan sl02">
-                <h2>《오노프ONOOOFF》</h2>
-                    <p>온라인 공간에 설립된 가상의 미술관을 만나보세요.</p>
+            <div class="btn">
+                <i class="xi-angle-left-thin"></i>
+                <i class="xi-angle-right-thin"></i>
             </div>
-        </figure></a>
-        <a href="#!"><figure class="main_slider03">
-            <div class="slogan sl03">
-                <h2>《BMA 소장품보고 COLLECTION REPORT》</h2>
-                <p>전체 소장품의 역사와 활동을 정리하고 새로운 방향성을 제시합니다.</p>
-            </div>
-        </figure></a>
-    </div>
-    <div class="btn">
-        <i class="xi-angle-left-thin"></i>
-        <i class="xi-angle-right-thin"></i>
-    </div>
-    
-    </section>
+        </section>
+        <!--  main_visual } -->
 
     
+        <!-- { content01 - 관람시간/사전예약안내 -->
         <section id="content01">
             <div class="container">
                 <div class="box1">
@@ -149,7 +158,10 @@
                 </div>
             </div>
         </section>
+        <!-- content01 - 관람시간/사전예약안내 } -->
 
+
+        <!-- { content02 - 현재전시안내 -->
         <section id="content02">
             <div class="container">
                 <div class="title">
@@ -195,7 +207,10 @@
                 </div>
             </div>
         </section>
+        <!-- content02 - 현재전시안내 } -->
 
+
+        <!-- { content03 - 오늘전시안내 -->
         <section id="content03">
             <div class="container">
                 <div class="title">
@@ -235,17 +250,31 @@
                 </div>
             </div>
         </section>
+        <!-- content03 - 오늘전시안내 }-->
 
+
+        <!-- { content04 - 비디오 -->
         <section id="content04">
-            <div class="container">
-                <iframe class="video" src="https://www.youtube.com/embed/ZvhL3vtVd9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>
-                <strong>#오노프ONOOOFF #부산시립미술관 #오노프</strong>
-                <h2>《오노프 ONOOOFF》</h2>
-                <p>‘오노프 ONOOOFF’ 전시는 온라인 플랫폼 PC를 통해서도 감상하실 수 있습니다. </p>
-            </div>
+                <!--<iframe class="video" src="https://www.youtube.com/embed/ZvhL3vtVd9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>-->
+                <figure>
+                    <div id="mv01" class="player"></div>
+                </figure>
+                <div class="video_btn">
+                    <i class="xi-play"></i>
+                    <i class="xi-pause"></i>
+                    <i class="xi-expand"></i>
+                </div>
+                <div class="des">
+                    <strong>#오노프ONOOOFF #부산시립미술관 #오노프</strong>
+                    <h2>《오노프 ONOOOFF》</h2>
+                    <p>‘오노프 ONOOOFF’ 전시는 온라인 플랫폼 PC를 통해서도 감상하실 수 있습니다. </p>
+                </div>    
         </section>
+        <!-- content04 - 비디오 } -->
 
+
+        <!-- { content05 - 미술관새소식 -->
         <section id="content05">
             <div class="container">
                 <div class="title">
@@ -276,7 +305,10 @@
                     </div>
                 </div>
         </section>
+        <!-- content05 - 미술관새소식 } -->
+    
 
+        <!-- { footer -->
         <footer id="footer">
             <div class="container">
                 <div class="footer_menu01">
@@ -313,9 +345,12 @@
                     </div>
                 </div>
             </div>
+        </footer>
+        <!-- footer } -->
     
 
-            <div id="right_banner">
+        <!-- { right_banner - 우측 슬라이드배너 -->
+        <div id="right_banner">
                 <h2>QUICK MENU</h2>
                 <ul>
                     <li>
@@ -342,8 +377,9 @@
                  <span>본관&nbsp;051-744-2602<br>
                     이우환공간&nbsp;051-740-2603</span>
                  <i class="xi-angle-left-min"></i>
-            </div>
-        </footer>
+        </div>
+        <!-- right_banner - 우측 슬라이드배너 } -->
+        
     </div>
 </body>
 </html>

@@ -6,6 +6,7 @@ $(function(){
        $('#top_banner').slideUp();
    })
    
+   //-----------------------------------
    
    $('.main_slider').slick({
         arrows:false,
@@ -21,15 +22,16 @@ $(function(){
         $('.main_slider').slick('slickNext');
     });
 
-
+    //-----------------------------------
 
     $('#content02 .title i').on('click', function(){
         $('#content02 .more_ex').toggleClass('on')
     });
 
     //---------------------------------------------------날짜표시 시작
-    var Target = document.getElementById("date");
-    function clock() {
+    
+    var Target = document.getElementById("date"); /*var Target = $('#date');와 동일*/
+    function clock() { /*'clock'이라는 이름의 함수를 설정함*/
         var time = new Date();
 
         var month = time.getMonth();
@@ -41,8 +43,8 @@ $(function(){
         `${month + 1}월 ${date}일 ${week[day]}요일 `;
             
     }
-    clock();
-    setInterval(clock, 1000);
+    clock(); /*'clock'이라는 함수를 실행해라*/
+ 
     //---------------------------------------------------날짜표시 끝
 
     $( "#datepicker" ).datepicker();
@@ -58,7 +60,6 @@ $(function(){
         slidesToShow:2,
     })
 
-
     $('#content03 .btn .xi-angle-left-min').on('click',function(){
         $('.pr_slider').slick('slickPrev');
     })
@@ -66,14 +67,36 @@ $(function(){
         $('.pr_slider').slick('slickNext');
     })
 
+    //------------------------------------------
 
+    $("#mv01").YTPlayer({
+        videoURL:'https://youtu.be/ZvhL3vtVd9c',
+        containment:'#content04 figure',
+        autoPlay:true, 
+        mute:true, 
+        startAt:0, 
+        opacity:1,
+        showControls:false, //control이 안보이게, 보이게하려면 true
+    });
     
+    $('#content04 i.xi-pause').on('click', function(){
+        $("#mv01").YTPPause();
+    });
+    
+    $('#content04 i.xi-play').on('click', function(){
+        $("#mv01").YTPPlay();
+    });
+    
+    $('#content04 i.xi-expand').on('click', function(){
+        $("#mv01").YTPFullscreen();
+    });
 
+    //-----------------------------------------
+    
     $('#right_banner i.xi-angle-left-min').on('click', function(){
         $('#right_banner').toggleClass('on');
         $('#right_banner i.xi-angle-left-min').toggleClass('on');
-
-    })
+    });
 
    //----------------------------------
 })
