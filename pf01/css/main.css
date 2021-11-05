@@ -73,10 +73,10 @@
 
 
 /*  content02 - 현재전시안내  */
-#content02 {color:#282828;padding:150px 0;}
-#content02 .container {position:relative;display: flex; width:1200px; margin:0 auto; padding:0 15px;}
+#content02 {color:#282828;padding:100px 0;}
+#content02 .container {position:relative;display:flex;justify-content:space-between;width:1200px; margin:0 auto; padding:0 15px;}
 
-#content02 .title {margin-right:auto;}
+#content02 .title {margin-right:215px;}
 #content02 .title h2 {font-size: 48px;font-weight: 400;margin-bottom: 20px;}
 #content02 .title p {font-size: 24px;font-weight: 300;margin-bottom: 30px;}
 #content02 .title i {font-size: 36px;font-weight: 300;}
@@ -99,23 +99,23 @@
 
 
 /*  content03 - 오늘전시안내  */
-#content03 {position:relative;padding:150px 0;}
+#content03 {padding:150px 0;}
 #content03 .container {position:relative;width:1200px; margin:0 auto; padding:0 15px;}
 #content03 .title {}
 #content03 .title h2 {font-size: 48px;font-weight: 400;margin-bottom: 20px;}
-#content03 .title p {font-size: 16px;font-weight: 400;margin-bottom: 30px;width:170px;background: #292929;border-radius: 20px;padding:7px 15px 10px 15px;text-align:center;color:#fff;}
+#content03 .title p {font-size: 16px;font-weight: 400;margin-bottom:50px;width:170px;background: #292929;border-radius: 20px;padding:7px 15px 10px 15px;text-align:center;color:#fff;}
 #content03 .title i {position:absolute;top:10px;right:15px;font-size: 36px;font-weight: 300;}
 
 #content03 .calendar {display:none;position:absolute;top:0;right:75px;z-index: 999;}
 #content03 .calendar.on {display:block;}
 
-#content03 .pr_slider {display: flex;width:1200px;justify-content:space-between;}
+#content03 .pr_slider {position:relative;display: flex;width:1200px;justify-content:space-between;}
 #content03 .pr_slider figure {text-align:center;}
 #content03 .pr_slider img {margin-bottom:30px;}
 #content03 .pr_slider a {display:block;font-size:18px; font-weight:400;margin-bottom:15px;}
 #content03 .pr_slider p {width:570px;font-size:14px;font-weight:300;line-height: 1.3em;text-align:center;padding:0 25px;}
 
-#content03 .btn i {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index: 999;background: #f2f2f2;border-radius: 50%;padding:10px;font-size:20px;}
+#content03 .btn i {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);background: #f2f2f2;border-radius: 50%;padding:10px;font-size:20px;z-index: 999;}
 #content03 .btn .xi-angle-left-min {margin-left:-650px;}
 #content03 .btn .xi-angle-right-min {margin-left:650px;}
 
