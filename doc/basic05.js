@@ -56,6 +56,23 @@ $('#product04 .container .con i.xi-arrow-right').on('click', function(){
     $('#product04 .pr_slider02').slick('slickNext')
 });
 
+
+$('#tab_slider .tab_menu li').on('click', function(){
+    var idx=$(this).index();
+    $('.tab_content>div').eq(idx).addClass('on').siblings().removeClass('on'); //div(공간)으로 잡아줌
+});
+
+
+$('#tab_slider .tab_slider').slick({
+    arrows:false,
+    autoplay:true,
+    slidesToShow:4,
+    centerMode:true,
+    pauseOnHover:false,
+    pauseOnFocus:false,
+});
+
+
 $('#link select').on('change', function(){
     var link=$(this).val(); //value값을 준다
     if(link) window.open(link) //창을 열어라
