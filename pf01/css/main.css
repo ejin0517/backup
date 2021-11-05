@@ -19,7 +19,7 @@
 #header .container nav>ul>li{position:relative;font-size:18px;font-weight:400;}
 #header .container nav>ul>li>a{display:block;padding:0 25px;} /*패딩을 여기에 줘야 서브메뉴 위치가 가운데로 옴*/
 
-#header .container nav>ul li ul {position:absolute;top:100px;left:0;z-index:999;height:0;width:100%;overflow:hidden;padding-top:20px;text-align: center;transition:0.4s;}
+#header .container nav>ul li ul {position:absolute;top:100px;left:0;height:0;width:100%;overflow:hidden;padding-top:20px;text-align: center;transition:0.4s;z-index:999;}
 #header .container nav:hover ul li ul {height:300px;}
 
 #header .container nav>ul li ul>li {text-align: center;}
@@ -55,17 +55,17 @@
 
 
 /*  content01 - 관람시간/사전예약안내  */
-#content01 {}
-#content01 .container {display: flex; width:1200px; margin:150px auto; padding:0 15px;}
+#content01 {padding:150px 0 100px 0;}
+#content01 .container {display: flex;justify-content: space-between; width:1200px; margin:0 auto; padding:0 15px;}
 
-#content01 .box1 {width:570px;border:1px solid #b0b0b0;text-align: center;padding:45px 55px;margin-right:15px;}
+#content01 .box1 {width:570px;border:1px solid #b0b0b0;text-align: center;padding:45px 55px;}
 #content01 .box1 h2 {font-size: 24px; font-weight: 400;margin-bottom:8px;color:#5b5b5b;}
 #content01 .box1 .en {font-size: 14px; font-weight: 300;margin-bottom:30px;color:#5b5b5b;}
 #content01 .box1 .opentime {font-size: 40px; font-weight: 300;margin-bottom:20px;color:#282828;}
 #content01 .box1 .space {font-size: 14px; font-weight: 300;color:#fff;width:142px;padding:3px 5px 5px 5px;background: #282828;border-radius: 20px;margin:0 auto;}
 #content01 .box1 .description {font-size: 14px; font-weight: 400;margin-top:45px;color:#282828;text-align: left;line-height:1.5em;}
 
-#content01 .box2 {width:570px;border:1px solid #b0b0b0;text-align: center;padding:45px 55px;margin-left:15px;}
+#content01 .box2 {width:570px;border:1px solid #b0b0b0;text-align: center;padding:45px 55px;}
 #content01 .box2 h2 {font-size: 24px; font-weight: 400;margin-bottom:8px;color:#5b5b5b;}
 #content01 .box2 .en1 {font-size: 14px; font-weight: 300;margin-bottom:36px;color:#5b5b5b;}
 #content01 .box2 .cancle {font-size: 24px; font-weight: 400;margin-bottom:60px;color:#282828;line-height:1.3em;}
@@ -73,10 +73,10 @@
 
 
 /*  content02 - 현재전시안내  */
-#content02 {color:#282828;}
-#content02 .container {position:relative;display: flex; width:1200px; margin:150px auto; padding:0 15px;}
+#content02 {color:#282828;padding:150px 0;}
+#content02 .container {position:relative;display: flex; width:1200px; margin:0 auto; padding:0 15px;}
 
-#content02 .title {margin-right:215px;}
+#content02 .title {margin-right:auto;}
 #content02 .title h2 {font-size: 48px;font-weight: 400;margin-bottom: 20px;}
 #content02 .title p {font-size: 24px;font-weight: 300;margin-bottom: 30px;}
 #content02 .title i {font-size: 36px;font-weight: 300;}
@@ -99,7 +99,7 @@
 
 
 /*  content03 - 오늘전시안내  */
-#content03 {position:relative;}
+#content03 {position:relative;padding:150px 0;}
 #content03 .container {position:relative;width:1200px; margin:0 auto; padding:0 15px;}
 #content03 .title {}
 #content03 .title h2 {font-size: 48px;font-weight: 400;margin-bottom: 20px;}
@@ -109,30 +109,30 @@
 #content03 .calendar {display:none;position:absolute;top:0;right:75px;z-index: 999;}
 #content03 .calendar.on {display:block;}
 
-#content03 .pr_slider {display: flex;width:1200px;justify-content:space-between;margin-bottom:150px;}
+#content03 .pr_slider {display: flex;width:1200px;justify-content:space-between;}
 #content03 .pr_slider figure {text-align:center;}
 #content03 .pr_slider img {margin-bottom:30px;}
-#content03 .pr_slider a {display:block;font-size:18px; font-weight:400;margin-bottom:15px; }
+#content03 .pr_slider a {display:block;font-size:18px; font-weight:400;margin-bottom:15px;}
 #content03 .pr_slider p {width:570px;font-size:14px;font-weight:300;line-height: 1.3em;text-align:center;padding:0 25px;}
-#content03 .btn i {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index: 999;background: #f2f2f2;border-radius: 50%;padding:10px;font-size:20px;}
 
+#content03 .btn i {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);z-index: 999;background: #f2f2f2;border-radius: 50%;padding:10px;font-size:20px;}
 #content03 .btn .xi-angle-left-min {margin-left:-650px;}
 #content03 .btn .xi-angle-right-min {margin-left:650px;}
 
 
 /*  content04 - 동영상  */
-#content04 {position:relative;background:#f0f0f0;padding:130px 0;}
-#content04 figure {margin:0 auto;width:848px;height:480px;}
-#content04 .video_btn {position:absolute;left:50%;bottom:260px;transform:translateX(-50%);z-index: 999;}
+#content04 {position:relative;background:#f0f0f0;padding:150px 0;}
+#content04 figure {margin:0 auto;width:848px;height:480px;margin-bottom:30px;}
+#content04 .video_btn {position:absolute;left:50%;bottom:290px;transform:translateX(-50%);z-index: 999;}
 #content04 .video_btn i {font-size:20px;padding:7px;background: #333;color:#fff;margin:0 5px;border-radius: 5px;}
 #content04 .des {text-align:center;}
-#content04 .des strong{display:block;font-size:14px; color:#33a6ff;margin-top:20px;}
-#content04 .des h2{font-size:24px; font-weight: 500;margin-top:20px;}
-#content04 .des p{font-size:16px; font-weight: 300;margin-top:15px;}
+#content04 .des strong{display:block;font-size:14px; color:#33a6ff;margin-bottom:20px;}
+#content04 .des h2{font-size:24px; font-weight: 500;margin-bottom:15px;}
+#content04 .des p{font-size:16px; font-weight: 300;}
 
 
 /*  content05 - 미술관소식  */
-#content05 {color:#282828;padding:120px 0;}
+#content05 {color:#282828;padding:150px 0;}
 #content05 .container {display: flex; justify-content:space-between;width:1200px; margin:0 auto; padding:0 15px;}
 #content05 .title {}
 #content05 .title h2 {font-size: 48px;font-weight: 400;margin-bottom: 20px;}
@@ -146,7 +146,7 @@
 
 
 /*  footer  */
-#footer {background: #545454; color:#dedede;padding:50px 0 70px 0;}
+#footer {background: #545454; color:#dedede;padding:70px 0 100px 0;}
 #footer .container {width:1200px; margin:0 auto;padding:0 15px;}
 #footer .footer_menu01 {display:flex;justify-content: space-between;border-bottom:1px solid #6f6f6f;}
 #footer .footer_menu01 ul {display:flex;}
@@ -158,7 +158,7 @@
 
 #footer .footer_menu02 {display:flex;justify-content: space-between;}
 #footer .footer_menu02 .info {line-height: 1.2em;}
-#footer .footer_menu02 .info strong {display:block;margin:20px 0 10px 0;}
+#footer .footer_menu02 .info strong {display:block;padding:20px 0 10px 0;}
 #footer .footer_menu02 .info span {display:block;font-size:14px;font-weight: 200;}
 #footer .footer_menu02 .info .copyright {margin-top:55px;font-size:12px;font-weight:300;}
 #footer .footer_menu02 .site_btn {display:block;background: #b6b6b6; color:#292929;width:250px;height:40px;text-align: center;line-height:40px;margin-top:20px;letter-spacing: 0.3em;}
@@ -166,7 +166,7 @@
 
 
 /*  우측슬라이드메뉴  */
-#right_banner {position:fixed;top:0;right:-310px;background: #fff; width:310px;height:100%;z-index: 999;transition: 0.5s;border-left:1px solid #ddd;}
+#right_banner {position:fixed;top:0;right:-310px;background: #fff; width:310px;height:100%;transition: 0.5s;border-left:1px solid #ddd;z-index: 999;}
 #right_banner.on {right:0;}
 #right_banner h2 {color:#292929;font-size: 18px;font-weight:200;letter-spacing: 0.5em;text-align:center;padding:70px 0 35px 0;border-bottom: 1px dashed #ddd;}
 #right_banner ul{padding:30px;text-align:center;}
