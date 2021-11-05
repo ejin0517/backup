@@ -1,7 +1,7 @@
 #wrap {}
 
 /*  top_banner  */
-#top_banner {background: #fef342;height:50px;text-align: center;}
+#top_banner {background: #fef342;height:50px;text-align:center;}
 #top_banner .container {position:relative; width:1200px; margin:0 auto; padding:0 15px;}
 #top_banner .container p {line-height: 50px;font-size:14px;font-weight:400;}
 #top_banner .container i.xi-close {position:absolute; top:18px; right:15px;}
@@ -36,8 +36,8 @@
 #main_visual .main_slider03 {background:url(../img/main_visual03.jpg) no-repeat center center/cover;}
 
 #main_visual .slogan {position:absolute;top:0;left:0;}
-#main_visual .slogan h2 {font-size: 36px; font-weight: 500;margin-bottom:20px;}
-#main_visual .slogan p {font-weight: 100;}
+#main_visual .slogan h2 {font-size:36px; font-weight: 500;margin-bottom:20px;}
+#main_visual .slogan p {font-weight:100;}
 
 #main_visual .sl01 {top:525px;left:50%;transform:translateX(-50%);}
 #main_visual .sl02 {top:510px;left:70%;transform:translateX(-50%);}
@@ -59,11 +59,11 @@
 #content01 .container {display: flex;justify-content: space-between; width:1200px; margin:0 auto; padding:0 15px;}
 
 #content01 .box1 {width:570px;border:1px solid #b0b0b0;text-align: center;padding:45px 55px;}
-#content01 .box1 h2 {font-size: 24px; font-weight: 400;margin-bottom:8px;color:#5b5b5b;}
-#content01 .box1 .en {font-size: 14px; font-weight: 300;margin-bottom:30px;color:#5b5b5b;}
-#content01 .box1 .opentime {font-size: 40px; font-weight: 300;margin-bottom:20px;color:#282828;}
-#content01 .box1 .space {font-size: 14px; font-weight: 300;color:#fff;width:142px;padding:3px 5px 5px 5px;background: #282828;border-radius: 20px;margin:0 auto;}
-#content01 .box1 .description {font-size: 14px; font-weight: 400;margin-top:45px;color:#282828;text-align: left;line-height:1.5em;}
+#content01 .box1 h2 {font-size: 24px; font-weight:400;margin-bottom:8px;color:#5b5b5b;}
+#content01 .box1 .en {font-size: 14px; font-weight:300;margin-bottom:30px;color:#5b5b5b;}
+#content01 .box1 .opentime {font-size: 40px; font-weight:300;margin-bottom:20px;color:#282828;}
+#content01 .box1 .space {font-size: 14px; font-weight:300;color:#fff;width:142px;padding:3px 5px 5px 5px;background: #282828;border-radius: 20px;margin:0 auto;}
+#content01 .box1 .description {font-size: 14px; font-weight:400;margin-top:45px;color:#282828;text-align: left;line-height:1.5em;}
 
 #content01 .box2 {width:570px;border:1px solid #b0b0b0;text-align: center;padding:45px 55px;}
 #content01 .box2 h2 {font-size: 24px; font-weight: 400;margin-bottom:8px;color:#5b5b5b;}
@@ -74,7 +74,7 @@
 
 /*  content02 - 현재전시안내  */
 #content02 {color:#282828;padding:100px 0;}
-#content02 .container {position:relative;display:flex;justify-content:space-between;width:1200px; margin:0 auto; padding:0 15px;}
+#content02 .container {position:relative;display:flex;width:1200px; margin:0 auto; padding:0 15px;}
 
 #content02 .title {margin-right:215px;}
 #content02 .title h2 {font-size: 48px;font-weight: 400;margin-bottom: 20px;}
