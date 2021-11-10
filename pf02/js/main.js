@@ -5,13 +5,14 @@ $('#main_visual').slick({
     arrows:false,
     autoplay:true,
     autoplaySpeed:4000,
+    Speed:400,
     pauseOnHover:false,
     dots:true,
     fade:true,
 });
 
 $("#mv02").YTPlayer({
-    videoURL:'https://youtu.be/NhOmeL1Wg1M',
+    videoURL:'https://youtu.be/NhOmeL1Wg1M11',
     containment:'#content04 figure',
     autoPlay:true, 
     mute:true, 

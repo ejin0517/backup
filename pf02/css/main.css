@@ -16,7 +16,7 @@ body {font-family: 'Montserrat', sans-serif;}
 /* main_visual */
 #main_visual {position:relative;color:#fff;}
 #main_visual .container {width:1200px;margin:0 auto;padding:0 15px;}
-#main_visual figure {height:calc(100vh - 70px);}
+#main_visual figure {height:calc(100vh - 80px);}
 #main_visual .main_slider01{position:relative;background: url(../img/main_visual01.jpg) no-repeat center center/cover;}
 #main_visual .slogan {position:absolute;top:50%;left:366px;transform: translateY(-50%);z-index: 999;}
 #main_visual .slogan h2 {font-size:22px;font-weight:300;margin-bottom:10px;}
@@ -30,7 +30,7 @@ body {font-family: 'Montserrat', sans-serif;}
 #main_visual .main_slider03{position:relative;background: url(../img/main_visual03.jpg) no-repeat center center/cover;}
 #main_visual .main_slider03 .slogan h2 {font-size:20px;font-weight:100;margin-bottom:10px;letter-spacing: -0.025em;}
 
-#main_visual .slick-dots{display:flex;position:absolute;top:640px;left:366px;}
+#main_visual .slick-dots{display:flex;position:absolute;top:600px;left:366px;}
 #main_visual .slick-dots li {width:12px;height:12px;border-radius:50%;background: #7d7d7d;margin-right:7px;}
 #main_visual .slick-dots button {display:none;}
 #main_visual .slick-dots li.slick-active {background:#fff;}
@@ -39,7 +39,7 @@ body {font-family: 'Montserrat', sans-serif;}
 /* content01 - 신차재고검색*/
 #content01 {background: #181818;color:#fff;}
 #content01 .container {width:1200px;margin:0 auto;padding:0 15px;}
-#content01 .newcar_stock {display:flex;justify-content:right;line-height:70px;}
+#content01 .newcar_stock {display:flex;justify-content:right;line-height:80px;}
 #content01 .newcar_stock strong {font-family: 'Noto Sans KR', sans-serif;display:block;font-size:20px;font-weight:400;padding-right:60px;letter-spacing:0.1em;}
 #content01 .newcar_stock form {padding:0 20px;}
 #content01 .newcar_stock form select{background: #181818;color:#fff;border:none;outline:none;letter-spacing:0.5em;}
@@ -91,14 +91,14 @@ body {font-family: 'Montserrat', sans-serif;}
 #content04 .video_btn {position:absolute;left:50%;bottom:270px;transform:translateX(-50%);}
 #content04 .video_btn i {background: #333; color:#fff; padding:5px;border-radius: 5px;}*/
 
-#content04 figure{height:100vh;background:#0c0c0c;}
+#content04 figure{height:200px;background:#fff;}
 
 
 /* content05 - my style */
-#content05 {padding:150px 0;background: #f7f7f7;}
+#content05 {padding:150px 0;}
 #content05 .container {display:flex;justify-content:space-between;width:1200px;margin:0 auto;padding:0 15px;}
 
-#content05 .container .title {padding:300px 170px 0 0;}
+#content05 .container .title {padding:300px 170px 0 0;color:#0c0c0c;}
 #content05 .container .title h2 {font-family: 'Noto Sans KR', sans-serif;font-size:40px;font-weight:600;margin-bottom:20px;}
 #content05 .container .title span {font-family: 'Noto Sans KR', sans-serif;font-weight:300;}
 #content05 .container .keyword {margin-top:100px;display:flex;flex-wrap: wrap;}
@@ -109,10 +109,10 @@ body {font-family: 'Montserrat', sans-serif;}
 
 #content05 .container .style_list {color:#0c0c0c;display:flex;flex-wrap: wrap;}
 #content05 .container .style_list .style{padding:20px 35px;}
-#content05 .container .style_list .style:nth-child(1) {border:1px solid #eeeeee;}
+#content05 .container .style_list .style:nth-child(1) {background:#fff;border:1px solid #eeeeee;}
 #content05 .container .style_list .style:nth-child(2) {background: #eeeeee;}
 #content05 .container .style_list .style:nth-child(3) {background: #eeeeee;}
-#content05 .container .style_list .style:nth-child(4) {border:1px solid #eeeeee;}
+#content05 .container .style_list .style:nth-child(4) {background:#fff;border:1px solid #eeeeee;}
 
 #content05 .container .style_list .style .des {display:inline-block;text-align:center;background: #292929;color:#fff;padding:5px 10px;font-size: 14px;border-radius: 5px;margin-bottom:120px;}
 #content05 .container .style_list figure {margin-bottom:100px;}
