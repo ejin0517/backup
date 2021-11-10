@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {font-family: 'Montserrat', sans-serif;}
+#wrap {position:relative;}
+
+
+/* header */
+#header {position:absolute;top:0;left:0;width:100%;line-height:100px;z-index:999;color:#fff;}
+#header .container {display:flex;width:1200px; margin:0 auto;padding:0 15px;}
+#header .container h1 {width:114px;}
+#header .container nav {margin-left:auto;}
+#header .container nav>ul {display:flex;font-size:18px;}
+#header .container nav>ul>li a{display:block;padding-left:50px;}
+
+
+/* main_visual */
+#main_visual {position:relative;color:#fff;}
+#main_visual .container {width:1200px;margin:0 auto;padding:0 15px;}
+#main_visual figure {height:calc(100vh - 70px);}
+#main_visual .main_slider01{position:relative;background: url(../img/main_visual01.jpg) no-repeat center center/cover;}
+#main_visual .slogan {position:absolute;top:50%;left:366px;transform: translateY(-50%);z-index: 999;}
+#main_visual .slogan h2 {font-size:22px;font-weight:300;margin-bottom:10px;}
+#main_visual .slogan strong {display:block;font-size:48px;font-weight: 500;margin-bottom:30px;}
+#main_visual .slogan span {display:block;font-size:18px;font-weight:300;margin-bottom:40px;}
+#main_visual .slogan .btn {background: #fff;padding:15px 0;color:#0c0c0c;width:170px;text-align: center;}
+#main_visual .slogan .btn a{font-family: 'Noto Sans KR', sans-serif;}
+#main_visual .slogan .btn:hover {background: #0c0c0c;color:#fff;}
+
+#main_visual .main_slider02{position:relative;background: url(../img/main_visual02.jpg) no-repeat center center/cover;}
+#main_visual .main_slider03{position:relative;background: url(../img/main_visual03.jpg) no-repeat center center/cover;}
+#main_visual .main_slider03 .slogan h2 {font-size:20px;font-weight:100;margin-bottom:10px;letter-spacing: -0.025em;}
+
+#main_visual .slick-dots{display:flex;position:absolute;top:640px;left:366px;}
+#main_visual .slick-dots li {width:12px;height:12px;border-radius:50%;background: #7d7d7d;margin-right:7px;}
+#main_visual .slick-dots button {display:none;}
+#main_visual .slick-dots li.slick-active {background:#fff;}
+
+
+/* content01 - 신차재고검색*/
+#content01 {background: #181818;color:#fff;}
+#content01 .container {width:1200px;margin:0 auto;padding:0 15px;}
+#content01 .newcar_stock {display:flex;justify-content:right;line-height:70px;}
+#content01 .newcar_stock strong {font-family: 'Noto Sans KR', sans-serif;display:block;font-size:20px;font-weight:400;padding-right:60px;letter-spacing:0.1em;}
+#content01 .newcar_stock form {padding:0 20px;}
+#content01 .newcar_stock form select{background: #181818;color:#fff;border:none;outline:none;letter-spacing:0.5em;}
+#content01 .newcar_stock form select option {border-radius:0;}
+#content01 .newcar_stock .stock {display:block;font-size:28px;font-weight:700;padding:0 30px;}
+#content01 .newcar_stock span {display:block;font-size:12px;font-weight:400;}
+
+
+/* content02 - Models */
+#content02 {padding:195px 0 305px 0;background:url(../img/models_back.jpg);color:#fff;}
+#content02 .container {position:relative;width:1200px;margin:0 auto;padding:0 15px;}
+
+#content02 .container h2 {position:absolute;top:0;left:50%;transform:translateX(-50%);font-size:24px;font-weight:500;}
+
+#content02 .model_slider {display:flex;justify-content:space-between;}
+#content02 .model01 {position:relative;background:url(../img/models01_black.jpg) no-repeat center center/cover;text-align:center;height:700px;width:370px;transition: 0.2s;}
+#content02 .model01:hover {background: url(../img/models01.jpg);}
+
+#content02 figcaption {font-size:32px;font-weight:600;margin-bottom:10px;padding-top:170px;}
+#content02 span {font-family: 'Noto Sans KR', sans-serif;font-weight:300;}
+#content02 .btn {position:absolute;left:50%;bottom:37px;transform:translateX(-50%);display:flex;justify-content: center;}
+#content02 .btn strong{font-family: 'Noto Sans KR', sans-serif;display:block;width:135px;background: #292929;opacity:0.7;padding:15px 0;margin:0 15px;font-weight: 100;font-size: 14px;}
+
+#content02 .model02 {position:relative;background:url(../img/models02_black.jpg) no-repeat center center/cover;text-align:center;height:700px;width:370px;transform:translateY(100px);transition: 0.2s;}
+#content02 .model02:hover {background: url(../img/models02.jpg);}
+#content02 .model02 figcaption {font-size:32px;font-weight:600;padding-top:70px;margin-bottom:10px;}
+#content02 .model02 span {font-family: 'Noto Sans KR', sans-serif;}
+
+#content02 .model03 {position:relative;background:url(../img/models03_black.jpg) no-repeat center center/cover;text-align:center;height:700px;width:370px;transition: 0.2s;}
+#content02 .model03:hover {background: url(../img/models03.jpg);}
+
+
+/* content03 - Driving Experience */
+#content03 {padding:120px 0;background: url(../img/drivingex_img02.jpg) no-repeat fixed center center/cover;text-align:center;color:#fff;}
+#content03 .container {width:1200px;margin:0 auto;padding:0 15px;}
+#content03 h2 {font-size:24px;font-weight:500;margin-bottom:15px;}
+#content03 p {font-family: 'Noto Sans KR', sans-serif;margin-bottom:50px;}
+#content03 .btn {display:inline-block;font-family: 'Noto Sans KR', sans-serif;background: #fefefe;padding:15px 30px;color:#292929;font-size:14px;margin:0 auto;}
+#content03 .btn:hover {background: #292929;color:#fff;}
+
+
+/* content04 - video */
+/*#content04 {position:relative;padding:200px 0;}
+#content04 .container {width:1200px;margin:0 auto;padding:0 15px;text-align:center;}
+
+#content04 h2 {font-size:40px;font-weight:500;margin-bottom:5px;}
+#content04 figure {width:700px;height:394px;background: #0c0c0c;margin:0 auto;}
+#content04 p {font-family: 'Noto Sans KR', sans-serif;font-size:20px;padding-top:40px;font-size: 16px;}
+#content04 .video_btn {position:absolute;left:50%;bottom:270px;transform:translateX(-50%);}
+#content04 .video_btn i {background: #333; color:#fff; padding:5px;border-radius: 5px;}*/
+
+#content04 figure{height:100vh;background:#0c0c0c;}
+
+
+/* content05 - my style */
+#content05 {padding:150px 0;background: #f7f7f7;}
+#content05 .container {display:flex;justify-content:space-between;width:1200px;margin:0 auto;padding:0 15px;}
+
+#content05 .container .title {padding:300px 170px 0 0;}
+#content05 .container .title h2 {font-family: 'Noto Sans KR', sans-serif;font-size:40px;font-weight:600;margin-bottom:20px;}
+#content05 .container .title span {font-family: 'Noto Sans KR', sans-serif;font-weight:300;}
+#content05 .container .keyword {margin-top:100px;display:flex;flex-wrap: wrap;}
+#content05 .container .title strong {display:block;padding:10px 15px;border:1px solid #0c0c0c;width:fit-content;border-radius:5px;font-size:18px;text-align:center;margin:0 20px 20px 0;}#content05 .container .title strong.on {background: #0c0c0c;color:#fff;}
+#content05 .container .title a:hover strong {background: #0c0c0c;color:#fff;}
+
+
+
+#content05 .container .style_list {color:#0c0c0c;display:flex;flex-wrap: wrap;}
+#content05 .container .style_list .style{padding:20px 35px;}
+#content05 .container .style_list .style:nth-child(1) {border:1px solid #eeeeee;}
+#content05 .container .style_list .style:nth-child(2) {background: #eeeeee;}
+#content05 .container .style_list .style:nth-child(3) {background: #eeeeee;}
+#content05 .container .style_list .style:nth-child(4) {border:1px solid #eeeeee;}
+
+#content05 .container .style_list .style .des {display:inline-block;text-align:center;background: #292929;color:#fff;padding:5px 10px;font-size: 14px;border-radius: 5px;margin-bottom:120px;}
+#content05 .container .style_list figure {margin-bottom:100px;}
+#content05 .container .style_list figcaption {text-align:right;font-size: 22px;margin-bottom: 10px;}
+#content05 .container .style_list .style ul{display:flex;justify-content: right;}
+#content05 .container .style_list .style ul>li {padding:7px;border-radius:50%;background: #fff;margin-left:5px;}
+#content05 .container .style_list .style ul>li.color01 {background: #b89f3c;}
+#content05 .container .style_list .style ul>li.color02 {background: #c9c9c9;}
+#content05 .container .style_list .style ul>li.color03 {background: #19404d;}
+#content05 .container .style_list .style ul>li.color04 {}
+#content05 .container .style_list .style ul>li.color05 {background: #421212;}
+#content05 .container .style_list .style ul>li.color06 {background: #10113f;}
+#content05 .container .style_list .style ul>li.color07 {background: #000000;}
+
+/* content06 - service */
+#content06 {padding:170px 0;}
+#content06 .container {width:1200px;margin:0 auto; padding:0 15px;}
+#content06 .container h2 {font-size:24px;font-weight:500;margin-bottom:50px;text-align: center;}
+/*#content06 .container .service {display:flex;justify-content: space-between;}
+#content06 .container .service img {margin-bottom:30px;}
+#content06 .container .service strong {display:block;font-family: 'Noto Sans KR', sans-serif;font-weight:500;margin-bottom:10px;}
+#content06 .container .service span {display:block;font-family: 'Noto Sans KR', sans-serif;font-size:14px;font-weight: 300;}*/
+
+#content06 .service {display:flex;justify-content: space-between;}
+#content06 .service figure {position:relative;flex:1;overflow:hidden;}
+#content06 .service figure:hover img {transform:scale(1.1);}
+#content06 .service figure img {transition: 0.4s;}
+#content06 .service figure .des {position:absolute;bottom:10%;left:10%;font-family: 'Noto Sans KR', sans-serif;color:#fff;}
+#content06 .service figure .des strong {display:block;font-size:20px;font-weight: 500;margin-bottom:10px;letter-spacing: -0.025em;}
+#content06 .service figure .des span {display:block;font-weight: 100;margin-bottom:20px;}
+#content06 .service figure .des .btn {font-size: 12px;font-weight: 300;}
+#content06 .service figure .des i {font-size:12px;padding-left:5px;}
+
+
+
+/* content07 - news & customer */
+#content07 {padding:150px 0;background: #171717; color:#fff;}
+#content07 .container {display:flex;justify-content:space-between;width:1200px;margin:0 auto; padding:0 15px;}
+#content07 .container h2 {font-size:24px;font-weight:500;margin-bottom:55px;text-align: center;}
+
+#content07 .news_list .news_item {display:flex;margin-bottom:20px;}
+#content07 .news_list .news_item .date {background: #000000;width:120px;overflow:hidden;padding:30px;text-align:center;}
+#content07 .news_list .news_item .date .day {display:block;font-size:48px;font-weight:600;}
+#content07 .news_list .news_item .des {position:relative;background: #414141;width:440px;overflow:hidden;}
+#content07 .news_list .news_item .des span {display:block;padding:35px 30px;line-height: 1.6;}
+#content07 .news_list .news_item .des a {position:absolute;top:65%;right:20px;font-size:12px;font-weight:300;color:#c0c0c0;}
+#content07 .news_list .news_item .des a i{padding:0 5px;}
+
+#content07 .customer {text-align:center;}
+#content07 .customer h2 {font-family: 'Noto Sans KR', sans-serif;font-size:22px;}
+#content07 .customer strong.bold{display:block;font-size:50px;font-weight:600;margin-bottom:15px;}
+#content07 .customer strong {display:block;font-size:42px;font-weight:200;margin-bottom:50px;}
+#content07 .customer span.bold{font-size:18px;font-weight:700;margin-bottom:15px;}
+#content07 .customer span {display:block;font-size:18px;font-weight:300;margin-bottom:160px;}
+#content07 .customer .des {font-size:14px;line-height: 1.6;margin-bottom:0;}
+
+
+
+/* footer */
+#footer {padding:70px 0 80px 0;background: #0c0c0c;color:#ddd;font-family: 'Noto Sans KR', sans-serif;}
+#footer .container {width:1200px;margin:0 auto; padding:0 15px;}
+#footer .f_top{display:flex;justify-content:space-between;border-bottom:1px solid #555;padding-bottom: 15px;}
+#footer .f_top strong {display:block;font-size:12px;}
+#footer .f_top ul {display:flex;font-size:13px;font-weight: 300;}
+#footer .f_top ul>li {position:relative;padding:0 15px;}
+#footer .f_top ul>li:last-child{padding-right:0;}
+#footer .f_top ul>li a{display:block;}
+#footer .f_top ul>li~li a:before {content:"";position:absolute;top:50%;left:0;display:block;width:1px;height:10px;background: #ddd;transform:translateY(-50%);}
+
+#footer .f_bottom {padding-top:50px;display:flex;justify-content:space-between;}
+#footer .f_bottom span {display:block;font-size:14px;padding-top:10px;}
+#footer .f_bottom .sns i {font-size:20px;padding-left:10px;}
