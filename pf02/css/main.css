@@ -82,20 +82,19 @@ body {font-family: 'Montserrat', sans-serif;}
 
 
 /* content04 - video */
-/*#content04 {position:relative;padding:200px 0;}
-#content04 .container {width:1200px;margin:0 auto;padding:0 15px;text-align:center;}
+#content04 {position:relative;}
+#content04 .video_box {height:600px;text-align:center;}
 
 #content04 h2 {font-size:40px;font-weight:500;margin-bottom:5px;}
-#content04 figure {width:700px;height:394px;background: #0c0c0c;margin:0 auto;}
 #content04 p {font-family: 'Noto Sans KR', sans-serif;font-size:20px;padding-top:40px;font-size: 16px;}
+
+/*#content04 figure {width:700px;height:394px;background: #0c0c0c;margin:0 auto;}
 #content04 .video_btn {position:absolute;left:50%;bottom:270px;transform:translateX(-50%);}
 #content04 .video_btn i {background: #333; color:#fff; padding:5px;border-radius: 5px;}*/
 
-#content04 figure{height:200px;background:#fff;}
-
 
 /* content05 - my style */
-#content05 {padding:150px 0;}
+#content05 {padding:150px 0;background: #f7f7f7}
 #content05 .container {display:flex;justify-content:space-between;width:1200px;margin:0 auto;padding:0 15px;}
 
 #content05 .container .title {padding:300px 170px 0 0;color:#0c0c0c;}
@@ -105,18 +104,19 @@ body {font-family: 'Montserrat', sans-serif;}
 #content05 .container .title strong {display:block;padding:10px 15px;border:1px solid #0c0c0c;width:fit-content;border-radius:5px;font-size:18px;text-align:center;margin:0 20px 20px 0;}#content05 .container .title strong.on {background: #0c0c0c;color:#fff;}
 #content05 .container .title a:hover strong {background: #0c0c0c;color:#fff;}
 
+#content05 .container .style_list {color:#fff;display:flex;flex-wrap: wrap;}
+#content05 .container .style_list .style{position:relative;padding:15px 20px;}
+#content05 .container .style_list .style:nth-child(1) {background:url(../img/styleimg01.jpg); transition:0.3s;width:322px;height:432px;}
+#content05 .container .style_list .style:nth-child(1):hover {background:url(../img/styleimg01_1.jpg);color:#0c0c0c;}
+#content05 .container .style_list .style:nth-child(2) {background:url(../img/styleimg02.jpg);transition:0.3s;width:322px;height:432px;}
+#content05 .container .style_list .style:nth-child(2):hover {background:url(../img/styleimg02_1.jpg);color:#0c0c0c;}
+#content05 .container .style_list .style:nth-child(3) {background: url(../img/styleimg03.jpg);transition:0.3s;width:322px;height:432px;}
+#content05 .container .style_list .style:nth-child(3):hover {background:url(../img/styleimg03_1.jpg);color:#0c0c0c;}
+#content05 .container .style_list .style:nth-child(4) {background:url(../img/styleimg04.jpg);transition:0.3s;width:322px;height:432px;}
+#content05 .container .style_list .style:nth-child(4):hover {background:url(../img/styleimg04_1.jpg);color:#0c0c0c;}
 
-
-#content05 .container .style_list {color:#0c0c0c;display:flex;flex-wrap: wrap;}
-#content05 .container .style_list .style{padding:20px 35px;}
-#content05 .container .style_list .style:nth-child(1) {background:#fff;border:1px solid #eeeeee;}
-#content05 .container .style_list .style:nth-child(2) {background: #eeeeee;}
-#content05 .container .style_list .style:nth-child(3) {background: #eeeeee;}
-#content05 .container .style_list .style:nth-child(4) {background:#fff;border:1px solid #eeeeee;}
-
-#content05 .container .style_list .style .des {display:inline-block;text-align:center;background: #292929;color:#fff;padding:5px 10px;font-size: 14px;border-radius: 5px;margin-bottom:120px;}
-#content05 .container .style_list figure {margin-bottom:100px;}
-#content05 .container .style_list figcaption {text-align:right;font-size: 22px;margin-bottom: 10px;}
+#content05 .container .style_list .style .des {display:inline-block;text-align:center;background: #0c0c0c;color:#fff;padding:5px 10px;font-size: 14px;border-radius: 5px;}
+#content05 .container .style_list figcaption {position:absolute;bottom:20px;right:20px;text-align:right;font-size:20px;}
 #content05 .container .style_list .style ul{display:flex;justify-content: right;}
 #content05 .container .style_list .style ul>li {padding:7px;border-radius:50%;background: #fff;margin-left:5px;}
 #content05 .container .style_list .style ul>li.color01 {background: #b89f3c;}
@@ -151,22 +151,23 @@ body {font-family: 'Montserrat', sans-serif;}
 /* content07 - news & customer */
 #content07 {padding:150px 0;background: #171717; color:#fff;}
 #content07 .container {display:flex;justify-content:space-between;width:1200px;margin:0 auto; padding:0 15px;}
-#content07 .container h2 {font-size:24px;font-weight:500;margin-bottom:55px;text-align: center;}
+#content07 .container h2 {font-size:24px;font-weight:500;margin-bottom:50px;text-align: center;}
 
 #content07 .news_list .news_item {display:flex;margin-bottom:20px;}
 #content07 .news_list .news_item .date {background: #000000;width:120px;overflow:hidden;padding:30px;text-align:center;}
 #content07 .news_list .news_item .date .day {display:block;font-size:48px;font-weight:600;}
-#content07 .news_list .news_item .des {position:relative;background: #414141;width:440px;overflow:hidden;}
+#content07 .news_list .news_item .des {position:relative;background: rgb(39, 39, 39);width:440px;overflow:hidden;}
 #content07 .news_list .news_item .des span {display:block;padding:35px 30px;line-height: 1.6;}
 #content07 .news_list .news_item .des a {position:absolute;top:65%;right:20px;font-size:12px;font-weight:300;color:#c0c0c0;}
 #content07 .news_list .news_item .des a i{padding:0 5px;}
 
 #content07 .customer {text-align:center;}
+#content07 .customer .box {border:1px solid rgb(39, 39, 39);padding:50px 70px;background:rgb(39, 39, 39);}
 #content07 .customer h2 {font-family: 'Noto Sans KR', sans-serif;font-size:22px;}
-#content07 .customer strong.bold{display:block;font-size:50px;font-weight:600;margin-bottom:15px;}
-#content07 .customer strong {display:block;font-size:42px;font-weight:200;margin-bottom:50px;}
+#content07 .customer strong.bold{display:block;font-size:36px;font-weight:600;margin-bottom:15px;}
+#content07 .customer strong {display:block;font-size:30px;font-weight:200;margin-bottom:50px;}
 #content07 .customer span.bold{font-size:18px;font-weight:700;margin-bottom:15px;}
-#content07 .customer span {display:block;font-size:18px;font-weight:300;margin-bottom:160px;}
+#content07 .customer span {display:block;font-size:18px;font-weight:300;margin-bottom:85px;}
 #content07 .customer .des {font-size:14px;line-height: 1.6;margin-bottom:0;}
 
 

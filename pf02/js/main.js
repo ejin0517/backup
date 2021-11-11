@@ -11,9 +11,9 @@ $('#main_visual').slick({
     fade:true,
 });
 
-$("#mv02").YTPlayer({
-    videoURL:'https://youtu.be/NhOmeL1Wg1M11',
-    containment:'#content04 figure',
+$("#content04").YTPlayer({
+    videoURL:'https://youtu.be/NhOmeL1Wg1M',
+    containment:'#content04 .video_box',
     autoPlay:true, 
     mute:true, 
     startAt:0, 
@@ -34,9 +34,6 @@ $('#content04 i.xi-expand').on('click', function(){
 });
 
 
-$('#content05 .keyword strong').on('click', function(){
-    $(this).toggleClass('on').siblings().removeClass('on');
-})
 
 //-------------------------------------
 })
