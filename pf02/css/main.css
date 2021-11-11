@@ -90,10 +90,12 @@ body {font-family: 'Montserrat', sans-serif;}
 #content04 .container .des p {font-family: 'Noto Sans KR', sans-serif;font-size: 18px;}
 
 #content04 .container .menu_box {position:absolute;bottom:-150px;left:50%;transform:translateX(-50%);display:flex;justify-content: space-between;}
-#content04 .container .menu_box .box {width:400px;text-align:center;padding:40px 0;background: #0c0c0c;font-size: 20px;}
+#content04 .container .menu_box .box {font-family: 'Noto Sans KR', sans-serif;width:400px;text-align:center;padding:40px 0;background: #0c0c0c;font-size: 20px;border-right:1px solid #555;}
+#content04 .container .menu_box .box:last-child {border:0;}
 
 
 /* content05 - my style */
+
 #content05 {padding:180px 0 150px 0;background: #f7f7f7}
 #content05 .container {display:flex;justify-content:space-between;width:1200px;margin:0 auto;padding:0 15px;}
 
@@ -105,18 +107,22 @@ body {font-family: 'Montserrat', sans-serif;}
 #content05 .container .title a:hover strong {background: #0c0c0c;color:#fff;}
 
 #content05 .container .style_list {display:flex;flex-wrap: wrap;}
-#content05 .container .style_list .style{position:relative;padding:15px 20px;width:322px;height:432px;transition:0.3s;color:#fff;}
-#content05 .container .style_list .style:nth-child(1) {background:url(../img/styleimg01.jpg); }
-#content05 .container .style_list .style:nth-child(1):hover {background:url(../img/styleimg01_1.jpg);color:#0c0c0c;}
-#content05 .container .style_list .style:nth-child(2) {background:url(../img/styleimg02.jpg);}
-#content05 .container .style_list .style:nth-child(2):hover {background:url(../img/styleimg02_1.jpg);color:#0c0c0c;}
-#content05 .container .style_list .style:nth-child(3) {background: url(../img/styleimg03.jpg);}
-#content05 .container .style_list .style:nth-child(3):hover {background:url(../img/styleimg03_1.jpg);color:#0c0c0c;}
-#content05 .container .style_list .style:nth-child(4) {background:url(../img/styleimg04.jpg);}
-#content05 .container .style_list .style:nth-child(4):hover {background:url(../img/styleimg04_1.jpg);color:#0c0c0c;}
+#content05 .container .style_list .style{position:relative;padding:15px 20px;width:322px;height:432px;transition:0.3s;color:#fff;border:1px solid #ddd;}
+#content05 .container .style_list .style:hover .name {display:none;}
+
+#content05 .container .style_list .style:nth-child(1) {background:url(../img/styleimg01_1.jpg); }
+#content05 .container .style_list .style:nth-child(1):hover {background:url(../img/styleimg01.jpg);}
+#content05 .container .style_list .style:nth-child(2) {background:url(../img/styleimg02_1.jpg);}
+#content05 .container .style_list .style:nth-child(2):hover {background:url(../img/styleimg02.jpg);}
+#content05 .container .style_list .style:nth-child(3) {background: url(../img/styleimg03_1.jpg);}
+#content05 .container .style_list .style:nth-child(3):hover {background:url(../img/styleimg03.jpg);}
+#content05 .container .style_list .style:nth-child(4) {background:url(../img/styleimg04_1.jpg);}
+#content05 .container .style_list .style:nth-child(4):hover {background:url(../img/styleimg04.jpg);}
 
 #content05 .container .style_list .style .des {display:inline-block;text-align:center;background: #0c0c0c;color:#fff;padding:5px 10px;font-size: 14px;border-radius: 5px;}
-#content05 .container .style_list figcaption {position:absolute;bottom:20px;right:20px;text-align:right;font-size:20px;}
+#content05 .container .style_list .name {position:absolute;bottom:20px;right:20px;text-align:right;color:#0c0c0c;}
+#content05 .container .style_list figcaption {font-size:20px;margin-bottom:7px;font-weight:500;}
+#content05 .container .style_list p {font-size: 14px;}
 
 
 /* content06 - service */
