@@ -72,15 +72,6 @@ body {font-family: 'Montserrat', sans-serif;}
 #content02 .model03:hover {background: url(../img/models03.jpg);}
 
 
-/* content03 - Driving Experience */
-#content03 {padding:120px 0;background: url(../img/drivingex_img02.jpg) no-repeat fixed center center/cover;text-align:center;color:#fff;}
-#content03 .container {width:1200px;margin:0 auto;padding:0 15px;}
-#content03 h2 {font-size:24px;font-weight:500;margin-bottom:15px;}
-#content03 p {font-family: 'Noto Sans KR', sans-serif;margin-bottom:50px;}
-#content03 .btn {display:inline-block;font-family: 'Noto Sans KR', sans-serif;background: #fefefe;padding:15px 30px;color:#292929;font-size:14px;margin:0 auto;}
-#content03 .btn:hover {background: #292929;color:#fff;}
-
-
 /* content04 - video */
 #content04 {}
 #content04 .video_box {height:700px;text-align:center;}
@@ -90,39 +81,48 @@ body {font-family: 'Montserrat', sans-serif;}
 #content04 .container .des p {font-family: 'Noto Sans KR', sans-serif;font-size: 18px;}
 
 #content04 .container .menu_box {position:absolute;bottom:-150px;left:50%;transform:translateX(-50%);display:flex;justify-content: space-between;}
-#content04 .container .menu_box .box {font-family: 'Noto Sans KR', sans-serif;width:400px;text-align:center;padding:40px 0;background: #0c0c0c;font-size: 20px;border-right:1px solid #555;}
-#content04 .container .menu_box .box:last-child {border:0;}
+#content04 .container .menu_box a{border-right:1px solid #555;}
+#content04 .container .menu_box .box {font-family: 'Noto Sans KR', sans-serif;width:400px;text-align:center;padding:40px 0;background: #0c0c0c;font-size: 20px;}
+#content04 .container .menu_box a:last-child {border:0;}
 
 
 /* content05 - my style */
-
-#content05 {padding:180px 0 150px 0;background: #f7f7f7}
+#content05 {padding:200px 0 170px 0;background: #f7f7f7}
 #content05 .container {display:flex;justify-content:space-between;width:1200px;margin:0 auto;padding:0 15px;}
 
 #content05 .container .title {padding:300px 170px 0 0;color:#0c0c0c;}
-#content05 .container .title h2 {font-family: 'Noto Sans KR', sans-serif;font-size:40px;font-weight:600;margin-bottom:20px;}
+#content05 .container .title h2 {font-family: 'Noto Sans KR', sans-serif;font-size:45px;font-weight:600;margin-bottom:20px;}
 #content05 .container .title span {font-family: 'Noto Sans KR', sans-serif;font-weight:300;}
 #content05 .container .keyword {margin-top:100px;display:flex;flex-wrap: wrap;}
-#content05 .container .title strong {display:block;padding:10px 15px;border:1px solid #0c0c0c;width:fit-content;border-radius:5px;font-size:18px;text-align:center;margin:0 20px 20px 0;}#content05 .container .title strong.on {background: #0c0c0c;color:#fff;}
+#content05 .container .title strong {display:block;padding:10px 15px;background:#fff;border:1px solid #0c0c0c;width:fit-content;border-radius:5px;font-size:18px;text-align:center;margin:0 20px 15px 0;}#content05 .container .title strong.on {background: #0c0c0c;color:#fff;}
 #content05 .container .title a:hover strong {background: #0c0c0c;color:#fff;}
 
 #content05 .container .style_list {display:flex;flex-wrap: wrap;}
-#content05 .container .style_list .style{position:relative;padding:15px 20px;width:322px;height:432px;transition:0.3s;color:#fff;border:1px solid #ddd;}
+#content05 .container .style_list .style{position:relative;padding:15px 20px;width:322px;height:432px;transition:0.3s;color:#fff;}
 #content05 .container .style_list .style:hover .name {display:none;}
 
-#content05 .container .style_list .style:nth-child(1) {background:url(../img/styleimg01_1.jpg); }
-#content05 .container .style_list .style:nth-child(1):hover {background:url(../img/styleimg01.jpg);}
-#content05 .container .style_list .style:nth-child(2) {background:url(../img/styleimg02_1.jpg);}
-#content05 .container .style_list .style:nth-child(2):hover {background:url(../img/styleimg02.jpg);}
-#content05 .container .style_list .style:nth-child(3) {background: url(../img/styleimg03_1.jpg);}
-#content05 .container .style_list .style:nth-child(3):hover {background:url(../img/styleimg03.jpg);}
-#content05 .container .style_list .style:nth-child(4) {background:url(../img/styleimg04_1.jpg);}
-#content05 .container .style_list .style:nth-child(4):hover {background:url(../img/styleimg04.jpg);}
+#content05 .container .style_list .style01 {background:url(../img/styleimg01_1.jpg);border:1px solid #f3f3f3; }
+#content05 .container .style_list .style01:hover {background:url(../img/styleimg01.jpg);}
+#content05 .container .style_list .style02 {background:url(../img/styleimg02_1.jpg);}
+#content05 .container .style_list .style02:hover {background:url(../img/styleimg02.jpg);}
+#content05 .container .style_list .style03 {background: url(../img/styleimg03_1.jpg);}
+#content05 .container .style_list .style03:hover {background:url(../img/styleimg03.jpg);}
+#content05 .container .style_list .style04 {background:url(../img/styleimg04_1.jpg);border:1px solid #f3f3f3;}
+#content05 .container .style_list .style04:hover {background:url(../img/styleimg04.jpg);}
 
 #content05 .container .style_list .style .des {display:inline-block;text-align:center;background: #0c0c0c;color:#fff;padding:5px 10px;font-size: 14px;border-radius: 5px;}
 #content05 .container .style_list .name {position:absolute;bottom:20px;right:20px;text-align:right;color:#0c0c0c;}
 #content05 .container .style_list figcaption {font-size:20px;margin-bottom:7px;font-weight:500;}
 #content05 .container .style_list p {font-size: 14px;}
+
+
+/* content03 - Driving Experience */
+#content03 {padding:120px 0;background: url(../img/drivingex_img02.jpg) no-repeat fixed center center/cover;text-align:center;color:#fff;}
+#content03 .container {width:1200px;margin:0 auto;padding:0 15px;}
+#content03 h2 {font-size:24px;font-weight:500;margin-bottom:15px;}
+#content03 p {font-family: 'Noto Sans KR', sans-serif;margin-bottom:50px;}
+#content03 .btn {display:inline-block;font-family: 'Noto Sans KR', sans-serif;background: #fefefe;padding:15px 30px;color:#292929;font-size:14px;margin:0 auto;}
+#content03 .btn:hover {background: #292929;color:#fff;}
 
 
 /* content06 - service */
