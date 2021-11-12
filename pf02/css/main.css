@@ -248,7 +248,7 @@ body {font-family: 'Montserrat', sans-serif;}
     #content01 .newcar_stock {display:flex;justify-content:center;line-height:50px;}
     #content01 .newcar_stock strong {font-family: 'Noto Sans KR', sans-serif;display:inline-block;font-weight:400;letter-spacing:0;font-size:12px;}
     #content01 .newcar_stock form {font-size: 12px;}
-    #content01 .newcar_stock form select{width:100px;background: #181818;color:#fff;border:none;outline:none;letter-spacing:0;}
+    #content01 .newcar_stock form select{width:80px;background: #181818;color:#fff;border:none;outline:none;letter-spacing:0;}
     #content01 .newcar_stock form select option {border-radius:0;}
     #content01 .newcar_stock .stock {display:block;font-size:16px;font-weight:700;padding:0 10px;}
     #content01 .newcar_stock span {display:block;font-size:12px;font-weight:400;}
@@ -290,7 +290,7 @@ body {font-family: 'Montserrat', sans-serif;}
     #content03 .video_box {height:300px;text-align:center;}
     #content03 .container {position:relative;width:auto;margin:0 auto;padding:0 15px;}
     #content03 .container .des {padding:120px 0;color:#fff;}
-    #content03 .container .des h2 {font-size:24px;font-weight:600;margin-bottom:20px;letter-spacing: 0;}
+    #content03 .container .des h2 {font-size:24px;font-weight:600;margin-bottom:15px;letter-spacing: 0;}
     #content03 .container .des p {font-family: 'Noto Sans KR', sans-serif;font-size: 14px;font-weight: 100;}
 
     #content03 .container .menu_box {position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);display:flex;justify-content: space-between;width:100%;}
