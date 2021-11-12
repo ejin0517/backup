@@ -24,8 +24,17 @@ $('.model_slider').slick({
     autoplaySpeed:2000,
     pauseOnHover:false,
     pauseOnFocus:false,
+    responsive: [
+        {
+          breakpoint: 769,
+          settings: {
+            slidesToShow: 1, //769px 보다 작을때 3개만 표시되도록
+          }
+        },
+    ]
 });
 
+$('.model_slider .model').eq(4).addClass('on');
 $('.model_slider').on('afterChange', function(e,s,c){ 
     //console.log(c) //c는 숫자가 표시됨, c=1,2,3,...
     $('.model_slider .model').eq(c+4).addClass('on').siblings().removeClass('on'); //c+숫자 숫자는 slidesToShow:에서 몇개가 표시되느냐에 따라 달라짐,
@@ -53,6 +62,13 @@ $("#content03").YTPlayer({
 $('#content04 .keyword a').on('click', function(){
     $(this).addClass('on').siblings().removeClass('on');
 });
+
+
+//-------------------------------------
+
+$('#header .xi-bars').on('click', function(){
+    $('#header .container nav').toggle();
+})
 
 
 
