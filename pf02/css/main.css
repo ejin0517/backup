@@ -356,7 +356,7 @@ body {font-family: 'Montserrat', sans-serif;}
 
 
     /* content07 - news & customer */
-    #content07 {padding:120px 0;background: #171717; color:#fff;}
+    #content07 {padding:100px 0;background: #171717; color:#fff;}
     #content07 .container {display:flex;flex-direction:column;width:auto;margin:0 auto; padding:0 15px;}
     #content07 .container h2 {font-size:24px;font-weight:500;margin-bottom:40px;text-align: center;}
 
@@ -379,7 +379,7 @@ body {font-family: 'Montserrat', sans-serif;}
 
 
     /* footer */
-    #footer {padding:70px 0 80px 0;background: #0c0c0c;color:#ddd;font-family: 'Noto Sans KR', sans-serif;line-height: 40px;}
+    #footer {padding:50px 0;background: #0c0c0c;color:#ddd;font-family: 'Noto Sans KR', sans-serif;line-height: 40px;}
     #footer .container {width:auto;margin:0 auto; padding:0 15px;text-align: center;}
     #footer .f_top{display:flex;flex-direction:column;border-bottom:1px solid #555;padding-bottom: 30px;}
     #footer .f_top strong {display:block;font-size:12px;}
