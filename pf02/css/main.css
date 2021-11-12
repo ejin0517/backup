@@ -345,9 +345,9 @@ body {font-family: 'Montserrat', sans-serif;}
     #content06 .container {width:auto;margin:0 auto; padding:0 15px;}
     #content06 .container h2 {font-size:24px;font-weight:500;margin-bottom:30px;text-align:center;}
     #content06 .service {display:flex;flex-direction:column;}
-    #content06 .service figure {position:relative;flex:1;overflow:hidden;}
+    #content06 .service figure {position:relative;flex:1;overflow:hidden;height:250px;}
     #content06 .service figure:hover img {transform:scale(1);}
-    #content06 .service figure img {transition: 0.4s;width:100%;height:250px;}
+    #content06 .service figure img {transition: 0.4s;width:100%;object-fit:cover;}
     #content06 .service figure .des {position:absolute;bottom:10%;left:10%;font-family: 'Noto Sans KR', sans-serif;color:#fff;}
     #content06 .service figure .des strong {display:block;font-size:20px;font-weight: 500;margin-bottom:10px;letter-spacing: -0.025em;}
     #content06 .service figure .des span {display:block;font-weight: 100;margin-bottom:20px;font-size: 14px;}
@@ -358,7 +358,7 @@ body {font-family: 'Montserrat', sans-serif;}
     /* content07 - news & customer */
     #content07 {padding:100px 0;background: #171717; color:#fff;}
     #content07 .container {display:flex;flex-direction:column;width:auto;margin:0 auto; padding:0 15px;}
-    #content07 .container h2 {font-size:24px;font-weight:500;margin-bottom:40px;text-align: center;}
+    #content07 .container h2 {font-size:24px;font-weight:500;margin-bottom:30px;text-align: center;padding-top:40px;}
 
     #content07 .news_list .news_item {display:flex;margin-bottom:20px;}
     #content07 .news_list .news_item .date {background: #000000;width:120px;overflow:hidden;padding:30px;text-align:center;}
