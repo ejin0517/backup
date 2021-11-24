@@ -13,7 +13,7 @@
 .hover03:hover p {opacity:1;}
 
 
-.hover04 {display:flex;font-size:13px;text-align: center;}
+.hover04 {display:flex;font-size:13px;text-align: center;overflow:hidden;}
 .hover04 p {margin:auto;line-height:2;opacity:1;transition:0.5s;}
 .hover04 p:before {content:"";display:block;width:1px;height:40px;background:#fff;transform:translate(30px,-400px);transition:0.5s;}
 .hover04 p:after {content:"";display:block;width:40px;height:1px;background:#fff;transform:translate(-400px,30px);transition:0.5s;}
@@ -33,7 +33,7 @@
 .hover06:hover:before {width:380px;height:380px;}
 .hover06:hover:after {width:380px;height:380px; }
 
-.hover07 {background:#333;}
+.hover07 {}
 .hover07 p {position:absolute;top:10px;left:10px;width:380px;height:380px;z-index:999;}
 /*.hover07:before {content:"";display:block;width:0;height:10px;background:#ff0;position:absolute;top:0;left:0;transition:0.5s;}
 .hover07:after {content:"";display:block;width:0;height:10px;background:#f00;position:absolute;top:0;left:0;transition:0.5s 0.5s;}
@@ -71,3 +71,4 @@
 
 .hover09 .btn02 {display:block;width:150px;border:3px solid #fff;text-align:center;line-height:44px;border-radius: 5px;transition:0.5s;}
 .hover09 .btn02:hover {border-radius:30px;background:#fff;color:#0c0c0c;}
+
