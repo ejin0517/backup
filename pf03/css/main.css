@@ -367,7 +367,7 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
     #content02 .title:after {content:"";display:block;width:40px;height:3px;background: #55a435;position:absolute;top:-15px;left:50%;transform: translateX(-50%);}
     #content02 span.des {display:block;font-size: 14px;margin-bottom:30px;}
 
-    #content02 .bestmenu_slider {position:relative;}
+    #content02 .bestmenu_slider {position:relative;width:auto;}
     #content02 .bestmenu_slider .slick-dots  {position:absolute;top:0;left:50%;transform: translateX(-50%);}
     #content02 .bestmenu_slider .slick-dots li {display:inline-block;width:10px;height:10px;margin:0 3px;border-radius:50%;background:#eee;}
     #content02 .bestmenu_slider .slick-dots li.slick-active {background:#b9b9b9;}
@@ -388,7 +388,7 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
     #content02 .bestmenu01 .container a.btn {display:inline-block;padding:13px 25px;border-radius: 50px;width:155px;text-align:center;background: #ffa410;color:#fff;font-weight: 500;}
 
     #content02 .bestmenu01 .container .best_img {position:relative;transform: translateY(10%) scale(0.7);}
-    #content02 .bestmenu01 .container .icon {position:absolute;top:7%;right:0;background: #ffa410;font-weight: 500;border-radius: 50%;color:#fff;width:100px;height:100px;padding:35px 0;text-align: center;line-height:1.2em;transform: translateY(0);z-index: 99999;}
+    #content02 .bestmenu01 .container .icon {display:none;position:absolute;top:7%;right:0;background: #ffa410;font-weight: 500;border-radius: 50%;color:#fff;width:100px;height:100px;padding:35px 0;text-align: center;line-height:1.2em;transform: translateY(0);z-index: 99999;}
 
     /*----------------------------*/
     #content02 .bestmenu02 {display:flex;flex-direction:column;justify-content: space-between;padding:100px 0;position:relative;}
@@ -406,7 +406,7 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
 
     #content02 .bestmenu02 .container .best_img {position:relative;transform: translateY(7%) scale(0.8);}
     #content02 .bestmenu02 .container .best_img .ani {position:absolute;top:60%;left:15%;z-index: 998;}
-    #content02 .bestmenu02 .container .icon {position:absolute;top:10%;right:0;background: #36947a;font-weight: 500;border-radius: 50%;color:#fff;width:100px;height:100px;padding:30px 0;text-align: center;line-height:1.2em;transform: translateY(40%);z-index: 99999;}
+    #content02 .bestmenu02 .container .icon {display:none;position:absolute;top:10%;right:0;background: #36947a;font-weight: 500;border-radius: 50%;color:#fff;width:100px;height:100px;padding:30px 0;text-align: center;line-height:1.2em;transform: translateY(40%);z-index: 99999;}
 
     /*----------------------------*/
     #content02 .bestmenu03 {display:flex;flex-direction:column;justify-content: space-between;padding:100px 0;position:relative;}
@@ -424,7 +424,7 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
 
     #content02 .bestmenu03 .container .best_img {position:relative;transform: translateY(90%) scale(0.8);}
     #content02 .bestmenu03 .container .best_img .ani {position:absolute;top:-90%;left:20%;}
-    #content02 .bestmenu03 .container .icon {position:absolute;top:40%;right:0;background: #61a03c;font-size:14px;font-weight: 500;border-radius: 50%;color:#fff;width:100px;height:100px;padding:37px 0;text-align: center;line-height:1.2em;transform: translateY(-170%);z-index: 999;}
+    #content02 .bestmenu03 .container .icon {display:none;position:absolute;top:50%;right:0;background: #61a03c;font-size:14px;font-weight: 500;border-radius: 50%;color:#fff;width:100px;height:100px;padding:37px 0;text-align: center;line-height:1.2em;transform: translateY(-170%);z-index: 999;}
 
 
     /* content03 - delivery service */
@@ -455,14 +455,14 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
     #content04 span.des {display:block;font-size: 14px;margin-bottom:50px;}
 
     #content04 .tabmenu {padding-bottom:60px;}
-    #content04 .tabmenu ul {display:flex;justify-content: center;width:100%;}
-    #content04 .tabmenu ul>li {padding:10px 20px;border:1px solid #55a435; border-radius:50px;text-align: center;font-weight:600;color:#55a435;margin-right:10px;letter-spacing: 0.05em;font-size: 14px;}
+    #content04 .tabmenu ul {display:flex;justify-content: center;width:auto;}
+    #content04 .tabmenu ul>li {padding:7px 12px;border:1px solid #55a435; border-radius:50px;text-align: center;font-weight:600;color:#55a435;margin-right:10px;letter-spacing: 0.05em;font-size:12px;}
     #content04 .tabmenu ul>li.on{background: #55a435;color:#fff;}
     #content04 .tabmenu ul>li>a {display:block;width:100%;}
 
     #content04 .btn {position:absolute;top:1150px;left:50%;transform:translateX(-50%);display:block;margin:0 auto;padding:13px 25px;border:1px solid #55a435; border-radius: 50px;width:155px;text-align:center;color:#55a435;z-index: 1000;}
     #content04 .btn:hover {background: #55a435;color:#fff;font-weight:700;}
-    #content04 .tab_content {position:relative;z-index:999;height:500px;} /*padding-bottom:400%;*/
+    #content04 .tab_content {position:relative;z-index:999;height:450px;} /*padding-bottom:400%;*/
     #content04 .tab_content .tab_content_menu {position:absolute;top:0;left:0;width:100%;height:auto;visibility: hidden;text-align:center;display:flex;flex-wrap: wrap;overflow:hidden;} /*align-items: flex-start;*/
     #content04 .tab_content .tab_content_menu.on {visibility: visible;}
 
@@ -532,7 +532,7 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
     #footer .footer_left strong {display:block;font-size:16px;font-weight: 600;margin-bottom: 15px;}
     #footer .footer_left p {font-size:13px;margin-bottom:30px;}
     #footer .footer_left input {width:280px;padding:10px;margin-right:5px;margin-bottom:30px;outline:none;font-size:12px;color:#333;}
-    #footer .footer_left a.btn {padding:14px 15px;font-size:12px;background:#0c0c0c;display:inline-block;border-radius: 5px;margin-bottom:20px;}
+    #footer .footer_left a.btn {padding:14px 15px;font-size:12px;background:#0c0c0c;display:inline-block;border-radius: 5px;margin-bottom:40px;}
     #footer .footer_left .sns>a {background:none;font-size:18px;margin-right:12px;}
     #footer .footer_left .sns>a:hover {color:#55a435;}
 
