@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/animate.min.css">
+    <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <script src="./js/jquery-1.12.4.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.mb.YTPlayer.min.js"></script>
     <script src="./js/main.js"></script>
 </head>
 <body>
@@ -18,10 +20,10 @@
         <header id="header">
             <div class="container">
                 <h1></h1>
-                    <nav>
-                        <ul class="gnb">
+                    <nav class="gnb">
+                        <ul class="depth01">
                             <li><a href="#!">BRAND STORY</a>
-                                <ul class="sub sub01">
+                                <ul class="sub">
                                     <li><a href="#!">브랜드 소개</a></li>
                                     <li><a href="#!">광고 영상</a></li>
                                 </ul>
@@ -60,6 +62,9 @@
                         </ul>
                     </nav>
             </div>
+            <div class="m_logo">
+                <img src="./img/logo.png" alt="">
+            </div>
         </header>
 
         <main>
@@ -80,9 +85,9 @@
                 <figure class="main_slider main_slider02">
                     <div class="container">
                         <div class="des">
-                            <span class="bold">5주년 한정 메뉴</span>
-                            <h2>서울식 불고기 버거</h2>
-                            <p>전통의 향과 맛까지 그야말로 환상조합!</p>
+                            <span class="bold">프리미엄 트러플버거로</span>
+                            <h2>특별한 선물을 전해주세요.</h2>
+                            <p>쉐이크쉑으로 지친 마음을 힐링하세요.</p>
                             <a href="#!"><span class="btn">
                                 더 알아보기
                             </span></a>
@@ -92,7 +97,8 @@
                 <figure class="main_slider main_slider03">
                     <div class="container">
                         <div class="des">
-                            <h2>이불 밖은 위험하니<Br><span class="bold">#딜리버리</span>로 편하게 주문 끝</h2>
+                            <h2>이불 밖은 위험하니</h2>
+                            <span class="bold">#딜리버리로 편하게 주문 끝</span>
                             <p>취향에 맞는 딜리버리 메뉴를 집에서 배달로 만나보세요.</p>
                             <a href="#!"><span class="btn">
                                 주문하러가기
@@ -103,7 +109,8 @@
                 <figure class="main_slider main_slider04">
                     <div class="container">
                         <div class="des">
-                            <h2> 쉐이크쉑 신제품 깜짝 공개!</h2><span class="bold">5주년 한정판 쉐이크</span>
+                            <h2> 쉐이크쉑 신제품 깜짝 공개!</h2>
+                            <span class="bold">5주년 한정판 쉐이크</span>
                             <p>#지평주조 와의 콜라보레이션으로 탄생한 쉐이크!</p>
                             <a href="#!"><span class="btn">
                                 더 알아보기
@@ -120,6 +127,8 @@
                 <div class="container">
                     <div class="des">
                         <h2 class="title">ABOUT BRAND</h2>
+                        
+                        <img src="./img/about_icon.jpg" alt="">
                         <strong>뉴욕에서 온 파인 캐쥬얼 레스토랑, 쉐이크쉑</strong>
                         <p>쉐이크쉑은 2001년, 뉴욕 메디슨 스퀘어 공원 복구 사업을 위한<br>
                             USHG*의 핫도그 카트에서 시작되었습니다. <Br>
@@ -128,6 +137,9 @@
                             2004년, 많은 인기에 힘입어 메디슨 스퀘어 공원에 ‘SHAKE SHACK’ 이라는<Br>
                             간판을 걸고 시작한 것이 전 세계가 사랑하는 브랜드, 쉐이크쉑이 되었습니다.</p>
                     </div>
+                    <figure>
+                        <div id="mv01" class="player"></div>
+                    </figure>
                 </div>
             </section>
             <!-- content01 - about }-->
@@ -219,6 +231,7 @@
             </section>
             <!-- content02 - best menu }-->
 
+
             <!-- { content03 - delivery -->
             <section id="content03">
             <div class="container">
@@ -232,8 +245,8 @@
                             </figure>
                         </div>
                         <div class="des">
-                        <strong>해피오더 DELIVERY</strong><br>
-                        <a class="btn" href="#!">주문하러가기</a>
+                        <strong>해피오더 Delivery</strong><br>
+                        <a class="btn" href="#!">주문하러가기<i class="xi-angle-right-min"></i></a>
                         </div>
                     </div>
                     <div class="deli_service">
@@ -243,8 +256,8 @@
                             </figure>
                         </div>
                         <div class="des">
-                        <strong>배달의민족 DELIVERY</strong><br>
-                        <a class="btn" href="#!">주문하러가기</a>
+                        <strong>배달의민족 Delivery</strong><br>
+                        <a class="btn" href="#!">주문하러가기<i class="xi-angle-right-min"></i></a>
                         </div>
                     </div>
                     <div class="deli_service">
@@ -254,8 +267,8 @@
                             </figure>
                         </div>
                         <div class="des">
-                        <strong>요기요 DELIVERY</strong><br>
-                        <a class="btn" href="#!">주문하러가기</a>
+                        <strong>요기요 Delivery</strong><br>
+                        <a class="btn" href="#!">주문하러가기<i class="xi-angle-right-min"></i></a>
                         </div>
                     </div>
                     <div class="deli_service">
@@ -265,17 +278,16 @@
                             </figure>
                         </div>
                         <div class="des">
-                        <strong>쿠팡이츠 DELIVERY</strong><br>
-                        <a class="btn" href="#!">주문하러가기</a>
+                        <strong>쿠팡이츠 Delivery</strong><br>
+                        <a class="btn" href="#!">주문하러가기<i class="xi-angle-right-min"></i></a>
                         </div>
                     </div>
-                    
-                    
                 </div>
-            
             </div>
             </section>
             <!-- content03 - delivery } -->
+
+
 
             <!-- { content04 - food&drinks-->
             <section id="content04">
@@ -290,16 +302,13 @@
                             <li><a href="#!">DRINKS</a></li>
                         </ul>
                     </div>
-                    <!--<div class="btn"><a href="#!">전체 메뉴 보기</a></div>-->
                     <div class="tab_content">
                         <div class="tab_content_menu on">
-                        <!--<strong class="bold">BURGERS</strong>-->
-                            <div class="tab_menu_list">
                             <figure>
-                                <img src="./img/menu01_01.jpg" alt="">
+                                <a href="#!"><img src="./img/menu01_01.jpg" alt=""></a>
                                 <span class="en">Black Truffle Burger</span>
                                 <span class="ko">블랙 트러플 버거</span>
-                                <span class="des">
+                                <span class="menu_des">
                                 패티 위에 에멘탈 슬라이스 치즈,<Br>튀긴 샬롯, 블랙 트러플 소스,<br>루꼴라가 올라간 버거</span>
                                 <span class="size">S</span>
                                 <span class="price">15,9</span>
@@ -307,204 +316,227 @@
                                 <span class="price">11,9</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu01_02.jpg" alt="">
+                                <a href="#!"><img src="./img/menu01_02.jpg" alt=""></a>
                                 <span class="en">Shack Burger</span>
                                 <span class="ko">쉑버거</span>
+                                <span class="menu_des">
+                                    쉐이크쉑의 시그니처버거<br>
+                                    비프패티와 함께 토마토, 양상추<br>쉑소스가 토핑된 치즈버거</span>
                                 <span class="size">S</span>
                                 <span class="price">6,9</span>
                                 <span class="size">D</span>
                                 <span class="price">10,9</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu01_03.jpg" alt="">
+                                <a href="#!"><img src="./img/menu01_03.jpg" alt=""></a>
                                 <span class="en">Smoke Shack</span>
                                 <span class="ko">스모크쉑</span>
+                                <span class="menu_des">애플 우드 칩으로 훈연한 짭짤한 베이컨,<br>매콤한 체리페퍼, 비프패티와<br> 쉑소스가 토핑된 치즈버거</span>
                                 <span class="size">S</span>
                                 <span class="price">8,9</span>
                                 <span class="size">D</span>
                                 <span class="price">12,9</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu01_04.jpg" alt="">
+                                <a href="#!"><img src="./img/menu01_04.jpg" alt=""></a>
                                 <span class="en">Shroom Burger</span>
                                 <span class="ko">슈룸버거</span>
+                                <span class="menu_des">치즈로 속을 채우고포토벨로<br>버섯 패티에 양상추, 토마토,<br>쉑소스를 올린 베지테리안 버거</span>
                                 <span class="size">W</span>
                                 <span class="price">9,4</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu01_05.jpg" alt="">
+                                <a href="#!"><img src="./img/menu01_05.jpg" alt=""></a>
                                 <span class="en">Shack Stack</span>
                                 <span class="ko">쉑스택</span>
+                                <span class="menu_des">
+                                    포토벨로 버섯패티,<br>비프패티와 함께 토마토,<br> 양상추, 쉑소스가 토핑된 치즈버거</span>
                                 <span class="size">W</span>
                                 <span class="price">12,4</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu01_06.jpg" alt="">
+                                <a href="#!"><img src="./img/menu01_06.jpg" alt=""></a>
                                 <span class="en">Hamburger</span>
                                 <span class="ko">햄버거</span>
+                                <span class="menu_des">고소한 포테이토 번과<br>비프패티의 풍미 그대로를<br> 느낄 수 있는 기본에 충실한 버거</span>
                                 <span class="size">S</span>
                                 <span class="price">5,4</span>
                                 <span class="size">D</span>
                                 <span class="price">9,0</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu01_07.jpg" alt="">
+                                <a href="#!"><img src="./img/menu01_07.jpg" alt=""></a>
                                 <span class="en">Black Truffle Chicken</span>
                                 <span class="ko">블랙 트러플 치킨</span>
+                                <span class="menu_des">촉촉한 닭가슴 통살을 바삭하게 튀겨<br>풍미 가득한 블랙 트러플 소스,<br>상큼한 샬롯 피클, 루꼴라와 즐기는 버거</span>
                                 <span class="size">W</span>
                                 <span class="price">10,9</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu01_08.jpg" alt="">
+                                <a href="#!"><img src="./img/menu01_08.jpg" alt=""></a>
                                 <span class="en">Chicken Shack</span>
                                 <span class="ko">치킨쉑</span>
+                                <span class="menu_des">버터밀크에 수비드한 후<br>바삭하게 튀겨낸 치킨 패티에 양상추, 피클,<br>허브마요 소스를 곁들인 버거</span>
                                 <span class="size">W</span>
                                 <span class="price">7,9</span>
                             </figure>
                         </div>
-                        </div>
 
                         <div class="tab_content_menu">
-                            <!--<strong class="bold">SIDES</strong>-->
-                            <div class="tab_menu_list">
                             <figure>
-                                <img src="./img/menu02_01.jpg" alt="">
+                                <a href="#!"><img src="./img/menu02_01.jpg" alt=""></a>
                                 <span class="en">Black Truffle Fries</span>
                                 <span class="ko">블랙 트러플 프라이</span>
+                                <span class="menu_des">바삭한 크링클 컷 프라이 위에<br>블랙 트러플 소스,튀긴 샬롯,<br>쪽파를 올린 프라이</span>
                                 <span class="size">W</span>
                                 <span class="price">6,8</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu02_02.jpg" alt="">
+                                <a href="#!"><img src="./img/menu02_02.jpg" alt=""></a>
                                 <span class="en">Cheese Fries</span>
                                 <span class="ko">치즈프라이</span>
+                                <span class="menu_des">쉐이크쉑만의 특별한<Br>치즈 소스를 듬뿍 올린<br> 바삭한 크링클 컷 프라이</span>
                                 <span class="size">W</span>
                                 <span class="price">4,9</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu02_03.jpg" alt="">
+                                <a href="#!"><img src="./img/menu02_03.jpg" alt=""></a>
                                 <span class="en">Fries</span>
                                 <span class="ko">프라이</span>
+                                <span class="menu_des">
+                                    바삭하고 담백한 맛의<br>크링클컷 프라이로 남녀노소<br>모두 함께 즐길 수 있는 프라이</span>
                                 <span class="size">W</span>
                                 <span class="price">3,9</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu02_04.jpg" alt="">
+                                <a href="#!"><img src="./img/menu02_04.jpg" alt=""></a>
                                 <span class="en">Hot Dog</span>
                                 <span class="ko">핫도그</span>
+                                <span class="menu_des">쫄깃한 토종 효모 포테이토 번 위에<br>참나무 칩으로 훈연한<br>소시지가 들어간 담백한 핫 도그</span>
                                 <span class="size">W</span>
                                 <span class="price">4,4</span>
                             </figure>
-                            </div>
                         </div>
 
 
                         <div class="tab_content_menu">
-                            <!--<strong class="bold">DESSERT</strong>-->
-                            <div class="tab_menu_list list03">
                             <figure>
-                                <img src="./img/menu03_01.jpg" alt="">
+                                <a href="#!"><img src="./img/menu03_01.jpg" alt=""></a>
                                 <span class="en">X-mas Cookie Shake</span>
                                 <span class="ko">크리스마스 쿠키 쉐이크</span>
+                                <span class="menu_des">크리미한 크리스마스 쿠키와<br> 바삭한 쇼트브레드가 어우러진<br>홀리데이 시즌 한정 쉐이크</span>
                                 <span class="size">W</span>
                                 <span class="price">6,8</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu03_02.jpg" alt="">
+                                <a href="#!"><img src="./img/menu03_02.jpg" alt=""></a>
                                 <span class="en">Classic Hand-spun Shake</span>
                                 <span class="ko">쉐이크</span>
+                                <span class="menu_des">바닐라, 초콜렛, 솔티드 카라멜,<Br>블랙&화이트, 스트로베리,<br>피넛버터, 커피</span>
                                 <span class="size">W</span>
                                 <span class="price">5,9</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu03_03.jpg" alt="">
+                                <a href="#!"><img src="./img/menu03_03.jpg" alt=""></a>
                                 <span class="en">Floats</span>
                                 <span class="ko">플로트</span>
+                                <span class="menu_des">
+                                    부드러운 바닐라 커스터드와<br>톡톡 터지는 탄산이 만나 탄생한<br>색다른 음료</span>
                                 <span class="size">W</span>
                                 <span class="price">5,9</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu03_04.jpg" alt="">
+                                <a href="#!"><img src="./img/menu03_04.jpg" alt=""></a>
                                 <span class="en">Cup&Cones</span>
                                 <span class="ko">컵&콘</span>
+                                <span class="menu_des">매장에서 매일 신선하게 제조하는<br>부드럽고 쫀득한 바닐라,<br>초콜렛 커스터드</span>
                                 <span class="size">S</span>
                                 <span class="price">4,9</span>
                                 <span class="size">D</span>
                                 <span class="price">5,9</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu03_05.jpg" alt="">
+                                <a href="#!"><img src="./img/menu03_05.jpg" alt=""></a>
                                 <span class="en">Gangnam</span>
                                 <span class="ko">강남</span>
+                                <span class="menu_des">달콤한 딸기 잼과 고소한 콩가루,<br>쇼트브레드가 어우러진<br>쉐이크쉑 강남의 시그니처 콘크리트</span>
                                 <span class="size">S</span>
                                 <span class="price">5,9</span>
                                 <span class="size">D</span>
                                 <span class="price">8,9</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu03_06.jpg" alt="">
+                                <a href="#!"><img src="./img/menu03_06.jpg" alt=""></a>
                                 <span class="en">Cheongdam327</span>
                                 <span class="ko">청담32</span>
+                                <span class="menu_des">
+                                    부드럽고 달콤한 바나나와 꿀,<br>바삭한 쇼트브레드가 <Br>어우러진 쉐이크쉑 청담의 콘크리트</span>
                                 <span class="size">S</span>
                                 <span class="price">5,9</span>
                                 <span class="size">D</span>
                                 <span class="price">8,9</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu03_07.jpg" alt="">
+                                <a href="#!"><img src="./img/menu03_07.jpg" alt=""></a>
                                 <span class="en">Busan Street</span>
                                 <span class="ko">부산스트리트</span>
+                                <span class="menu_des">
+                                    부산의 소울 푸드, 씨앗호떡에서<Br>영감을 받아 탄생한<Br> 부산 서면의 시그니처 콘크리트</span>
                                 <span class="size">S</span>
                                 <span class="price">5,9</span>
                                 <span class="size">D</span>
                                 <span class="price">8,9</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu03_08.jpg" alt="">
+                                <a href="#!"><img src="./img/menu03_08.jpg" alt=""></a>
                                 <span class="en">Over the Rainbow</span>
                                 <span class="ko">오버더레인보우</span>
+                                <span class="menu_des">컬러풀한 머랭 쿠키와<br>달콤한 블루베리 잼, 레몬 커드가<Br>어우러진 쉐이크쉑 코엑스의 콘크리트</span>
                                 <span class="size">S</span>
                                 <span class="price">5,9</span>
                                 <span class="size">D</span>
                                 <span class="price">8,9</span>
                             </figure>
-                            </div>
                         </div>
 
                         <div class="tab_content_menu">
-                            <!--<strong class="bold">DRINKS</strong>-->
-                            <div class="tab_menu_list">
                             <figure>
-                                <img src="./img/menu04_01.jpg" alt="">
+                                <a href="#!"><img src="./img/menu04_01.jpg" alt=""></a>
                                 <span class="en">Coffee</span>
                                 <span class="ko">커피</span>
+                                <span class="menu_des">
+                                    미국 스페셜티 커피 브랜드<br>스텀프타운의 쉑 블렌드 원두를<br> 사용한 드립 커피</span>
                                 <span class="size">S</span>
                                 <span class="price">4,4</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu04_02.jpg" alt="">
+                                <a href="#!"><img src="./img/menu04_02.jpg" alt=""></a>
                                 <span class="en">Grape Lemonade</span>
                                 <span class="ko">그레이프 레몬에이드</span>
+                                <span class="menu_des">상큼한 레몬에이드에<Br>달콤하고 진한 포도를<Br>블렌딩한 시즈널 레몬에이드</span>
                                 <span class="size">S</span>
                                 <span class="price">3,9</span>
                                 <span class="size">L</span>
                                 <span class="price">4,5</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu04_03.jpg" alt="">
+                                <a href="#!"><img src="./img/menu04_03.jpg" alt=""></a>
                                 <span class="en">Hot Tea</span>
                                 <span class="ko">핫 티</span>
+                                <span class="menu_des">
+                                    보성 유기농 찻잎을 우려낸<Br>녹차, 홍차, 페퍼민트&레몬그라스<Br>블렌딩 티</span>
                                 <span class="size">S</span>
                                 <span class="price">3,4</span>
                             </figure>
                             <figure>
-                                <img src="./img/menu04_04.jpg" alt="">
+                                <a href="#!"><img src="./img/menu04_04.jpg" alt=""></a>
                                 <span class="en">Abita Root Beer</span>
                                 <span class="ko">루트비어</span>
+                                <span class="menu_des">
+                                    쉐이크쉑의 버거 맛을 올려주는<br>청량감 있는 독특한 향의<br>미국식 무알콜 탄산음료</span>
                                 <span class="size">S</span>
                                 <span class="price">4,4</span>
                             </figure>
-                            </div>
                         </div>
                         
                     </div>
@@ -513,13 +545,14 @@
             <!-- content04 - food&drinks } -->
 
 
-            <!-- { content05 - LOCATION & DELIVERY -->
+
+            <!-- { content05 - LOCATION & SOCIAL -->
             <section id="content05">
                 <div class="container">
-                    <h2>LOCATION & DELIVERY</h2>
+                    <h2 class="title">LOCATION & SOCIAL MEDIA</h2>
                     <span class="des">가까운 매장과 딜리버리 서비스를 확인해보세요.</span>
                     <div class="con">
-                        <div>
+                        <div class="con_content">
                             <a href="#!"><figure><img src="./img/location_img01.jpg" alt=""></figure></a>
                             <strong>LOCATION</strong>
                             <span>가장 가까이에 있는 매장 위치를 확인해보세요.<Br>
@@ -528,19 +561,21 @@
                                 가까운 매장찾기
                             </a>
                         </div>
-                        <div>
-                            <a href="#!"><figure><img src="./img/delivery_img01.jpg" alt=""></figure></a>
-                            <strong>DELIVERY</strong>
-                            <span>띵동! 쉐이크쉑 딜리버리 왔어요!<Br>
-                                취향에 맞는 딜리버리 메뉴를 집에서 배달로 만나보세요.</span>
+                        <div class="con_content">
+                            <a href="#!"><figure><img src="./img/soical_img.jpg" alt=""></figure></a>
+                            <strong>SOCIAL MEDIA</strong>
+                            <span>말하지 않아도 우린 통하니까!<Br>
+                                쉐이크쉑의 다양한 소셜미디어로 함께 소통해보세요.</span>
                             <a href="#!" class="btn">
-                                배달주문하기
+                                소셜미디어 바로가기
                             </a>
                         </div>
                     </div>
                 </div>
             </section>
             <!--  content05 - LOCATION & DELIVERY } -->
+
+
 
             <!-- { content06 - value -->
             <section id="content06">
@@ -552,18 +587,19 @@
                     </div>
                     <h2>Stand For Something Good</h2>
                 <p>쉐이크쉑은 세상에 필요한 사려깊은 가치를 통해 좋은 사회를 만들고자 합니다.<Br>
-                    깐깐하게 엄선한 최상의 식재료, 자연을 생각한 친환경 인테리어, 지역 사회와 함께 성장하는 공헌 활동까지<Br>
+                    깐깐하게 엄선한 최상의 식재료, 자연을 생각한 친환경 인테리어,<br>지역 사회와 함께 성장하는 공헌 활동까지<Br>
                     쉐이크쉑은 가치 실현을 위해 노력하고 있습니다.<Br>
-                    “세상에 필요한 사려깊은 가치”는 쉐이크쉑의 신념이자 앞으로 나아가야할 방향입니다.</p>
+                    “세상에 필요한 사려깊은 가치”는 쉐이크쉑의 신념이자<Br>앞으로 나아가야할 방향입니다.</p>
                 </div>
             </section>
             <!-- content05 - value } -->
 
 
+
             <!-- { content07 - NEWS & EVENT -->
             <section id="content07">
                 <div class="container">
-                    <h2>NEWS & EVENT</h2>
+                    <h2 class="title">NEWS & EVENT</h2>
                     <span class="des">쉐이크쉑의 새로운 소식을 확인해보세요.</span>
                     <div class="news_slider">
                         <a href="#!"><div class="news">
@@ -571,8 +607,17 @@
                                 <img src="./img/news01.jpg" alt="">
                             </figure>
                             <div class="des">
+                                <div class="des_title">
                                 쉐이크쉑X카카오톡 선물하기<br>
-                                블랙 트러플 버거 출시 기념 #EVENT
+                                블랙 트러플 버거 출시 기념 #EVENT<br>
+                                </div>
+                                <div class="des_scr">
+                                    지금 EVENT 하이라이트를 클릭해서<br>
+                                    당신의 취향을 저격한 블랙 트러플에 투표하고,<br>
+                                    이 게시물에 참여 완료! 댓글을 남겨주세요💚<br>
+                                    추첨을 통해 10분께<br>
+                                    쉐이크쉑 1만원 상품권을 드립니다🙌🏻<br>
+                                </div>
                             </div>
                         </div></a>
                         <a href="#!"><div class="news">
@@ -580,8 +625,17 @@
                                 <img src="./img/news02.jpg" alt="">
                             </figure>
                             <div class="des">
+                                <div class="des_title">
                                 쉐이크쉑 동탄점 OPEN<br>
                                 이제 동탄에서도 쉐이크쉑을 만나보세요.
+                                </div>
+                                <div class="des_scr">
+                                    Only 동탄점에서만 만날 수 있는<br>
+                                    특별한 콘크리트 #퐁당동탄 과<br>
+                                    '크리스앤클로이'와 함께 만든<br>
+                                    한정판 가방도 놓치지 말자구💚<br>
+                                    동탄점 개점 기념 다양한 선물까지 준비 완료!
+                                </div>
                             </div>
                         </div></a>
                         <a href="#!"><div class="news">
@@ -589,8 +643,17 @@
                                 <img src="./img/news03.jpg" alt="">
                             </figure>
                             <div class="des">
+                                <div class="des_title">
                                 지금 배달의민족에서 쉐이크쉑 주문하면<br>
                                 최대 6천원 혜택!
+                                </div>
+                                <div class="des_scr">
+                                    쌀쌀해지는 요즘 날씨엔☁️<br>
+                                    따뜻한 집에서 쉐이크쉑 먹기💚<br>
+                                    담백한 쉑버거 한 입,<br>
+                                    바삭한 프라이 한 입<br>
+                                    딜리버리로 문 앞 배송까지📬<br>
+                                </div>
                             </div>
                         </div></a>
                         <a href="#!"><div class="news">
@@ -598,8 +661,17 @@
                                 <img src="./img/news04.jpg" alt="">
                             </figure>
                             <div class="des">
+                                <div class="des_title">
                                 쉐이크쉑이 강아지 간식 있는 거 아셨어요?<br>
                                 강아지용 비스킷 '백 오 본'
+                                </div>
+                                <div class="des_scr">
+                                    쉐이크쉑에서 강아지 간식을 판다⁉️<br>
+                                    쉐이크쉑은 댕댕이에게 진심이거든🥰<br>
+⠀                                   강아지용 비스킷 '백 오 본'<br>
+                                    우리집 귀요미도 같은 식구니까<br>
+                                    쉐이크쉑 함께 먹자🦮🐕‍🦺🐕
+                                </div>
                             </div>
                         </div></a>
                         <a href="#!"><div class="news">
@@ -607,8 +679,17 @@
                                 <img src="./img/news05.jpg" alt="">
                             </figure>
                             <div class="des">
+                                <div class="des_title">
                                 딜리버리 200% 즐기는 방법<br>
                                 쿠팡이츠 배달비 FREE 혜택 즐기기
+                                </div>
+                                <div class="des_scr">
+                                    식욕 폭팔하게 만드는 더블쉑과<br>
+                                    꾸덕 꾸덕한 치즈 프라이까지<br>
+                                    벌써부터 문 앞 대기중📦<br>
+                                    취향에 맞는 딜리버리 메뉴를<br>
+                                    집에서 배달로 만나보세요💌
+                                </div>
                             </div>
                         </div></a>
                     </div>
@@ -622,6 +703,7 @@
         </main>
 
         
+
         <!-- { footer -->
         <footer id="footer">
             <div class="container">
@@ -669,6 +751,11 @@
             </div>
         </footer>
         <!--  footer } -->
+
+        <div class="mopen">
+            <i class="xi-bars"></i>
+        </div>
+
     </div>
 </body>
 </html>
