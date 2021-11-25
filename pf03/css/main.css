@@ -375,7 +375,7 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
 
     /*------------------------------*/
     #content02 .bestmenu01 {display:flex;flex-direction:column;padding:70px 0;position:relative;}
-    #content02 .bestmenu01 .back {position:absolute;bottom:30%;right:0;transform:translateY(50%);z-index: -1;}
+    #content02 .bestmenu01 .back {position:absolute;bottom:30%;right:0;transform:translateY(50%);z-index: -1;padding-left:15px;}
     #content02 .bestmenu_slider .container {display:flex;flex-direction:column;width:100%;margin:0 auto;padding:0 15px;}
 
 
@@ -392,7 +392,7 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
 
     /*----------------------------*/
     #content02 .bestmenu02 {display:flex;flex-direction:column;justify-content: space-between;padding:70px 0;position:relative;}
-    #content02 .bestmenu02 .back {position:absolute;bottom:28%;right:0;transform: translateY(50%);z-index: -1;}
+    #content02 .bestmenu02 .back {position:absolute;bottom:28%;right:0;transform: translateY(50%);z-index: -1;padding-left:15px;}
     #content02 .bestmenu_slider .container {display:flex;flex-direction:column;width:100%;margin:0 auto;padding:0 15px;}
 
 
@@ -410,7 +410,7 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
 
     /*----------------------------*/
     #content02 .bestmenu03 {display:flex;flex-direction:column;justify-content: space-between;padding:70px 0;position:relative;}
-    #content02 .bestmenu03 .back {position:absolute;bottom:0;right:0;transform: translateY(59%);z-index: -1;}
+    #content02 .bestmenu03 .back {position:absolute;bottom:0;right:0;transform: translateY(59%);z-index: -1;padding-left:15px;}
     #content02 .bestmenu_slider .container {display:flex;flex-direction:column;width:100%;margin:0 auto;padding:0 15px;}
 
 
@@ -456,7 +456,7 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
 
     #content04 .tabmenu {padding-bottom:60px;}
     #content04 .tabmenu ul {display:flex;justify-content: center;width:auto;}
-    #content04 .tabmenu ul>li {padding:10px 13px;border:1px solid #55a435; border-radius:50px;text-align: center;font-weight:600;color:#55a435;margin-right:10px;letter-spacing: 0.05em;font-size:14px;}
+    #content04 .tabmenu ul>li {padding:10px 12px;border:1px solid #55a435; border-radius:50px;text-align: center;font-weight:600;color:#55a435;margin-right:5px;letter-spacing: 0.05em;font-size:14px;}
     #content04 .tabmenu ul>li.on{background: #55a435;color:#fff;}
     #content04 .tabmenu ul>li>a {display:block;width:100%;}
 
@@ -520,8 +520,8 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
     #content07 .news_slider .news .des .des_scr:before {content:"";display:block;width:20px;height:2px;background:#55a435;position:absolute;top:-10px;left:50%;transform: translateX(-50%);}
 
     #content07 .container .slide_btn i{font-size:20px;background: #55a435;padding:3px;color:#fff;border-radius:50%;text-align:center;cursor: pointer;width:25px;height:25px;}
-    #content07 .container .xi-angle-left-min {position:absolute;left:50%;transform: translateX(-50%);margin-left:-205px;}
-    #content07 .container .xi-angle-right-min {position:absolute;top:55%;right:5%;transform: translateY(-50%);;margin-left:150px;}
+    #content07 .container .xi-angle-left-min {position:absolute;left:50%;transform: translateX(-50%);margin-left:-170px;}
+    #content07 .container .xi-angle-right-min {position:absolute;right:5%;transform: translateX(-50%);;margin-left:170px;}
 
 
     /* footer */
