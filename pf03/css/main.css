@@ -280,7 +280,7 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
     /* header */
     #header {position:absolute;top:0;left:0;width:100%;z-index: 9999;transition:0.5s;}
     #header .container {display:flex;justify-content: space-between;width:auto;margin:0 auto;line-height:100px;padding:0 15px;color:#fff;}
-    #header h1 {background:url(../img/logo01.png) no-repeat center center;width:229px;height: 100px;transform: translate(-10px, -5px) scale(0.8);z-index:1000;}
+    #header h1 {background:url(../img/logo01.png) no-repeat center center;width:229px;height: 100px;transform: translate(-10px, -10px) scale(0.8);z-index:1000;}
     #header:hover h1 {background:url(../img/logo01.png) no-repeat center center;}
     #header:hover {background: transparent;width:100%;color:#0c0c0c;}
 
