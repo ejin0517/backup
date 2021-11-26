@@ -112,7 +112,7 @@ var Rsd = $('.tab_content_menu');
 
 $(window).on('resize', function(){
 
-    $('.depth02').removeAttr('style');
+    $('.sub').removeAttr('style');
     
 });
 
