@@ -23,7 +23,7 @@
 
 @media screen and (max-width:768px) {
 
-    .header {display:flex;justify-content: space-between;position:fixed;top:0;left:0;padding:0 2rem;line-height:6rem;color:#f2f2f2;z-index:1000;min-width:1900px;width:100%;}
+    .header {display:flex;justify-content: space-between;position:fixed;top:0;left:0;padding:0 2rem;line-height:6rem;color:#f2f2f2;z-index:1000;min-width:auto;width:100%;}
     .header.on {background:transparent;
     }
     .header h1 {width:11.5rem;z-index: 999;}
@@ -43,7 +43,7 @@
 .visual {position:relative;}
 .visual:after {content:"";display:block;width:100%;height:100vh;background:rgba(0,0,0,0.4);position:absolute;top:0;left:0;}
 .visual .main_slider {}
-.visual .main_slider figure {height:100vh;}
+.visual .main_slider figure {width:100%;height:100vh;}
 .visual .item01 {background:url(./img/bg_intro01.jpg) no-repeat center center/cover;}
 .visual .item02 {background:url(./img/bg_intro02.jpg) no-repeat center center/cover;}
 .visual .item03 {background:url(./img/bg_intro03.jpg) no-repeat center center/cover;}
