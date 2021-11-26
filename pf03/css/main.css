@@ -202,7 +202,6 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
 .tab_content figure .price {font-weight:500;padding:0 10px 0 7px;}
 
 
-
 /* content05 - location&delivery */
 #content05 {padding:130px 0 150px 0;}
 #content05 .container {width:1200px;margin:0 auto;padding:0 15px;}
@@ -300,7 +299,8 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
     .gnb:hover .depth01>li .sub {height:auto;}
 
     .gnb .depth01>li .sub {display:none;overflow:hidden;position:static;top:100px;left:0;height:auto;text-align:center;width:100%;transition:none;padding:15px 0;flex-direction:colummn;background:#f5f5f5;border-bottom:1px solid #ddd;}
-    .gnb .depth01>li .sub>li {line-height: 40px;}
+    .gnb .depth01>li .sub>li {line-height: 40px;padding:0 15px;}
+    .gnb .depth01>li~li {margin-left:0;}
     .gnb .depth01>li .sub>li>a {display:block;font-size:14px;color:#0c0c0c;z-index: 999999;}
 
     .mopen {display:block;position:absolute;top:25px;right:25px;font-size:30px;color:#fff; z-index:100000;}
@@ -384,10 +384,10 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
     #content02 .bestmenu01 .container .menu_des .tag{display:block;color:#ffa410;font-weight: 700;margin-bottom:15px;}
     #content02 .bestmenu01 .container .menu_des .name {display:block;font-size: 18px;margin-bottom:15px;}
     #content02 .bestmenu01 .container .menu_des strong {display:block;font-size: 30px;font-weight: 800;margin-bottom:25px;}
-    #content02 .bestmenu01 .container .menu_des p {color:#777;line-height: 1.6em;margin-bottom:30px;font-size: 12px;}
+    #content02 .bestmenu01 .container .menu_des p {color:#777;line-height: 1.6em;margin-bottom:30px;font-size:3vw;}
 
-    #content02 .bestmenu01 .container a {display:block;padding:13px 25px;border:1px solid #ffa410; border-radius: 50px;width:155px;text-align:center;color:#ffa410;margin:10px auto;}
-    #content02 .bestmenu01 .container a.btn {display:block;background: #ffa410;color:#fff;font-weight: 500;}
+    #content02 .bestmenu01 .container a {display:inline-block;padding:13px 25px;border:1px solid #ffa410; border-radius: 50px;width:140px;text-align:center;color:#ffa410;font-size:14px;margin:0 auto;}
+    #content02 .bestmenu01 .container a.btn {display:inline-block;background: #ffa410;color:#fff;font-weight: 500;}
 
     #content02 .bestmenu01 .container .best_img {position:relative;transform: translateY(-5%) scale(0.7);}
     #content02 .bestmenu01 .container .icon {display:none;position:absolute;top:7%;right:0;background: #ffa410;font-weight: 500;border-radius: 50%;color:#fff;width:100px;height:100px;padding:35px 0;text-align: center;line-height:1.2em;transform: translateY(0);z-index: 99999;}
@@ -401,13 +401,13 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
     #content02 .bestmenu02 .container .menu_des .tag{display:block;color:#36947a;font-weight: 700;margin-bottom:15px;}
     #content02 .bestmenu02 .container .menu_des .name {display:block;font-size: 18px;margin-bottom:15px;}
     #content02 .bestmenu02 .container .menu_des strong {display:block;font-size: 30px;font-weight: 800;margin-bottom:25px;}
-    #content02 .bestmenu02 .container .menu_des p {color:#777;line-height: 1.6em;margin-bottom:30px;font-size: 12px;}
+    #content02 .bestmenu02 .container .menu_des p {color:#777;line-height: 1.6em;margin-bottom:30px;font-size:3vw;}
 
-    #content02 .bestmenu02 .container a {display:block;padding:13px 25px;border:1px solid #36947a; border-radius: 50px;width:155px;text-align:center;color:#36947a;margin:10px auto;}
-    #content02 .bestmenu02 .container a.btn {display:block;background: #36947a;color:#fff;font-weight: 500;}
+    #content02 .bestmenu02 .container a {display:inline-block;padding:13px 25px;border:1px solid #36947a; border-radius: 50px;width:140px;text-align:center;color:#36947a;font-size:14px;margin:0 auto;}
+    #content02 .bestmenu02 .container a.btn {display:inline-block;background: #36947a;color:#fff;font-weight: 500;}
 
     #content02 .bestmenu02 .container .best_img {position:relative;transform: scale(0.8);}
-    #content02 .bestmenu02 .container .best_img .ani {position:absolute;top:55%;left:15%;z-index: 998;}
+    #content02 .bestmenu02 .container .best_img .ani {position:absolute;top:55%;left:15%;z-index: 998;transform:scale(0.8)}
     #content02 .bestmenu02 .container .icon {display:none;position:absolute;top:10%;right:0;background: #36947a;font-weight: 500;border-radius: 50%;color:#fff;width:100px;height:100px;padding:30px 0;text-align: center;line-height:1.2em;transform: translateY(40%);z-index: 99999;}
 
     /*----------------------------*/
@@ -419,18 +419,18 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
     #content02 .bestmenu03 .container .menu_des .tag{display:block;color:#61a03c;font-weight: 700;margin-bottom:15px;}
     #content02 .bestmenu03 .container .menu_des .name {display:block;font-size: 18px;margin-bottom:15px;}
     #content02 .bestmenu03 .container .menu_des strong {display:block;font-size: 30px;font-weight: 800;margin-bottom:20px;}
-    #content02 .bestmenu03 .container .menu_des p {color:#777;line-height: 1.6em;margin-bottom:30px;font-size: 12px;}
+    #content02 .bestmenu03 .container .menu_des p {color:#777;line-height: 1.6em;margin-bottom:30px;font-size:3vw;}
 
-    #content02 .bestmenu03 .container a {display:block;padding:13px 25px;border:1px solid #61a03c; border-radius: 50px;width:155px;text-align:center;color:#61a03c;margin:5px auto;}
-    #content02 .bestmenu03 .container a.btn {background: #61a03c;color:#fff;font-weight: 500;}
+    #content02 .bestmenu03 .container a {display:inline-block;padding:13px 25px;border:1px solid #61a03c; border-radius: 50px;width:140px;text-align:center;color:#61a03c;font-size:14px;margin:0 auto;}
+    #content02 .bestmenu03 .container a.btn {display:inline-block;background: #61a03c;color:#fff;font-weight: 500;}
 
-    #content02 .bestmenu03 .container .best_img {position:relative;transform:translateY(80%) scale(0.8);}
-    #content02 .bestmenu03 .container .best_img .ani {position:absolute;bottom:0;left:20%;transform: translateY(-20%);}
+    #content02 .bestmenu03 .container .best_img {position:relative;transform:translateY(90%) scale(0.8);}
+    #content02 .bestmenu03 .container .best_img .ani {position:absolute;bottom:0;left:20%;transform: translateY(-50%);}
     #content02 .bestmenu03 .container .icon {display:none;position:absolute;top:50%;right:0;background: #61a03c;font-size:14px;font-weight: 500;border-radius: 50%;color:#fff;width:100px;height:100px;padding:37px 0;text-align: center;line-height:1.2em;transform: translateY(-170%);z-index: 999;}
 
 
     /* content03 - delivery service */
-    #content03 {padding:40px 0; background:#f5f5f5;}
+    #content03 {padding:70px 0; background:#f5f5f5;}
     #content03 .container {width:auto;margin:0 auto;padding:0 15px;text-align: center;}
     #content03 .title {font-size:20px;font-weight: 400;margin-bottom: 10px;position:relative;}
     #content03 .title:after {content:"";display:block;width:40px;height:3px;background: #55a435;position:absolute;top:-15px;left:50%;transform: translateX(-50%);}
@@ -512,7 +512,7 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
     #content07 .title:after {content:"";display:block;width:40px;height:3px;background: #55a435;position:absolute;top:-15px;left:50%;transform: translateX(-50%);}
 
     #content07 span.des {display:block;font-size: 14px;margin-bottom:50px}
-    #content06 .news_slider {}
+    #content07 .news_slider {}
     #content07 .news_slider .news {}
     #content07 .news_slider .news figure {width:370px;height:470px;overflow:hidden;margin:0 auto;}
     #content07 .news_slider .news:hover img {transform: scale(1.05);transition: 0.5s;width:100%;}
@@ -523,9 +523,9 @@ body {font-family: 'Red Hat Display', sans-serif;position:relative;}
     #content07 .news_slider .news .des .des_scr {font-size:12px;position:relative;}
     #content07 .news_slider .news .des .des_scr:before {content:"";display:block;width:20px;height:2px;background:#55a435;position:absolute;top:-10px;left:50%;transform: translateX(-50%);}
 
-    #content07 .container .slide_btn i{font-size:20px;background: #55a435;padding:3px;color:#fff;border-radius:50%;text-align:center;cursor: pointer;width:25px;height:25px;}
+    #content07 .container .slide_btn i{font-size:20px;background: #0c0c0c;padding:3px;color:#fff;border-radius:0;text-align:center;cursor: pointer;width:25px;height:25px;}
     #content07 .container .xi-angle-left-min {position:absolute;left:50%;transform: translateX(-50%);margin-left:-170px;}
-    #content07 .container .xi-angle-right-min {position:absolute;right:5%;transform: translateX(-50%);;margin-left:170px;}
+    #content07 .container .xi-angle-right-min {position:absolute;right:5%;transform: translateX(-50%);margin-left:170px;}
 
 
     /* footer */
