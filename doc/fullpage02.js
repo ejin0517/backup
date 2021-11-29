@@ -25,7 +25,8 @@ $(function(){
         mute:true, 
         startAt:0, 
         opacity:1,
-        showControls:false, //control이 안보이게, 보이게하려면 true
+        showControls:false,
+        coverImage:true,
     });
 
 })
