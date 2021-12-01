@@ -61,7 +61,7 @@ $(function(){
     $('.tabmenu>li').on('click', function(){
 
         var idx= $(this).index();
-        console.log(idx);
+        //console.log(idx);
         $(this).addClass('on').siblings().removeClass('on');
         $('.tabcontent_list').eq(idx).addClass('on').siblings().removeClass('on');
         
@@ -76,6 +76,10 @@ $(function(){
         slidesToShow:4,
     });
 
+
+
+    //section04 - product type
+
     $('.type_prd .xi-angle-left').on('click',function(){
         $('.tab_slider').slick('slickPrev');
     });
@@ -83,9 +87,22 @@ $(function(){
         $('.tab_slider').slick('slickNext');
     });
 
-    $('.type_prd .filter_list>li').on('click',function(){
-        $('.filter_list>li span').addClass('on').siblings().remove('on');
+
+    $('.type_prd .search i.xi-filter').on('click', function(){
+        $('.type_prd .filter').addClass('on');
     });
+
+    $('.type_prd .filter .filter_list .sub>li').on('click',function(){
+        var idx= $(this).index();
+        console.log(idx);
+        $(this).toggleClass('on').siblings().removeClass('on');
+       $(this).parent().siblings().removeClass('on');
+    });
+
+    $('.type_prd .filter .btn').on('click', function(){
+        $('.type_prd .filter').removeClass('on');
+    })
+
 
 
 
