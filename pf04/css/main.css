@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {font-family: 'Manrope', sans-serif;}
+body {background:url(../img/nars_cover.jpg) no-repeat center center/cover;}
 
 header {position:fixed;top:0;left:0;height:100px;width:100%;color:#fff;z-index:999;}
 header h1 {position:absolute;top:30px;left:30px;height:100px;z-index:99999;}
@@ -14,14 +15,11 @@ header .menu .menu01>li>a:hover {color:#dd7e7b;}
 header .menu .menu01>li>a {display:block;margin-bottom:20px;}
 header .menu .menu01>li>.menu02 {}
 header .menu .menu01>li>.menu02>li {font-weight: 300;font-size:16px;line-height:50px;}
-header .menu .menu01>li>.menu02>li>a:hover {color:#dd7e7b;border-bottom: 1px solid #dd7e7b;}
+header .menu .menu01>li>.menu02>li>a:hover {color:#fff;border-bottom: 1px solid #fff;}
 header .menu .xi-close {position:absolute;top:30px;right:30px;font-size:40px;padding:5px;}
 
 header .open {position:fixed;top:30px;right:30px;}
 header .open i.xi-bars {font-size:40px;color:#fff;padding:5px;background:rgba(0,0,0,0.3);}
-
-
-
 
 
 .section {overflow:hidden;}
