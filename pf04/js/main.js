@@ -104,6 +104,9 @@ $(function(){
     })
 
 
+    $('.collection .content .col').on('click', function(){
+        $(this).next('.col_des').addClass('on').siblings().removeClass('on');
+    });
 
 
 

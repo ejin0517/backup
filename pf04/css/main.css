@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {font-family: 'Manrope', sans-serif;}
 
@@ -157,3 +158,55 @@ header .open i {font-size:40px;color:#fff;padding:5px;background:rgba(0,0,0,0.3)
 .type_prd .tabcontent {position:relative;z-index:999;height:300px;} /*padding-bottom:400%;*/
 .type_prd .tabcontent .tabcontent_list {position:absolute;top:0;left:0;width:100%;height:auto;;overflow:hidden;visibility: hidden;}
 .type_prd .tabcontent .tabcontent_list.on {visibility: visible;}
+
+
+/* collection */
+.collection {background:#fff;color:#0c0c0c;text-align: center;}
+.collection h3 {display:block;font-size:18px;font-weight:700;letter-spacing: 0.7em;margin-bottom:70px;}
+.collection .content {display:flex;width:1200px;height:700px;margin:0 auto;background:#ddd;overflow:hidden;}
+.collection .content .col {padding:20px;writing-mode: vertical-rl;transform:rotate(180deg);letter-spacing: 0.3em;font-weight: 500;color:#fff;cursor: pointer;}
+.collection .content .col_des {text-align: right;width:0;height:100%;transition:0.3s;overflow:hidden;}
+.collection .content .col_des.on {width:925px;}
+.collection .content .col_des strong {font-family: 'Bebas Neue', cursive;display:block;font-size:50px;font-weight:200;padding:30px 30px 5px 30px;}
+.collection .content .col_des p {padding:0 30px;}
+.collection .content .col_des .btn {display:block;background:rgba(0,0,0,0.8);color:#fff;padding:0 10px 5px 10px;width:200px;height:50px;text-align:center;line-height:50px;}
+
+
+.collection .content .col_des01 {width:0;height:100%;background:url(../img/col_des01.jpg) no-repeat center center/cover;}
+.collection .content .col_des02 {width:0;height:100%;background:url(../img/col_des02.jpg) no-repeat center center/cover;}
+.collection .content .col_des03 {width:0;height:100%;background:url(../img/col_des03.jpg) no-repeat center center/cover;}
+.collection .content .col_des04 {width:0;height:100%;background:url(../img/col_des04.jpg) no-repeat center center/cover;}
+.collection .content .col_des05 {width:0;height:100%;background:url(../img/col_des05.jpg) no-repeat center center/cover;}
+
+.collection .content .col_des01 strong {text-align: left;color:#fff;margin-top:230px;}
+.collection .content .col_des01 p {text-align: left;color:#fff;}
+.collection .content .col_des01 .btn {margin:30px 0 30px 30px;}
+.collection .content .col_des02 strong {text-align: left;color:#fff;margin-top:450px;}
+.collection .content .col_des02 p {text-align: left;color:#fff;}
+.collection .content .col_des02 .btn {margin:30px 0 30px 30px;}
+.collection .content .col_des03 strong {text-align: left;color:#fff;margin-top:450px;}
+.collection .content .col_des03 p {text-align: left;color:#fff;}
+.collection .content .col_des03 .btn {margin:30px 0 30px 30px;}
+.collection .content .col_des04 strong {text-align:center;color:#fff;}
+.collection .content .col_des04 p {text-align:center;color:#fff;}
+.collection .content .col_des04 .btn {margin:500px auto;background:#fff;color:#0c0c0c;}
+
+.collection .content .col_des05 strong {padding:30px 30px 5px 0;}
+.collection .content .col_des05 p {}
+.collection .content .col_des05 .btn {margin:500px 30px 0 auto;}
+
+.collection .content .col01 {background:#8c2b23;}
+.collection .content .col02 {background:#a14900;}
+.collection .content .col03 {background:#ca7683;}
+.collection .content .col04 {background:#944c3b;}
+.collection .content .col05 {background:#d19c6a;}
+
+
+/* sns */
+.sns {background:#0c0c0c;color:#fff;text-align: center;}
+.sns h3 {display:block;font-size:18px;font-weight:700;letter-spacing: 0.7em;margin-bottom:20px;}
+.sns span {display:block;margin-bottom:50px;}
+.sns .content {display:flex;justify-content:space-between;flex-wrap: wrap;width:1200px;margin:0 auto;}
+.sns .content figure {flex:25%;width:300px;height:300px;overflow:hidden;}
+.sns .content figure img {width:100%;transition:0.5s;}
+.sns .content figure img:hover {transform:scale(1.1);}
