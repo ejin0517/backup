@@ -98,8 +98,8 @@ header .open i {font-size:40px;color:#fff;padding:5px;background:rgba(0,0,0,0.3)
 .best_prd .content02 .best_des .color .color13 {width:50px;height:50px;background:#e8ba96;}
 .best_prd .content02 .best_des .color .color14 {width:50px;height:50px;background:#d19c6a;}
 
-.best_prd .content .best_img {width:50%;position:relative;z-index: 10;}
-.best_prd .content .best_img img {width:100%;}
+.best_prd .content .best_img {width:50%;height:100vh;position:relative;z-index: 10;}
+.best_prd .content .best_img img {height:100vh;}
 .best_prd .content .best_img strong {font-family: 'Hurricane', cursive;font-size:90px;position:absolute;top:13%;left:17%;color:#fff;}
 
 .best_prd .best_slider .slick-dots {position:absolute;bottom:70px;left:50%;transform:translateX(-50%);display:flex;z-index: 999;}
