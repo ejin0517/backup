@@ -1,6 +1,11 @@
 $(function(){
 
-    $('.fullpg').fullpage();
+    $('.fullpg').fullpage({
+        anchors:['#01', '#02', '#03', '#04', '#05', '#06', '#07'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['Holiday Colleciton', 'Best Sellers', 'New Prouct', 'Product Type', 'Collection', 'SNS', 'Info'],
+    });
 
     $('header .open i.xi-bars').on('click', function(){
         $('header .menu').addClass('on');
