@@ -2,6 +2,13 @@ $(function(){
 
     $('.fullpg').fullpage();
 
+    $('header .open i.xi-bars').on('click', function(){
+        $('header .menu').addClass('on');
+    });
+    $('header .menu .xi-close').on('click', function(){
+        $('header .menu').removeClass('on');
+    });
+
     $('.video .more h2').on('click', function(){
         $('.video .more').toggleClass('on');
     });
