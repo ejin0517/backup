@@ -1,11 +1,33 @@
 $(function(){
 
+
     $('.fullpg').fullpage({
         anchors:['#01', '#02', '#03', '#04', '#05', '#06', '#07'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['Holiday Colleciton', 'Best Sellers', 'New Prouct', 'Product Type', 'Collection', 'SNS', 'Info'],
+        navigationTooltips: ['Limited Edition', 'Best Sellers', 'New Prouct', 'Product Type', 'Collection', 'SNS', 'Info'],
+        keyboardScrolling:true,
+
+
+        onLeave: function(){
+            jQuery('.section [data-aos]').removeClass("aos-animate");
+        },
+        onSlideLeave: function(){
+            jQuery('.slide [data-aos]').removeClass("aos-animate");
+        },
+        afterSlideLoad: function(){
+            jQuery('.slide.active [data-aos]').addClass("aos-animate");
+        },
+        afterLoad: function(){
+            jQuery('.section.active [data-aos]').addClass("aos-animate");
+           //jQuery('.fp-table.active .aos-init').addClass('aos-animate');
+        }
     });
+
+
+    $('header h1').on('click', function(){
+        $.fn.fullpage.moveTo(1);
+    }); //로고클릭시 첫페이지에 가도록
 
     $('header .open i.xi-bars').on('click', function(){
         $('header .menu').addClass('on');
@@ -40,7 +62,7 @@ $(function(){
     $('.best_slider').slick({
         arrows:false,
         autoplay:true,
-        autoplaySpeed:5000,
+        autoplaySpeed:6000,
         pauseOnHover:false,
         pauseOnFocus:false,
         speed:3000,
@@ -69,6 +91,16 @@ $(function(){
         showControls:false,
     });
 
+    $('.best_video03').YTPlayer({
+        videoURL:'https://youtu.be/nVb788xe7TA',
+        containment:'.mv03',
+        autoPlay:true, 
+        mute:true, 
+        startAt:0, 
+        opacity:1,
+        showControls:false,
+    });
+
 
     $('.tabmenu>li').on('click', function(){
 
@@ -86,6 +118,12 @@ $(function(){
         pauseOnHover:false,
         pauseOnFocus:false,
         slidesToShow:4,
+
+        responsive: [ 
+            { breakpoint: 768,
+                settings: { slidesToShow: 1, slidesToScroll: 1 }
+            },
+        ]
     });
 
 
@@ -120,6 +158,50 @@ $(function(){
         $(this).next('.col_des').addClass('on').siblings().removeClass('on');
     });
 
+    
+   //-----------------------------------------
 
+   $(window).on('resize', function(){
+    if($(window).width()>768)
+        $('.menu').removeAttr("style");
+    
+   });
+
+
+
+   $('header .menu01>li>a').on('click', function(){
+        if ($(window).width() < 769 ) {
+        $(this).next().slideToggle();
+        $(this).parents().siblings().find('.menu02').slideUp();
+        }
+    });
+
+    var Rsd = $('.item_small');
+
+    var slickOptions = {
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay:true,
+        dots:false,
+        arrows:false,
+    };
+
+    $(window).on('load resize', function() {
+        if($(window).width() > 768) {
+            Rsd.slick('unslick');
+        }else{
+            Rsd.not('.slick-initialized').slick(slickOptions);
+        }
+    });
+
+
+
+    $(window).resize(function() {
+        if($(window).width() < 768) {
+
+        
+
+    } });
 
 })
