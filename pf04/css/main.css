@@ -342,7 +342,7 @@ header .open i.xi-bars {font-size:30px;color:#fff;padding:5px;background:rgba(0,
 
 
     .best_prd .content .best_img {position:relative;width:auto;height:100%;z-index: 10;}
-    .best_prd .content .best_img figure {width:100%;height:auto;overflow:hidden;}
+    .best_prd .content .best_img figure {width:100%;height:100%;overflow:hidden;}
     .best_prd .content .best_img img {height:100%;}
     .best_prd .content01 .best_img strong {font-family: 'Hurricane', cursive;font-size:3vw;position:absolute;top:13%;left:17%;color:#fff;}
     .best_prd .content03 .best_img {transform: translateY(-39px);}
