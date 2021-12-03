@@ -7,21 +7,9 @@ $(function(){
         navigationPosition: 'right',
         navigationTooltips: ['Limited Edition', 'Best Sellers', 'New Prouct', 'Product Type', 'Collection', 'SNS', 'Info'],
         keyboardScrolling:true,
+        responsiveWidth:769,
+       
 
-
-        onLeave: function(){
-            jQuery('.section [data-aos]').removeClass("aos-animate");
-        },
-        onSlideLeave: function(){
-            jQuery('.slide [data-aos]').removeClass("aos-animate");
-        },
-        afterSlideLoad: function(){
-            jQuery('.slide.active [data-aos]').addClass("aos-animate");
-        },
-        afterLoad: function(){
-            jQuery('.section.active [data-aos]').addClass("aos-animate");
-           //jQuery('.fp-table.active .aos-init').addClass('aos-animate');
-        }
     });
 
 
@@ -40,13 +28,7 @@ $(function(){
         $('.video .more').toggleClass('on');
     });
 
-    $(window).on('scroll', function(){
-        var sct=$(window).scrollTop();
-         if(sct>100) {
-             $('.more').css({opacity: 0.0, visibility: "hidden"});
-
-            }
-     });
+    
 
     $('.movie').YTPlayer({
         videoURL:'https://youtu.be/6genllKMf4Y',
@@ -56,8 +38,8 @@ $(function(){
         startAt:0, 
         opacity:1,
         showControls:false,
+        useOnMobile:false,
     });
-
 
     $('.best_slider').slick({
         arrows:false,
@@ -68,7 +50,15 @@ $(function(){
         speed:3000,
         fade:true,
         dots:true,
+
+        responsive: [ 
+            { breakpoint: 768,
+                settings: { dots:false, }
+            },
+        ]
+
     });
+
 
 
     $('.best_video01').YTPlayer({
@@ -79,6 +69,9 @@ $(function(){
         startAt:0, 
         opacity:1,
         showControls:false,
+
+
+
     });
 
     $('.best_video02').YTPlayer({
@@ -176,24 +169,7 @@ $(function(){
         }
     });
 
-    var Rsd = $('.item_small');
-
-    var slickOptions = {
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay:true,
-        dots:false,
-        arrows:false,
-    };
-
-    $(window).on('load resize', function() {
-        if($(window).width() > 768) {
-            Rsd.slick('unslick');
-        }else{
-            Rsd.not('.slick-initialized').slick(slickOptions);
-        }
-    });
+    
 
 
 
