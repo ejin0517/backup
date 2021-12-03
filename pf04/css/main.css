@@ -369,7 +369,7 @@ header .open i.xi-bars {font-size:30px;color:#fff;padding:5px;background:rgba(0,
     .new_prd .content .item_small figure {position:relative;flex:33%;text-align:center;padding:0 10px 30px 10px;height:auto;width:auto;overflow:hidden;}
     .new_prd .content .item_small figure img {height:auto;margin:0;transform: scale(0.6);}
     .new_prd .content .item_small figure strong {display:block;margin-bottom:7px;font-size:3vw;text-overflow: ellipsis;width:100%;white-space: nowrap;overflow: hidden;}
-    .new_prd .content .item_small figure span {display:block;margin-bottom:10px;font-size:3vw;}
+    .new_prd .content .item_small figure span {display:block;margin-bottom:10px;font-size:3vw;text-overflow: ellipsis;width:100%;white-space: nowrap;overflow: hidden;}
     .new_prd .content .item_small figure a.btn {display:block;background:#fff;color:#0c0c0c;border:1px solid #0c0c0c;font-size:10px;width:80px;height:25px;line-height:23px;margin:0 auto;}
 
     .new_prd .content .item_small figure:nth-of-type(1):hover {background:#fff;color:#0c0c0c;}
