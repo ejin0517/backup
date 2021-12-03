@@ -310,7 +310,7 @@ header .open i.xi-bars {font-size:30px;color:#fff;padding:5px;background:rgba(0,
 
 
     /* best sellers */
-    .best_prd {background:#fff;overflow: hidden;}
+    .best_prd {background:#f7f7f7;overflow: hidden;}
     .best_prd .content {display:flex;flex-direction:column;justify-content:space-between;position:relative;}
     .best_prd .best_slider {position:relative;}
     .best_prd .content .best_des {width:auto;padding:70px 0 40px 0;text-align: center;}
@@ -358,11 +358,11 @@ header .open i.xi-bars {font-size:30px;color:#fff;padding:5px;background:rgba(0,
         /* new product*/
     .new_prd {background:#fff;color:#0c0c0c;padding-bottom:10px;}
     .new_prd .content {display:flex;flex-direction:column;justify-content: space-between;}
-    .new_prd .content .item_big {flex:1;background:url(../img/p02_item00.jpg) no-repeat center center/cover;}
-    .new_prd .content .item_big .des {text-align:center;padding:90px 0 20px 0;color:#fff;margin-bottom:15px;}
-    .new_prd .content .item_big h3 {display:block;font-size:14px;font-weight:700;letter-spacing: 0.7em;margin-bottom:20px;}
+    .new_prd .content .item_big {flex:1;background:#fff;}
+    .new_prd .content .item_big .des {text-align:center;padding:90px 0 20px 0;color:#0c0c0c;margin-bottom:10px;}
+    .new_prd .content .item_big h3 {display:block;font-size:14px;font-weight:700;letter-spacing: 0.7em;margin-bottom:30px;}
     .new_prd .content .item_big strong {display:block;font-size:6vw;font-weight:200;margin-bottom:15px;line-height:1.3;}
-    .new_prd .content .item_big .btn {display:block;width:100px;height:30px;line-height:30px;margin:0 auto;transition:0.4s;background:#0c0c0c;font-size:3vw;}
+    .new_prd .content .item_big .btn {display:block;width:100px;height:30px;line-height:30px;margin:0 auto;transition:0.4s;background:#0c0c0c;color:#fff;font-size:3vw;}
     .new_prd .content .item_big .btn:hover {background:#fff;color:#0c0c0c;}
 
     .new_prd .content .item_small {display:flex;flex-wrap:wrap;background:#fff;padding-top:30px;}
@@ -441,7 +441,7 @@ header .open i.xi-bars {font-size:30px;color:#fff;padding:5px;background:rgba(0,
     .collection .content .col {padding:15px;writing-mode:horizontal-tb;transform:rotate(0);letter-spacing: 0.3em;font-size:3vw;font-weight: 500;color:#fff;cursor: pointer;}
     .collection .content .col_des {text-align: right;width:auto;height:0;transition:0.3s;overflow:hidden;}
     .collection .content .col_des.on {width:100%;height:100%}
-    .collection .content .col_des strong {font-family: 'Bebas Neue', cursive;display:block;font-size:50px;font-weight:200;padding:5px 30px;}
+    .collection .content .col_des strong {font-family: 'Bebas Neue', cursive;display:block;font-size:40px;font-weight:200;padding:5px 30px;}
     .collection .content .col_des p {padding:0 30px;line-height:1.3;}
     .collection .content .col_des .btn {display:block;background:rgba(0,0,0,0.8);color:#fff;padding:0 10px 5px 10px;width:150px;height:40px;text-align:center;line-height:40px;font-size:12px;}
 
