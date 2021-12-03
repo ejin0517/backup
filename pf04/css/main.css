@@ -463,7 +463,7 @@ header .open i.xi-bars {font-size:30px;color:#fff;padding:5px;background:rgba(0,
     .collection .content .col_des03 .btn {margin:30px 0 30px 30px;display:block;}
     .collection .content .col_des04 strong {margin-top:100px;text-align:center;color:#fff;}
     .collection .content .col_des04 p {font-size:3vw;text-align:center;color:#fff;}
-    .collection .content .col_des04 .btn {margin:30px auto;background:#fff;color:#0c0c0c;display:block;}
+    .collection .content .col_des04 .btn {margin:30px auto;background:rgba(0,0,0,0.8);color:#fff;display:block;}
 
     .collection .content .col_des05 strong {margin:100px 0 0 0;text-align:center}
     .collection .content .col_des05 p {font-size:3vw;text-align:center;}
