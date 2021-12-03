@@ -417,8 +417,8 @@ header .open i.xi-bars {font-size:30px;color:#fff;padding:5px;background:rgba(0,
     .type_prd .tab .tabmenu li img {display:none;}
 
     .type_prd .arrow i {display:block;position:absolute;top:150px;left:50%;transform:translateX(-50%);font-size:20px;cursor:pointer;}
-    .type_prd .arrow i.xi-angle-left{margin-left:-35%;}
-    .type_prd .arrow i.xi-angle-right{margin-left:35%;}
+    .type_prd .arrow i.xi-angle-left{margin-left:-35%;z-index: 9999;}
+    .type_prd .arrow i.xi-angle-right{margin-left:35%;z-index: 9999;}
 
     .type_prd .tabcontent .tab_slider {}
     .type_prd .tabcontent .tabcontent_list .tab_slider .tab_item {text-align: center;}
