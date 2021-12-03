@@ -35,6 +35,7 @@ $(function(){
         containment:'body',
         autoPlay:true, 
         mute:true, 
+        loop:true,
         startAt:0, 
         opacity:1,
         showControls:false,
