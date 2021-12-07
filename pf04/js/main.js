@@ -36,10 +36,23 @@ $(function(){
         autoPlay:true, 
         mute:true, 
         loop:true,
+        useOnMobile:false,
         startAt:0, 
         opacity:1,
         showControls:false,
-        useOnMobile:false,
+    });
+
+    $('.video_btn i.xi-play').on('click',function(){
+        $('.movie').YTPPlay();
+    });
+    $('.video_btn i.xi-pause').on('click',function(){
+        $('.movie').YTPPause();
+    });
+    $('.video_btn i.xi-volume-up').on('click',function(){
+        $('.movie').YTPUnmute();
+    });
+    $('.video_btn i.xi-volume-off').on('click',function(){
+        $('.movie').YTPMute();
     });
 
     $('.best_slider').slick({
