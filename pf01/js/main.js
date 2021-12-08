@@ -58,6 +58,12 @@ $(function(){
         arrows:false,
         autoplay:true,
         slidesToShow:2,
+
+        responsive: [ 
+            { breakpoint:768,
+                settings: { slidesToShow:1, slidesToScroll:1 }
+            },
+        ]
     })
 
     $('#content03 .btn .xi-angle-left-min').on('click',function(){
@@ -70,8 +76,8 @@ $(function(){
     //------------------------------------------
 
     $("#mv01").YTPlayer({
-        videoURL:'https://youtu.be/ZvhL3vtVd9c',
-        containment:'#content04 figure',
+        videoURL:'https://youtu.be/Owms72QRNwM',
+        containment:'#content01 .video figure',
         autoPlay:true, 
         mute:true, 
         startAt:0, 
@@ -79,15 +85,15 @@ $(function(){
         showControls:false, //control이 안보이게, 보이게하려면 true
     });
     
-    $('#content04 i.xi-pause').on('click', function(){
+    $('#content01 i.xi-pause').on('click', function(){
         $("#mv01").YTPPause();
     });
     
-    $('#content04 i.xi-play').on('click', function(){
+    $('#content01 i.xi-play').on('click', function(){
         $("#mv01").YTPPlay();
     });
     
-    $('#content04 i.xi-expand').on('click', function(){
+    $('#content01 i.xi-expand').on('click', function(){
         $("#mv01").YTPFullscreen();
     });
 
