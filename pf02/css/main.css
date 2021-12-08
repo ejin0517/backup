@@ -327,7 +327,7 @@ body {font-family: 'Montserrat', sans-serif;}
     #content04 .container .style_list .style04 {background:url(../img/styleimg04_01.jpg) no-repeat center center/cover ;border:none;}
     #content04 .container .style_list .style04:hover {background:url(../img/styleimg04_01.jpg) no-repeat center center/cover;}
 
-    #content04 .container .style_list .style .des {display:inline-block;background: #0c0c0c;color:#fff;padding:5px 10px;font-size: 14px;border-radius: 5px;}
+    #content04 .container .style_list .style .des {display:inline-block;background: #0c0c0c;color:#fff;padding:5px 10px;font-size: 14px;border-radius:0;}
     #content04 .container .style_list .name {position:absolute;bottom:20px;right:20px;text-align:right;color:#fff;}
     #content04 .container .style_list figcaption {font-size:20px;margin-bottom:7px;font-weight:500;}
     #content04 .container .style_list p {font-size:12px;}
@@ -336,7 +336,7 @@ body {font-family: 'Montserrat', sans-serif;}
     #content05 {padding:70px 0;background: url(../img/drivingex_img02.jpg) no-repeat fixed center center/cover;text-align:center;color:#fff;}
     #content05 .container {width:auto;margin:0 auto;padding:0 15px;}
     #content05 h2 {font-size:20px;font-weight:500;margin-bottom:15px;}
-    #content05 p {margin-bottom:30px;font-size:2vw;}
+    #content05 p {margin-bottom:30px;font-size:10px;}
     #content05 .btn {display:inline-block;font-family: 'Noto Sans KR', sans-serif;background: #fefefe;padding:12px 30px;color:#292929;font-size:12px;margin:0 auto;}
     #content05 .btn:hover {background: #292929;color:#fff;}
 
@@ -348,9 +348,9 @@ body {font-family: 'Montserrat', sans-serif;}
     #content06 .service {display:flex;flex-direction:column;}
     #content06 .service figure {position:relative;flex:1;overflow:hidden;height:250px;}
     #content06 .service figure:hover img {transform:scale(1);}
-    #content06 .service figure img {transition: 0.4s;width:100%;object-fit: none;margin:5px 0px;}
+    #content06 .service figure img {transition:0.4s;width:100%;object-fit: none;margin:5px 0px;}
     #content06 .service figure .des {background:#171717;width:100%;position:absolute;bottom:0;left:0;font-family: 'Noto Sans KR', sans-serif;color:#fff;padding:20px 15px;}
-    #content06 .service figure .des strong {display:block;font-size:16px;font-weight: 500;margin-bottom:10px;letter-spacing: -0.025em;}
+    #content06 .service figure .des strong {display:block;font-size:16px;font-weight:500;margin-bottom:10px;letter-spacing:-0.025em;}
     #content06 .service figure .des span {display:block;font-weight: 100;margin-bottom:20px;font-size: 12px;}
     #content06 .service figure .des .btn {font-size: 12px;font-weight: 300;}
     #content06 .service figure .des i {font-size:12px;padding-left:5px;}
