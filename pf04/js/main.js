@@ -40,6 +40,7 @@ $(function(){
         startAt:0, 
         opacity:1,
         showControls:false,
+        quality:'highres',
     });
 
     $('.video_btn i.xi-play').on('click',function(){
