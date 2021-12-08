@@ -229,10 +229,10 @@ body {font-family: 'Montserrat', sans-serif;}
     #main_visual .main_slider figure strong {display:block;font-size:30px;font-weight: 500;margin-bottom:30px;opacity:0;transform:translateY(100px);transition: 1s;}
     #main_visual .main_slider figure.on strong {opacity: 1;transform:translateY(0);}
 
-    #main_visual .main_slider figure span {display:block;font-size:14px;font-weight:300;margin-bottom:40px;opacity:0;transform:translateY(100px);transition: 1s;}
+    #main_visual .main_slider figure span {display:block;font-size:3vw;font-weight:300;margin-bottom:30px;opacity:0;transform:translateY(100px);transition: 1s;}
     #main_visual .main_slider figure.on span {opacity: 1;transform:translateY(0);}
 
-    #main_visual .main_slider figure .btn {font-family: 'Noto Sans KR', sans-serif;background: #fff;padding:15px 0;color:#0c0c0c;width:120px;text-align: center;font-size:16px;opacity:0;transform:translateY(100px);transition: 1s;}
+    #main_visual .main_slider figure .btn {font-family: 'Noto Sans KR', sans-serif;background: #fff;padding:10px 0;color:#0c0c0c;width:120px;text-align: center;font-size:12px;opacity:0;transform:translateY(100px);transition: 1s;}
     #main_visual .main_slider figure.on .btn {opacity: 1;transform:translateY(0);}
     #main_visual .main_slider figure .btn:hover {background: #0c0c0c;color:#fff;}
 
@@ -291,7 +291,7 @@ body {font-family: 'Montserrat', sans-serif;}
     #content03 .container {position:relative;width:auto;margin:0 auto;padding:0 15px;}
     #content03 .container .des {padding:120px 0;color:#fff;}
     #content03 .container .des h2 {font-size:24px;font-weight:600;margin-bottom:15px;letter-spacing: 0;}
-    #content03 .container .des p {font-family: 'Noto Sans KR', sans-serif;font-size: 14px;font-weight: 100;}
+    #content03 .container .des p {font-family: 'Noto Sans KR', sans-serif;font-size:3vw;font-weight: 100;}
 
     #content03 .container .menu_box {position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);display:flex;justify-content: space-between;width:100%;}
     #content03 .container .menu_box a{flex:1;border-right:1px solid #292929;}
@@ -308,40 +308,40 @@ body {font-family: 'Montserrat', sans-serif;}
     #content04 .container .title {padding:0;color:#0c0c0c;text-align: center;}
     #content04 .container .title h2 {font-family: 'Noto Sans KR', sans-serif;font-size:30px;font-weight:600;margin-bottom:15px;}
     #content04 .container .title span {font-family: 'Noto Sans KR', sans-serif;font-weight:300;}
-    #content04 .container .keyword {margin-top:40px;display:flex;flex-wrap:wrap;justify-content: center;margin-bottom: 30px;font-size: 14px;}
-    #content04 .container .title a {display:block;padding:10px 15px;border:1px solid #0c0c0c;width:fit-content;border-radius:5px;font-size:18px;text-align:center;margin:0 20px 15px 0;}
+    #content04 .container .keyword {margin-top:30px;display:flex;flex-wrap:wrap;justify-content: center;margin-bottom: 30px;}
+    #content04 .container .title a {display:block;padding:10px 15px;border:1px solid #0c0c0c;width:fit-content;border-radius:5px;font-size:12px;text-align:center;margin:0 15px 15px 0;}
     #content04 .container .title a.on {background: #0c0c0c;color:#fff;}
     #content04 .container .title a:hover a {background: #0c0c0c;color:#fff;}
 
-    #content04 .container .style_list {display:flex;flex-wrap:wrap;flex-direction:column;}
-    #content04 .container .style_list .style{position:relative;padding:15px 20px;width:auto;height:432px;transition:0.3s;color:#fff;}
+    #content04 .container .style_list {display:flex;flex-wrap:wrap;justify-content: space-between;}
+    #content04 .container .style_list .style{position:relative;flex:50%;padding:0;width:165px;height:250px;transition:0.3s;color:#fff;margin:3px;}
     #content04 .container .style_list .style:hover .name {color:#fff;}
 
-    #content04 .container .style_list .style01 {background:url(../img/styleimg01_1.jpg) no-repeat center center/cover;border:1px solid #f5f5f5;}
+    #content04 .container .style_list .style01 {background:url(../img/styleimg01.jpg) no-repeat center center/cover;border:none;}
     #content04 .container .style_list .style01:hover {background:url(../img/styleimg01.jpg) no-repeat center center/cover;}
-    #content04 .container .style_list .style02 {background:url(../img/styleimg02_1.jpg) no-repeat center center/cover;border:1px solid #f5f5f5;}
+    #content04 .container .style_list .style02 {background:url(../img/styleimg02.jpg) no-repeat center center/cover;border:none;}
     #content04 .container .style_list .style02:hover {background:url(../img/styleimg02.jpg) no-repeat center center/cover;}
-    #content04 .container .style_list .style03 {background: url(../img/styleimg03_1.jpg) no-repeat center center/cover;border:1px solid #f5f5f5;}
+    #content04 .container .style_list .style03 {background: url(../img/styleimg03.jpg) no-repeat center center/cover;border:none;}
     #content04 .container .style_list .style03:hover {background:url(../img/styleimg03.jpg) no-repeat center center/cover;}
-    #content04 .container .style_list .style04 {background:url(../img/styleimg04_1.jpg) no-repeat center center/cover ;border:1px solid #f5f5f5;}
+    #content04 .container .style_list .style04 {background:url(../img/styleimg04.jpg) no-repeat center center/cover ;border:none;}
     #content04 .container .style_list .style04:hover {background:url(../img/styleimg04.jpg) no-repeat center center/cover;}
 
     #content04 .container .style_list .style .des {display:inline-block;background: #0c0c0c;color:#fff;padding:5px 10px;font-size: 14px;border-radius: 5px;}
-    #content04 .container .style_list .name {position:absolute;bottom:20px;right:20px;text-align:right;color:#0c0c0c;}
+    #content04 .container .style_list .name {position:absolute;bottom:20px;right:20px;text-align:right;color:#fff;}
     #content04 .container .style_list figcaption {font-size:20px;margin-bottom:7px;font-weight:500;}
-    #content04 .container .style_list p {font-size: 12px;}
+    #content04 .container .style_list p {font-size:2vw;}
 
     /* content05 - Driving Experience */
     #content05 {padding:70px 0;background: url(../img/drivingex_img02.jpg) no-repeat fixed center center/cover;text-align:center;color:#fff;}
     #content05 .container {width:auto;margin:0 auto;padding:0 15px;}
     #content05 h2 {font-size:20px;font-weight:500;margin-bottom:15px;}
-    #content05 p {margin-bottom:30px;font-size: 12px;}
-    #content05 .btn {display:inline-block;font-family: 'Noto Sans KR', sans-serif;background: #fefefe;padding:15px 30px;color:#292929;font-size:16px;margin:0 auto;}
+    #content05 p {margin-bottom:30px;font-size:2vw;}
+    #content05 .btn {display:inline-block;font-family: 'Noto Sans KR', sans-serif;background: #fefefe;padding:12px 30px;color:#292929;font-size:12px;margin:0 auto;}
     #content05 .btn:hover {background: #292929;color:#fff;}
 
 
     /* content06 - service */
-    #content06 {padding:120px 0;}
+    #content06 {padding:100px 0;}
     #content06 .container {width:auto;margin:0 auto; padding:0 15px;}
     #content06 .container h2 {font-size:24px;font-weight:500;margin-bottom:30px;text-align:center;}
     #content06 .service {display:flex;flex-direction:column;}
@@ -349,8 +349,8 @@ body {font-family: 'Montserrat', sans-serif;}
     #content06 .service figure:hover img {transform:scale(1);}
     #content06 .service figure img {transition: 0.4s;width:100%;object-fit:cover;margin:5px 0px;}
     #content06 .service figure .des {background:#171717;width:100%;position:absolute;bottom:0;left:0;font-family: 'Noto Sans KR', sans-serif;color:#fff;padding:20px 15px;}
-    #content06 .service figure .des strong {display:block;font-size:18px;font-weight: 500;margin-bottom:10px;letter-spacing: -0.025em;}
-    #content06 .service figure .des span {display:block;font-weight: 100;margin-bottom:20px;font-size: 14px;}
+    #content06 .service figure .des strong {display:block;font-size:16px;font-weight: 500;margin-bottom:10px;letter-spacing: -0.025em;}
+    #content06 .service figure .des span {display:block;font-weight: 100;margin-bottom:20px;font-size: 12px;}
     #content06 .service figure .des .btn {font-size: 12px;font-weight: 300;}
     #content06 .service figure .des i {font-size:12px;padding-left:5px;}
 
@@ -360,30 +360,31 @@ body {font-family: 'Montserrat', sans-serif;}
     #content07 .container {display:flex;flex-direction:column;width:auto;margin:0 auto; padding:0 15px;}
     #content07 .container h2 {font-size:24px;font-weight:500;margin-bottom:30px;text-align: center;padding-top:60px;}
 
-    #content07 .news_list .news_item {display:flex;justify-content:center;margin-bottom:20px;}
-    #content07 .news_list .news_item .date {background: #000000;width:120px;overflow:hidden;padding:30px;text-align:center;}
-    #content07 .news_list .news_item .date .day {display:block;font-size:48px;font-weight:600;}
-    #content07 .news_list .news_item .des {position:relative;background: #252525;width:440px;overflow:hidden;}
-    #content07 .news_list .news_item .des span {display:block;padding:35px 30px;line-height: 1.6;font-size: 14px;}
+    #content07 .news_list .news_item {display:flex;justify-content:center;margin-bottom:10px;}
+    #content07 .news_list .news_item .date {background: #000000;width:30%;overflow:hidden;padding:20px;text-align:center;}
+    #content07 .news_list .news_item .date .day {display:block;font-size:40px;font-weight:600;}
+    #content07 .news_list .news_item .des {position:relative;background: #252525;width:70%;overflow:hidden;}
+    #content07 .news_list .news_item .des span {display:block;padding:20px 30px;line-height: 1.6;font-size:12px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;
+    }
     #content07 .news_list .news_item .des a {position:absolute;top:65%;right:20px;font-size:12px;font-weight:300;color:#c0c0c0;}
     #content07 .news_list .news_item .des a i{padding:0 5px;}
 
     #content07 .customer {text-align:center;}
     #content07 .customer .box {border:0;padding:40px 30px;background:#171717;width:auto;}
-    #content07 .customer h2 {position:relative;font-family: 'Noto Sans KR', sans-serif;font-size:22px;}
+    #content07 .customer h2 {position:relative;font-family: 'Noto Sans KR', sans-serif;font-size:20px;}
     #content07 .customer h2:after {content:"";display:block;position:absolute;bottom:-50px;left:50%;transform:translateX(-50%);width:1px;height:30px;background: #555;}
-    #content07 .customer strong.bold{display:block;font-size:30px;font-weight:600;margin-bottom:15px;margin-top:10px;}
-    #content07 .customer strong {display:block;font-size:30px;font-weight:200;margin-bottom:45px;}
+    #content07 .customer strong.bold{display:block;font-size:20px;font-weight:600;margin-bottom:10px;margin-top:10px;}
+    #content07 .customer strong {display:block;font-size:20px;font-weight:200;margin-bottom:45px;}
     #content07 .customer span.bold{font-weight:700;margin-bottom:10px;}
-    #content07 .customer span {display:block;font-weight:300;margin-bottom:75px;}
-    #content07 .customer .des {font-size:14px;line-height: 1.6;margin-bottom:0;}
+    #content07 .customer span {display:block;font-weight:300;margin-bottom:30px;}
+    #content07 .customer .des {font-size:2vw;line-height: 1.6;margin-bottom:0;}
 
 
     /* footer */
-    #footer {padding:50px 0;background: #0c0c0c;color:#ddd;font-family: 'Noto Sans KR', sans-serif;line-height: 40px;}
+    #footer {padding:50px 0;background: #0c0c0c;color:#ddd;font-family: 'Noto Sans KR', sans-serif;line-height:30px;}
     #footer .container {width:auto;margin:0 auto; padding:0 15px;text-align: center;}
     #footer .f_top{display:flex;flex-direction:column;border-bottom:1px solid #555;padding-bottom: 30px;}
-    #footer .f_top strong {display:block;font-size:12px;}
+    #footer .f_top strong {display:block;font-size:12px;margin-bottom:15px;color:#555;}
     #footer .f_top ul {display:flex;flex-direction:column;font-size:13px;font-weight: 300;}
     #footer .f_top ul>li {position:relative;padding:0 15px;}
     #footer .f_top ul>li:last-child{padding-right:0;}
@@ -391,7 +392,7 @@ body {font-family: 'Montserrat', sans-serif;}
     #footer .f_top ul>li~li a:before {content:"";display:none;position:absolute;top:50%;left:0;width:1px;height:10px;background: #ddd;transform:translateY(-50%);}
 
     #footer .f_bottom {padding-top:30px;display:flex;flex-direction:column;}
-    #footer .f_bottom span {display:block;font-size:10px;padding-top:0;}
+    #footer .f_bottom span {display:block;font-size:10px;padding-top:0;margin-bottom:10px;}
     #footer .f_bottom .sns i {font-size:20px;padding-left:10px;}
 
 
