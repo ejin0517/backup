@@ -204,7 +204,8 @@ body {font-family: 'Montserrat', sans-serif;}
     #header {position:absolute;top:0;left:0;width:100%;line-height:80px;z-index:999;color:#fff;}
     #header .container {display:flex;width:auto; margin:0 auto;}
     #header .container h1 {width:114px;padding:0 10px;}
-    #header .container nav {display:none;position:fixed;top:0;left:0;background: #0c0c0c;width:calc(100% - 80px);height:100vh;padding:100px 0;z-index: 999;}
+    #header .container nav {display:block;position:fixed;top:0;left:-100%;background: #0c0c0c;width:calc(100% - 70px);height:100vh;padding:100px 0;transition:0.5s;z-index: 999;}
+    #header .container nav.on {left:0;}
     #header .container nav>ul {display:flex;flex-direction:column;font-size:16px;color:#fff;}
     #header .container nav>ul>li {line-height: 60px;border-bottom:1px solid rgb(65, 65, 65);width:100%;}
     #header .container nav>ul>li a{display:block;padding:0 30px;}

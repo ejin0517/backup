@@ -67,7 +67,7 @@ $('#content04 .keyword a').on('click', function(){
 //-------------------------------------
 
 $('#header .xi-bars').on('click', function(){
-    $('#header .container nav').toggle();
+    $('#header .container nav').toggleClass('on');
 })
 
 
