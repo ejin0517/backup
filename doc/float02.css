@@ -50,7 +50,10 @@ section p {font-size:14px;font-weight:300;margin-bottom:30px;}
 .event .container>div {float:left;width:50%;padding:0 15px;}
 
 .footer {padding:50px 0;background:#333;color:#fff;}
-.footer .container>div {float:left;width:50%;padding:0 15px;text-align:center;font-size:0;}
+.footer .container>div {float:left;width:50%;padding:0 15px;text-align:right;font-size:0;}
 /*자동으로 생기는 마진 4px 없애기 위해 font-size:0으로 설정함*/
+.footer .container>div:nth-child(1) {text-align:left;}
 .footer address {display:inline-block;font-size:14px;}
 /*font-size 다시 설정해주기*/
+
+
