@@ -96,10 +96,12 @@ $('.page_number ol li').on('click', function(){
 });
 
 
-  
-AOS.init({});
-
-
+AOS.init({
+    disable: function() {
+      var maxWidth = 800;
+      return window.innerWidth < maxWidth;
+    }
+  });
 
 //-----------------------------
 
@@ -130,10 +132,7 @@ $(window).on('resize', function(){
     
    });
 
-   AOS.init({
-    // Global settings:
-    disable:'mobile',
-    });
+    
 
 //--------------------------------
 })
