@@ -130,5 +130,10 @@ $(window).on('resize', function(){
     
    });
 
+   AOS.init({
+    // Global settings:
+    disable:'mobile',
+    });
+
 //--------------------------------
 })
