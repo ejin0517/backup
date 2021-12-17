@@ -6,6 +6,16 @@ $('.sh_best_slider').slick({
     autoplay:true,
     speed:3000,
     slidesToShow:4,
+
+    responsive: [{
+
+        breakpoint: 768,
+        settings: {
+          slidesToShow:3,
+          infinite: true
+        }
+  
+      }]
 });
 
 $('.arrow_btn .xi-angle-left').on('click', function(){
