@@ -65,7 +65,7 @@ $('.m_open i').on('click',function(){
 });
 
 $('.gnb>ul>li>a').on('click', function(){
-    if ($(window).width() < 769 ) { //769px보다 작을때부터 반응형으로 작동해라
+    if ($(window).width() < 769 ) {
 
         $(this).next().slideToggle();
         $(this).parents().siblings().find('.sub').slideUp();
@@ -73,6 +73,10 @@ $('.gnb>ul>li>a').on('click', function(){
     }
     
 });
+
+$('.reserv .reservtd .open').on('click',function(){
+    $(this).next().toggleClass('on');
+})
 
 //---------------------------------
 AOS.init({
