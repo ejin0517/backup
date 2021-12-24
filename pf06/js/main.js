@@ -43,7 +43,7 @@ $('.main_bn_slider').slick({
     pauseOnHover:false,
 });
 
-
+/*
 $(".mv01").YTPlayer({
     videoURL:'https://youtu.be/v7j2BMefsm8',
     containment:'.mv01 figure',
@@ -90,7 +90,7 @@ $('.video02 i.xi-play').on('click', function(){
 $('.video02 i.xi-expand-square').on('click', function(){
     $(".mv02").YTPFullscreen();
 });
-
+*/
 
 
 $(window).on("scroll", function(){
