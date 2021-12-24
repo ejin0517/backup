@@ -91,5 +91,20 @@ $('.video02 i.xi-expand-square').on('click', function(){
     $(".mv02").YTPFullscreen();
 });
 
+
+
+$(window).on("scroll", function(){
+    if ($(window).scrollTop() > 100) {
+    $('.gotop').addClass('on');
+    } else {
+    $('.gotop').removeClass('on');
+    }
+});
+
+$('.gotop').on('click', function(){
+    $("html, body").animate({ scrollTop: 0 }, 1000);
+    return false;
+});
+
 //-------------------------
 })
