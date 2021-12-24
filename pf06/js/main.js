@@ -36,11 +36,14 @@ $('.menu ul>li').on('click', function(){
 });
 
 
-$('.main_bn_slider').slick({
+$('.center_slider').slick({
+    dots:true,
     arrows:false,
     autoplay:true,
     pauseOnFocus:false,
     pauseOnHover:false,
+    autoplaySpeed:4000,
+    speed: 2000,
 });
 
 

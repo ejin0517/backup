@@ -2,7 +2,7 @@
     --tx : #0c0c0c;
     --lg : #ddd;
     --mc : #002e7f;
-    --sc : #00868b;
+    --sc : #0f595c;
     
 }
 
@@ -118,6 +118,8 @@ body {font-size:1.6rem;color:var(--tx);}
 .department .depart_mid .depart:hover {background:#fff;color:var(--tx);font-weight:500;}
 
 
+
+
 /* service */
 .service {padding:12rem 0;}
 .service .container {width:120rem;margin:0 auto;}
@@ -139,23 +141,39 @@ body {font-size:1.6rem;color:var(--tx);}
 .service .svc .svc01 .des span {display:block;font-size:1.3rem;line-height:1.6;color:#555;}
 
 
-/* banner */
-.main_banner {}
-.main_banner .main_bn_slider {}
-.main_banner .main_bn_slider figure {height:30rem;position:relative;}
-.main_banner .main_bn_slider .bn01 {background:url(../img/bn04.jpg) no-repeat center center/cover;}
-.main_banner .main_bn_slider .bn02 {background:url(../img/bn05.jpg) no-repeat center center/cover;}
-.main_banner .main_bn_slider .bn03 {background:url(../img/bn06.jpg) no-repeat center center/cover;}
 
-.main_banner .main_bn_slider figure .slogan {color:#fff;}
-.main_banner .main_bn_slider figure .slogan strong {display:block;font-size:3rem;font-weight:500;margin-bottom:1.5rem;}
-.main_banner .main_bn_slider figure .slogan span {display:block;font-weight:300;margin-bottom:3rem;}
-.main_banner .main_bn_slider figure .slogan .btn {display:block;font-size:1.2rem;width:15rem;height:3.5rem;padding:1rem 0;text-align:center;background:rgba(0,0,0,0.9);} 
-.main_banner .main_bn_slider .bn02 .slogan .btn {margin:0 auto;}
+/* center */
+.center {padding:7rem 0 14rem 0;}
+.center .container {width:120rem;margin:0 auto;padding:0 1.5rem;position:relative;}
+.center .container h2 {font-size:2rem;margin-bottom:9rem;text-align:center;font-weight:500;position:relative;letter-spacing:0.2em;}
+.center .container h2:after {content:"";display:block;width:3rem;height:0.1rem;background:var(--tx);position:absolute;bottom:-2rem;left:50%;transform:translateX(-50%);}
 
-.main_banner .main_bn_slider .bn01 .slogan {position:absolute;top:50%;left:20%;width:100%;transform:translateY(-50%);}
-.main_banner .main_bn_slider .bn02 .slogan {position:absolute;top:50%;left:50%;width:100%;transform:translate(-50%, -50%);text-align:center}
-.main_banner .main_bn_slider .bn03 .slogan {position:absolute;top:50%;left:20%;width:100%;transform:translateY(-50%);}
+.center .center_slider {padding:0 1.5rem;}
+.center .center_slider .center_con {position:relative;}
+.center .center_slider .center_con01 figure {width:80rem;height:50rem;background:url(../img/center01.jpg) no-repeat center center/cover;border-radius:20rem 0 0 0;}
+.center .center_slider .center_con02 figure {width:80rem;height:50rem;background:url(../img/center02.jpg) no-repeat center center/cover;border-radius:20rem 0 0 0;}
+.center .center_slider .center_con03 figure {width:80rem;height:50rem;background:url(../img/center03.jpg) no-repeat center center/cover;border-radius:20rem 0 0 0;}
+
+.center .center_slider .center_con01 .des {position:absolute;bottom:0;right:0;background:rgba(5, 45, 68, 0.95);padding:5rem 15rem 5rem 7rem;color:#fff;}
+.center .center_slider .center_con02 .des {position:absolute;bottom:0;right:0;background:rgba(85, 81, 59, 0.95);padding:5rem 15rem 5rem 7rem;color:#fff;}
+.center .center_slider .center_con03 .des {position:absolute;bottom:0;right:0;background:rgba(76, 82, 85, 0.95);padding:5rem 15rem 5rem 7rem;color:#fff;}
+
+.center .center_slider .center_con .des strong {display:block;font-size:3rem;font-weight:100;margin-bottom:1rem;}
+.center .center_slider .center_con .des .en {display:block;font-size:1.4rem;margin-bottom:3rem;letter-spacing:0.1em;font-weight:100;}
+.center .center_slider .center_con .des p {font-size:1.4rem;font-weight:300;margin-bottom:3rem;line-height:1.4;}
+.center .center_slider .center_con .des .btn {display:block;font-size:1.3rem;font-weight:100;background:#181818;padding:0.7rem 3rem 1rem 3rem;text-align:center;line-height:2rem;width:15rem}
+
+
+.center .center_slider .slick-dots {position:absolute;top:20%;right:1.5rem;}
+.center .center_slider .slick-dots li {width:5rem;height:0.1rem;background:rgb(196, 196, 196);transition:0.5s;text-align:right;margin-left:auto;position:relative;}
+.center .center_slider .slick-dots li:before {content:"";display:block;font-size:1.3rem;position:absolute;top:-0.5rem;left:-6rem;color:#777;}
+.center .center_slider .slick-dots li:nth-child(1)::before {content:"난임센터";}
+.center .center_slider .slick-dots li:nth-child(2)::before {content:"인공신장센터";left:-8rem;}
+.center .center_slider .slick-dots li:nth-child(3)::before {content:"암센터";left:-5rem;}
+.center .center_slider .slick-dots li.slick-active {background:var(--sc);width:6rem;height:0.3rem;}
+.center .center_slider .slick-dots li.slick-active:before {color:var(--sc);}
+.center .center_slider .slick-dots li~li {margin-top:2.2rem;}
+.center .center_slider .slick-dots li button {display:none;}
 
 
 
@@ -166,7 +184,7 @@ body {font-size:1.6rem;color:var(--tx);}
 .media .container h2:after {content:"";display:block;width:3rem;height:0.1rem;background:var(--tx);position:absolute;bottom:-2rem;left:50%;transform:translateX(-50%);}
 .media .menu>ul {display:flex;justify-content:center;margin-bottom:3rem;}
 .media .menu>ul>li {width:15rem;padding:1.5rem;background:rgb(190, 190, 190);color:#fff;text-align:center;}
-.media .menu>ul>li.on {background:var(--mc);}
+.media .menu>ul>li.on {background:var(--sc);}
 .media .menu>ul>li>a {display:block;}
 .media .content {position:relative;}
 .media .content .con {position:absolute;top:0;left:50%;transform:translateX(-50%);width:117rem;height:54rem;background:#fff;padding:3rem;display:flex;flex-flow:row wrap;box-shadow:0.2rem 0.2rem 0.5rem rgba(0,0,0,0.1);}
@@ -388,7 +406,7 @@ body {font-size:1.6rem;color:var(--tx);}
     .media .container h2:after {content:"";display:block;width:2rem;height:0.1rem;background:var(--tx);position:absolute;bottom:-1rem;left:50%;transform:translateX(-50%);}
     .media .menu>ul {display:flex;justify-content:center;margin-bottom:2rem;}
     .media .menu>ul>li {width:15rem;padding:1.5rem;background:rgb(190, 190, 190);color:#fff;text-align:center;}
-    .media .menu>ul>li.on {background:var(--mc);}
+    .media .menu>ul>li.on {background:var(--sc);}
     .media .menu>ul>li>a {display:block;font-size:1.4rem;}
     .media .content {position:relative;}
     .media .content .con {position:absolute;top:0;left:0;transform:translateX(0);width:auto;height:auto;background:#fff;padding:1rem;display:flex;flex-flow:row wrap;box-shadow:none;}
