@@ -351,7 +351,7 @@ body {font-size:1.6rem;color:var(--tx);}
 
 
     /* service */
-    .service {padding:8rem 0 0 0;}
+    .service {padding:8rem 0 4rem 0;}
     .service .container {width:auto;margin:0 auto;}
     .service .container h2 {font-size:1.6rem;margin-bottom:5rem;text-align:center;font-weight:500;position:relative;letter-spacing:0.2em;}
     .service .container h2:after {content:"";display:block;width:2rem;height:0.1rem;background:var(--tx);position:absolute;bottom:-1rem;left:50%;transform:translateX(-50%);}
@@ -366,8 +366,8 @@ body {font-size:1.6rem;color:var(--tx);}
     .service .svc .svc01 {width:100%;height:250px;margin:0 0 1rem 0;position:relative;}
     .service .svc .svc01 figure {height:100%;overflow:hidden;}
     .service .svc .svc01 .des {position:absolute;bottom:1rem;right:0;background:#fff;border-radius:5rem 0 0 0;text-align:right;padding:2rem;box-shadow:0.5rem 1rem 1rem rgba(0,0,0,0.3);}
-    .service .svc .svc01 .des strong {display:block;font-size:1.8rem;font-weight:500;margin-bottom:0.5rem;}
-    .service .svc .svc01 .des .en {display:block;font-size:1.4rem;font-weight:100;color:#555;margin-bottom:2rem;}
+    .service .svc .svc01 .des strong {display:block;font-size:1.8rem;font-weight:500;margin-bottom:0.3rem;}
+    .service .svc .svc01 .des .en {display:block;font-size:1.4rem;font-weight:100;color:#555;margin-bottom:1rem;}
     .service .svc .svc01 .des span {display:block;font-size:1.2rem;line-height:1.6;color:#555;}
 
 
@@ -403,7 +403,7 @@ body {font-size:1.6rem;color:var(--tx);}
     .media .content .con02 figure:hover a:after {background:rgba(0,0,0,0);}
 
 
-    .media .content .con03 {padding:1rem;width:auto;flex-direction:column;height:64rem;}
+    .media .content .con03 {padding:1rem;width:100%;flex-direction:column;height:64rem;}
     .media .content .con03 .video01 .mv01 {width:100%;height:18.3rem;background:#ddd;margin:0;position:relative;margin-bottom:2rem;}
     .media .content .con03 .video01 .mv01 iframe {position:absolute;top:0;left:0;width:100%;height:100%;}
     .media .content .con03 .video01 .mv01 figure {width:100%;height:100%;}
