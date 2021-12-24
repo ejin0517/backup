@@ -239,6 +239,10 @@ body {font-size:1.6rem;color:var(--tx);}
 
 @media (max-width:768px){
 
+
+    html.touch *:hover {
+        all:unset!important;
+    }
    
 
     #wrap {}
