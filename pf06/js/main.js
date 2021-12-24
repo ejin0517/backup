@@ -107,4 +107,23 @@ $('.gotop').on('click', function(){
 });
 
 //-------------------------
+
+
+$('.mopen').on('click',function(){
+    $('.gnb').toggleClass('on');
+});
+
+$('.gnb>ul>li>a').on('click', function(){
+    if ($(window).width() < 769 ) { //769px보다 작을때부터 반응형으로 작동해라
+
+        $(this).next().slideToggle();
+        $(this).parents().siblings().find('.sub').slideUp();
+
+    }
+    
+});
+
+
+
+//--------------------------
 })
