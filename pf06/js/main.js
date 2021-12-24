@@ -76,7 +76,8 @@ $('.gnb>ul>li>a').on('click', function(){
 
 $('.reserv .reservtd .open').on('click',function(){
     $(this).next().toggleClass('on');
-})
+});
+
 
 //---------------------------------
 AOS.init({
@@ -88,5 +89,12 @@ AOS.init({
     
   });
 
+  $(window).on('resize', function(){
+    if($(window).width()>768)
+        $('.sub').removeAttr("style");
+    
+   });
+
+    
 //--------------------------
 })
