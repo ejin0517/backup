@@ -40,6 +40,7 @@ $('.center_slider').slick({
     dots:true,
     arrows:false,
     autoplay:true,
+    fade:true,
     pauseOnFocus:false,
     pauseOnHover:false,
     autoplaySpeed:4000,
