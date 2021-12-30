@@ -21,5 +21,22 @@ $('.main_slider figure').eq(0).addClass('on');
 $('.main_slider').on('afterChange',function(e,s,c){
     $('.main_slider figure').eq(c).addClass('on').siblings().removeClass('on');
 });
+
+
+$('.pr_slider').slick({
+    arrows:false,
+    autoplay:true,
+    slidesToShow:3,
+    centerMode:true,
+    autoplaySpeed:2000,
+    pauseOnHover:false,
+    pauseOnFocus:false,
+});
+
+$('.pr_slider figure').eq(5).addClass('on');
+$('.pr_slider').on('afterChange',function(e,s,c){
+    $('.pr_slider figure').eq(c+4).addClass('on').siblings().removeClass('on');
+});
+
 //--------------------
 })
