@@ -43,7 +43,10 @@ $('.news_slider').on('afterChange',function(e,s,c){
 
 $( "#datepicker" ).datepicker();
 
-
+$('.family_btn').on('click', function(){
+    $('.familysite').slideToggle();
+    $('.family_btn i').toggleClass('on');
+});
 
 
 //--------------------------
