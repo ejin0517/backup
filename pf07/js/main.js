@@ -86,13 +86,10 @@ $('.mopen').on('click', function(){
     $('#header').toggleClass('on');
 });
 
-$(window).resize(function() { 
-    
-    if($(window).width() < 768) { 
+$(window).on('resize', function(){
+        $('.sub01').removeAttr('style');
+    });
 
-       
-
-} });
 
 
 //--------------------------
