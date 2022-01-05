@@ -60,7 +60,8 @@ $('.news_slider').on('afterChange',function(e,s,c){
 
 
 $('.scam .icon a').on('click', function(){
-    $(this).addClass('on').siblings().removeClass('on');
+    $(this).addClass('on');
+    $(this).parents().siblings().find('a').removeClass('on');
 });
 
 $( "#datepicker" ).datepicker();

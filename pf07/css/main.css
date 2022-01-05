@@ -299,8 +299,8 @@ body {font-size:1.6rem;}
 #footer .ft_top .family .family_btn i {transition:0.3s;}
 #footer .ft_top .family .family_btn i.on {transform:rotate(180deg);}
 
-#footer .ft_bottom {display:flex;justify-content:space-between;padding-top:1.5rem;font-size:1.4rem;color:#ddd;}
-#footer .ft_bottom .bt_left {line-height:1.6;}
+#footer .ft_bottom {display:flex;justify-content:space-between;padding-top:1.5rem;font-size:1.3rem;color:#ddd;}
+#footer .ft_bottom .bt_left {line-height:1.5;}
 #footer .ft_bottom .bt_left .sns i {display:inline-block;font-size:2rem;padding:1rem;background:#111;color:#ddd;border-radius:50%;margin:1rem 0.5rem 0 0;}
 #footer .ft_bottom .bt_left .sns i:hover {background:#ddd;color:#111;}
 #footer .ft_bottom .bt_right {text-align:right;}
@@ -330,7 +330,7 @@ body {font-size:1.6rem;}
 
 	#header .container .gnb>ul>li:hover .sub01 {height:auto;}
 
-	#header ul>li>.sub01 {display:none;position:static;top:0;left:0;width:100%;height:100%;overflow:hidden;background:transparent;border-top:none;z-index:999;}
+	#header ul>li>.sub01 {display:none;position:static;top:0;left:0;width:100%;height:100%;overflow:hidden;background:transparent;border-top:none;margin-bottom:1rem;z-index:999;}
 	#header ul>li>.sub01>ul {display:flex;flex-direction:column;text-align:left;line-height:3rem;width:auto;margin:0;}
 	#header ul>li>.sub01>ul>li {margin:0;}
 	#header ul>li>.sub01>ul>li>a {width:100%;display:block;font-size:1.4rem;padding:0;font-weight:400;color:#333;}
@@ -441,7 +441,7 @@ body {font-size:1.6rem;}
 	.slider .news_slider .news04 {background:url(../img/news04.jpeg) no-repeat center center/cover;}
 	.slider .news_slider .news05 {background:url(../img/news05.jpeg) no-repeat center center/cover;}
 
-	.slider .more {float:right;display:inline-block;font-size:1.4rem;padding-right:10rem;}
+	.slider .more {float:right;display:inline-block;font-size:1.4rem;padding-right:0;}
 	.slider .more i {padding:0.5rem;border-radius:50%;cursor:pointer;background:rgba(0,0,0,0.2);margin-left:1rem;transition:0.5s;}
 	.slider .more:hover i {background:var(--mc);color:#fff;} 
 
@@ -458,16 +458,19 @@ body {font-size:1.6rem;}
 	.service .container .ser_left ul>li>a {display:block;width:100%;}
 	.service .container .ser_left ul>li:hover {background:var(--mc);color:#fff;}
 
-	.service .container .ser_right {flex:3}
+	.service .container .ser_right {flex:3;margin-top:2rem;}
 	.service .container .ser_right .scam {position:relative;width:auto;height:49rem;background:url(../img/scam02.jpg) no-repeat center center/cover;}
 	.service .container .ser_right .scam .sub {display:block;font-size:3vw;color:#555;text-align:center;padding:1rem;}
 	.service .container .ser_right .scam .icon {width:10rem;height:8rem;}
 	.service .container .ser_right .scam .icon a {display:block;width:1rem;height:1rem;margin:0 auto 1rem auto;background:var(--mc);border-radius:50%;position:relative;}
-	.service .container .ser_right .scam .icon a:hover {background:rgb(255, 223, 43);transform:scale(1);}
-	.service .container .ser_right .scam .icon a:hover:before {background:rgb(255, 223, 43, 0.7);}
+	.service .container .ser_right .scam .icon a:hover {background:var(--mc);transform:scale(1);}
+	.service .container .ser_right .scam .icon a:hover:before {background:rgba(0, 75, 189, 0.5);}
 	.service .container .ser_right .scam .icon a:before {content:"";display:block;width:0.5rem;height:0.5rem;background:rgba(0, 75, 189, 0.5);position:absolute;top:20%;left:20%;border-radius:50%;animation:dots 1s infinite;}
 	.service .container .ser_right .scam .icon a:after {content:"";display:block;width:7rem;height:2.2rem;font-size:1rem;line-height:2rem;background:rgb(255, 223, 43);position:absolute;top:-0.5rem;right:-8rem;opacity:0;}
 	.service .container .ser_right .scam .icon a:hover:after {opacity:0;}
+
+	.service .container .ser_right .scam .icon a.on {background:rgb(255, 223, 43)}
+	.service .container .ser_right .scam .icon a.on:before {background:rgb(255, 223, 43, 0.7);}
 	.service .container .ser_right .scam .icon a.on:after {opacity:1;}
 
 	.service .container .ser_right .scam .icon01 a:after {content:"Y-TOP App"}
@@ -490,11 +493,11 @@ body {font-size:1.6rem;}
 	.service .container .ser_right .scam .icon01 {position:absolute;top:7.5rem;left:6rem;}
 	.service .container .ser_right .scam .icon02 {position:absolute;top:7.5rem;left:20rem;}
 	.service .container .ser_right .scam .icon03 {position:absolute;top:18rem;left:11rem;}
-	.service .container .ser_right .scam .icon04 {position:absolute;top:18rem;left:24rem;}
+	.service .container .ser_right .scam .icon04 {position:absolute;top:18rem;left:22rem;}
 	.service .container .ser_right .scam .icon05 {position:absolute;top:29rem;left:7rem;}
 	.service .container .ser_right .scam .icon06 {position:absolute;top:29rem;left:20rem;}
 	.service .container .ser_right .scam .icon07 {position:absolute;top:40.5rem;left:11rem;}
-	.service .container .ser_right .scam .icon08 {position:absolute;top:40.5rem;left:24rem;}
+	.service .container .ser_right .scam .icon08 {position:absolute;top:40.5rem;left:22rem;}
 
 
 	/* now */
@@ -592,11 +595,11 @@ body {font-size:1.6rem;}
 	/* footer */
 	#footer {padding:5rem 0 7rem 0;background:#333;color:#fff;}
 	#footer .container {width:auto;margin:0 auto;padding:0 1rem;text-align:center;}
-	#footer .ft_top {position:relative;border-bottom:1px solid #444;display:flex;flex-direction:column;line-height:2.5;padding-bottom:1.5rem;}
-	#footer .ft_top .ft_menu>li {display:block;padding-right:0;font-size:1.3rem;color:rgb(146, 146, 146);}
+	#footer .ft_top {position:relative;border-bottom:1px solid #444;display:flex;flex-direction:column;line-height:1.6;padding-bottom:1.5rem;}
+	#footer .ft_top .ft_menu>li {display:inline-block;padding-right:0;padding:0 0.7rem;font-size:1.3rem;color:rgb(146, 146, 146);}
 	#footer .ft_top .ft_menu>li>a {display:block;}
 
-	#footer .ft_top .family {text-align:center;font-size:1.4rem;}
+	#footer .ft_top .family {text-align:center;font-size:1.4rem;line-height:2.5;}
 	#footer .ft_top .familysite {display:none;position:absolute;bottom:6.6rem;right:29%;}
 	#footer .ft_top .familysite>li {padding:0 1rem;background:#555;color:#fff;}
 	#footer .ft_top .familysite>li~li {border-top:1px solid #777;}
