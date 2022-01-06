@@ -77,7 +77,7 @@ body {font-size:1.6rem;}
 
 
 /* main_menu */
-.main_menu {position:absolute;top:22rem;right:25rem;}
+.main_menu {position:absolute;top:20%;right:10%;}
 .main_menu .case {width:50rem;display:flex;flex-wrap:wrap;text-align:center;}
 .main_menu .case a {display:block;}
 .main_menu .case .menu_l {position:relative;flex:100%;height:12rem;line-height:12rem;font-size:2rem;font-weight:300;}
