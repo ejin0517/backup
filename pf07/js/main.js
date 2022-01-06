@@ -14,7 +14,20 @@ $('.languge').on('click', function(){
 
 $('.search .xi-close').on('click', function(){
     $('#header .search').slideUp();
-})
+});
+
+$(window).on("scroll", function(){
+    if ($(window).scrollTop() > 100) {
+    $('.gotop').addClass('on');
+    } else {
+    $('.gotop').removeClass('on');
+    }
+});
+
+$('.gotop').on('click', function(){
+    $("html, body").animate({ scrollTop: 0 }, 1000);
+    return false;
+});
 
 $('.main_visual').slick({
         arrows:false,
