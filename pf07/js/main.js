@@ -58,10 +58,9 @@ $('.news_slider').on('afterChange',function(e,s,c){
     $('.news_slider figure').eq(c+4).addClass('on').siblings().removeClass('on');
 });
 
-
-$('.scam .icon a').on('click', function(){
+$('.scam .icon').on('click', function(){
     $(this).addClass('on');
-    $(this).parents().siblings().find('a').removeClass('on');
+    $(this).siblings().removeClass('on');
 });
 
 $( "#datepicker" ).datepicker();

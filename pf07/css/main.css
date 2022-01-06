@@ -155,13 +155,13 @@ body {font-size:1.6rem;}
 .service .container .ser_right {flex:3}
 .service .container .ser_right .scam {position:relative;width:100%;height:49rem;background:url(../img/scampus.jpg) no-repeat center center/cover;}
 .service .container .ser_right .scam .sub {display:block;font-size:1.3rem;color:#555;text-align:right;padding:1rem;}
-.service .container .ser_right .scam .icon {width:13rem;height:13rem;}
+.service .container .ser_right .scam .icon {width:13rem;height:13rem;cursor:pointer;}
 .service .container .ser_right .scam .icon a {display:block;width:1rem;height:1rem;margin:0 auto 1rem auto;background:var(--mc);border-radius:50%;position:relative;}
-.service .container .ser_right .scam .icon a:hover {background:rgb(255, 223, 43);transform:scale(1.5);}
-.service .container .ser_right .scam .icon a:hover:before {background:rgb(255, 223, 43, 0.7);}
+.service .container .ser_right .scam .icon:hover a {background:rgb(255, 223, 43);transform:scale(1.5);}
+.service .container .ser_right .scam .icon:hover a:before {background:rgb(255, 223, 43, 0.7);}
 .service .container .ser_right .scam .icon a:before {content:"";display:block;width:0.5rem;height:0.5rem;background:rgba(0, 75, 189, 0.5);position:absolute;top:20%;left:20%;border-radius:50%;animation:dots 1s infinite;}
 .service .container .ser_right .scam .icon a:after {content:"";display:block;width:8rem;height:2.2rem;font-size:1rem;line-height:2rem;background:rgb(255, 223, 43);position:absolute;top:-0.5rem;right:-9rem;opacity:0;}
-.service .container .ser_right .scam .icon a:hover:after {opacity:1;}
+.service .container .ser_right .scam .icon:hover a:after {opacity:1;}
 
 .service .container .ser_right .scam .icon01 a:after {content:"Y-TOP App"}
 .service .container .ser_right .scam .icon02 a:after {content:"Y-TOP App"}
@@ -476,9 +476,9 @@ body {font-size:1.6rem;}
 	.service .container .ser_right .scam .icon a:after {content:"";display:block;width:7rem;height:2.2rem;font-size:1rem;line-height:2rem;background:rgb(255, 223, 43);position:absolute;top:-0.5rem;right:-8rem;opacity:0;}
 	.service .container .ser_right .scam .icon a:hover:after {opacity:0;}
 
-	.service .container .ser_right .scam .icon a.on {background:rgb(255, 223, 43)}
-	.service .container .ser_right .scam .icon a.on:before {background:rgb(255, 223, 43, 0.7);}
-	.service .container .ser_right .scam .icon a.on:after {opacity:1;}
+	.service .container .ser_right .scam .icon.on a {background:rgb(255, 223, 43)}
+	.service .container .ser_right .scam .icon.on a:before {background:rgb(255, 223, 43, 0.7);}
+	.service .container .ser_right .scam .icon.on a:after {opacity:1;}
 
 	.service .container .ser_right .scam .icon01 a:after {content:"Y-TOP App"}
 	.service .container .ser_right .scam .icon02 a:after {content:"Y-TOP App"}
