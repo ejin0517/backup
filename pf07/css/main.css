@@ -333,7 +333,7 @@ body {font-size:1.6rem;}
 	#header .container .gnb>ul>li>a {display:block;position:relative;}
 	#header .container .gnb>ul>li>a:after {display:none;}
 	#header .container .gnb>ul>li>a:hover:after {transform:none;}
-	#header .container i.xi-search {position:absolute;bottom:2.5rem;left:2.5rem;cursor:pointer;font-size:2rem;padding:0;color:var(--mc);}
+	#header .container i.xi-search {margin:3rem 0 0 1.5rem;cursor:pointer;font-size:2rem;padding:0;color:var(--mc);}
 
 	#header .container .gnb>ul>li:hover .sub01 {height:auto;}
 
@@ -356,7 +356,7 @@ body {font-size:1.6rem;}
 	#header .lang .languge i.on {transform:rotate(180deg);}
 
 
-	#header .search {position:absolute;top:calc(100vh - 8rem);left:0;background:var(--mc);width:100%;}
+	#header .search {position:absolute;top:47rem;left:0;background:var(--mc);width:100%;}
 	#header .search .case {width:100%;margin:0 auto;display:flex;justify-content:center;padding:3rem 0;}
 	#header .search .case input {width:20rem;border:none;outline:none;padding:0.5rem 1rem;font-size:1.4rem;}
 	#header .search .case i {padding:0.5rem;font-size:1.8rem;margin-left:1rem;color:#fff;cursor:pointer;}
@@ -454,7 +454,7 @@ body {font-size:1.6rem;}
 
 
 	/* service */
-	.service {padding:5rem 0;text-align:center;position:relative;}
+	.service {padding:5rem 0 0 0;text-align:center;position:relative;}
 	.service h2 {font-size:2.5rem;font-weight:500;margin-bottom:0.7rem;}
 	.service .subtitle {font-size:1.4rem;font-weight:300;color:#555;margin-bottom:5rem;}
 	.service .container {display:flex;flex-direction:column;width:auto;margin:0 auto;}
@@ -497,18 +497,18 @@ body {font-size:1.6rem;}
 		100% {opacity: 1;transform: scale(5);opacity: 0;}
 	}
 
-	.service .container .ser_right .scam .icon01 {position:absolute;top:7.5rem;left:6rem;}
-	.service .container .ser_right .scam .icon02 {position:absolute;top:7.5rem;left:20rem;}
+	.service .container .ser_right .scam .icon01 {position:absolute;top:7rem;left:6rem;}
+	.service .container .ser_right .scam .icon02 {position:absolute;top:7rem;left:20rem;}
 	.service .container .ser_right .scam .icon03 {position:absolute;top:18rem;left:11rem;}
 	.service .container .ser_right .scam .icon04 {position:absolute;top:18rem;left:22rem;}
-	.service .container .ser_right .scam .icon05 {position:absolute;top:29rem;left:7rem;}
-	.service .container .ser_right .scam .icon06 {position:absolute;top:29rem;left:20rem;}
-	.service .container .ser_right .scam .icon07 {position:absolute;top:40.5rem;left:11rem;}
-	.service .container .ser_right .scam .icon08 {position:absolute;top:40.5rem;left:22rem;}
+	.service .container .ser_right .scam .icon05 {position:absolute;top:29.5rem;left:7rem;}
+	.service .container .ser_right .scam .icon06 {position:absolute;top:29.5rem;left:20rem;}
+	.service .container .ser_right .scam .icon07 {position:absolute;top:41rem;left:11rem;}
+	.service .container .ser_right .scam .icon08 {position:absolute;top:41rem;left:22rem;}
 
 
 	/* about */
-	.about {padding:7rem 1rem;height:40rem;background:url(../img/about01.jpg) no-repeat center fixed;text-align:center;color:#fff;}
+	.about {padding:7rem 1rem;height:42rem;background:url(../img/about01.jpg) no-repeat center fixed;text-align:center;color:#fff;}
 	.about h2 {font-size:2.5rem;font-weight:500;margin-bottom:5rem;}
 	.about p {font-weight:300;font-size:3vw;line-height:1.6;margin-bottom:5rem;}
 	.about .btn {display:block;width:25rem;height:4rem;line-height:4rem;background:var(--dc);vertical-align:middle;margin:0 auto;transition:0.5s;font-size:1.4rem;}
