@@ -480,7 +480,7 @@ body {font-size:1.6rem;}
 	.service .container .ser_right .scam .icon a:after {content:"";display:block;width:7rem;height:2.2rem;font-size:1rem;line-height:2rem;background:rgb(255, 223, 43);position:absolute;top:-0.5rem;right:-8rem;opacity:0;}
 	.service .container .ser_right .scam .icon a:hover:after {opacity:0;}
 
-	.service .container .ser_right .scam .icon.on a {background:rgb(255, 223, 43);transform:scale(1);}
+	.service .container .ser_right .scam .icon.on a {background:rgb(255, 223, 43);transform:none;}
 	.service .container .ser_right .scam .icon.on a:before {background:rgb(255, 223, 43, 0.7);}
 	.service .container .ser_right .scam .icon.on a:after {opacity:1;}
 
