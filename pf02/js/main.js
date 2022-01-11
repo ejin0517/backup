@@ -68,9 +68,20 @@ $('#content04 .keyword a').on('click', function(){
 
 $('#header .xi-bars').on('click', function(){
     $('#header .container nav').toggleClass('on');
-})
+});
 
+$('.mmenu>li>a').on('click', function(){
+    if ($(window).width() < 769 ) {
 
+        $(this).next().slideToggle();
+        $(this).parents().siblings().find('.sub01').slideUp();
+
+    }
+});
+
+$(window).on('resize', function(){
+    $('.sub01').removeAttr('style');
+});
 
 //-------------------------------------
 })
