@@ -68,6 +68,11 @@ $('.nav strong').on('click', function(){
     $('.nav').toggleClass('on');
 });
 
+//---------------------------------------
 
+$('.mopen').on('click', function(){
+    $(this).toggleClass('on');
+    $('#header').toggleClass('on');
+});
 //----------------------------------------
 })
