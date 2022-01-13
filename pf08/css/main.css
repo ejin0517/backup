@@ -380,7 +380,7 @@ body {font-family: 'Oswald', sans-serif;}
 
     #footer .footer_menu03 {margin-top:30px;}
     #footer .footer_menu03 span {font-family: 'Noto Sans KR', sans-serif;font-size:3vw;line-height:1.4;color:#777;}
-    #footer .footer_menu03 .bold {display:block;font-weight:500;line-height:1.6;color:#0c0c0c;}
+    #footer .footer_menu03 .bold {display:block;font-weight:500;font-size:3vw;line-height:1.6;color:#0c0c0c;}
     #footer .footer_menu03 .contact {padding-top:30px;}
 
     /* nav */
