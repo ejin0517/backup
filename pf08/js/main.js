@@ -72,7 +72,7 @@ $('.nav strong').on('click', function(){
 
 $('.mopen').on('click', function(){
     $(this).toggleClass('on');
-    $('#header').toggleClass('on');
+    $('#header nav').toggleClass('on');
 });
 
 $('.xi-plus-circle').on('click', function(){

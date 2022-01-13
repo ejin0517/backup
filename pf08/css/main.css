@@ -106,7 +106,7 @@ body {font-family: 'Oswald', sans-serif;}
 #content03 {background: #f3f3f3;}
 #content03 .container {position:relative;width:1200px;margin:0 auto;padding:0 15px;}
 #content03 .container h2 {font-size:80px;font-weight:400;text-align:right;margin-bottom:10px;}
-#content03 .container h2:before {content:"";position:absolute;top:50px;left:495px;background: #292929;width:2px;height:205px;z-index:999;}
+#content03 .container h2:before {content:"";display:block;position:absolute;top:50px;left:495px;background: #292929;width:2px;height:205px;z-index:999;}
 #content03 .container .subtitle {display:block;text-align:right;font-size:30px;font-weight:200;}
 
 #content03 .collabo_slider {height:700px;overflow:hidden;} /*높이와 overflow:hidden 줘야 오버되는 부분 안나오게함*/
@@ -198,23 +198,21 @@ body {font-family: 'Oswald', sans-serif;}
 
     *{border:1px solid #f00;}
 
-    .fp-tableCell {width:auto;height:auto !important;}
-
     /* header */
-    #header {position:fixed;top:0;left:-100%;width:100%;height:100vh;line-height:100px;background:#fff;transition:0.5s;z-index:999;}
-    #header.on {left:0;}
-    #header:hover {background:#fff;height:100vh;}
+    #header {position:fixed;top:0;left:0;width:100%;height:auto;z-index:999;}
+    #header:hover {background:transparent;}
     
-    #header .container {width:auto;margin:0 auto;padding:0 15px;line-height:0;}
-    #header .container nav {display:flex;flex-direction:column;margin-top:100px;}
+    #header .container {width:auto;margin:0 auto;padding:0 15px;}
+    #header .container nav {position:absolute;top:0;left:-100%;background:#fff;width:100%;height:100vh;display:flex;flex-direction:column;padding-top:100px;transition:0.5s;}
+    #header .container nav.on {left:0;}
     #header .container h1 {position:fixed;top:15px;left:50%;transform:translate(-50%, -15%) scale(0.5);padding:0 15px;}
     #header .container h1 a {display:block;}
     #header .container nav ul {display:flex;flex-direction:column;line-height:50px;}
     #header .container nav .menu>li {padding:0 15px;}
-    #header .container nav .menu>li:after {content:"";display:none;width:0;height:1px;background:#0c0c0c;margin:-40px auto 0 auto;transition:0.5s;}
+    #header .container nav .menu>li:after {content:"";display:none;}
     #header .container nav .menu>li:hover:after {display:none;}
     #header .container nav .menu>li:first-child {padding-left:15px;}
-    #header .container nav .customer {flex-direction:row;margin-top:30px;}
+    #header .container nav .customer {flex-direction:row;}
     #header .container nav .customer>li {padding:0 10px;font-size:25px;}
     #header .container nav .customer>li:last-child {padding-right:0;}
 
@@ -307,7 +305,7 @@ body {font-family: 'Oswald', sans-serif;}
     #content03 {background: #f3f3f3;padding:40px 0;}
     #content03 .container {position:relative;width:auto;margin:0 auto;padding:0 15px;}
     #content03 .container h2 {font-size:25px;font-weight:400;text-align:center;margin-bottom:10px;}
-    #content03 .container h2:before {content:"";position:absolute;top:50px;left:495px;background: #292929;width:2px;height:205px;z-index:999;}
+    #content03 .container h2:before {content:"";display:none;position:absolute;top:50px;left:495px;background: #292929;width:2px;height:205px;z-index:999;}
     #content03 .container .subtitle {display:block;text-align:center;font-size:16px;font-weight:200;margin-bottom:60px;}
 
     #content03 .collabo_slider {height:auto;overflow:hidden;} /*높이와 overflow:hidden 줘야 오버되는 부분 안나오게함*/
@@ -380,7 +378,7 @@ body {font-family: 'Oswald', sans-serif;}
     #footer .footer_menu03 .contact {padding-top:30px;}
 
     /* nav */
-    .nav {position:fixed;top:100vh;right:0;left:0;width:100%;height:auto;display:flex;flex-direction:column;transition:0.5s;z-index:999;}
+    .nav {position:fixed;top:100vh;right:initial;left:0;width:100%;height:auto;display:flex;flex-direction:column;transition:0.5s;z-index:999;}
     .nav.on {top:calc(100vh - 220px);}
     .nav strong:before {content:"\e915";display:block;position:absolute;top:-26px;left:47%;font-size:16px;padding:5px;background:#0c0c0c;color:#fff;margin-top:0;font-family: xeicon!important;transition:0.3s;cursor:pointer;}
     .nav.on strong:before {transform:rotate(180deg);}
@@ -404,4 +402,5 @@ body {font-family: 'Oswald', sans-serif;}
     .mopen.on span:nth-child(2) {display:none;}
     .mopen.on span:nth-child(3) {transform:rotate(135deg) translate(-1px, 0);}
 
+    .fp-tableCell {width:auto;height:auto !important;}
 }
