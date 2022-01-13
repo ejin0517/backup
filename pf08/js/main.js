@@ -74,5 +74,13 @@ $('.mopen').on('click', function(){
     $(this).toggleClass('on');
     $('#header').toggleClass('on');
 });
+
+$('.xi-plus-circle').on('click', function(){
+    $('.collabo_list').addClass('on');
+});
+
+$('.collabo_list .close').on('click', function(){
+    $('.collabo_list').removeClass('on');
+});
 //----------------------------------------
 })
