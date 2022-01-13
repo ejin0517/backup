@@ -51,7 +51,7 @@ $('#content03 .collabo_slider').slick({
     arrows:false,
     autoplay:true,
     fade:true,
-    pauseOnHover:true,
+    pauseOnHover:false,
     pauseOnFocus:false,
 });
 
