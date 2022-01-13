@@ -9,7 +9,6 @@ new fullpage('#fullpage', {
   });
 
 
-
 $('#visual .main_slider').slick({
     arrows:false,
     autoplay:true,

@@ -28,8 +28,8 @@ body {font-family: 'Oswald', sans-serif;}
 #visual .main_slider .container {position:absolute;top:50%;left:0;transform:translateY(-50%);text-align:center;}
 #visual .main_slider .container h2 {font-size:50px;font-weight:500;margin-bottom:25px;}
 #visual .main_slider .container p {font-size:30px;font-weight:200;margin-bottom:50px;}
-#visual .main_slider .container .btn {display:block;width:200px;height:50px;margin:0 auto;text-align:center;line-height:50px;background:rgba(0,0,0,0.8);color:#fff;letter-spacing:0.2em;}
-#visual .main_slider .sl02 .btn {background:rgba(255,255,255,0.9);color:#0c0c0c;}
+#visual .main_slider .container .btn {display:block;width:200px;height:50px;margin:0 auto;text-align:center;line-height:48px;background:#0c0c0c;color:#fff;letter-spacing:0.2em;}
+#visual .main_slider .sl02 .btn {background:#fff;color:#0c0c0c;}
 
 #visual .main_slider .sl01 {left:50%;}
 #visual .main_slider .sl02 {left:50%;transform:translateX(-50%);color:#fff;}
@@ -62,7 +62,7 @@ body {font-family: 'Oswald', sans-serif;}
 
 /* content02 - new arrivals */
 #content02 {}
-#content02 h2 {font-size:40px;font-weight:400;text-align:center;margin-bottom:70px;}
+#content02 h2 {font-size:30px;font-weight:400;text-align:center;margin:20px 0;}
 #content02 .item_list {width:1200px;margin:0 auto;white-space:nowrap;overflow-x:scroll;overflow-y:hidden;}
 #content02 .item_list .item {display:inline-block;padding:15px;width:20%;height:100%;}
 #content02 .item_list .item img {height:550px;padding:0 15px;display:block;margin:0 auto 20px auto;}
@@ -107,7 +107,7 @@ body {font-family: 'Oswald', sans-serif;}
 /* content03 - collaboration */
 #content03 {background: #f3f3f3;}
 #content03 .container {position:relative;width:1200px;margin:0 auto;padding:0 15px;}
-#content03 .container h2 {font-size:80px;font-weight:400;text-align:right;margin-bottom:10px;}
+#content03 .container h2 {font-size:60px;font-weight:400;text-align:right;margin:60px 0 10px 0;}
 #content03 .container h2:before {content:"";display:block;position:absolute;top:50px;left:495px;background: #292929;width:2px;height:205px;z-index:999;}
 #content03 .container .subtitle {display:block;text-align:right;font-size:30px;font-weight:200;}
 
@@ -123,7 +123,7 @@ body {font-family: 'Oswald', sans-serif;}
 #content03 #collabo .collabo_img .btn05 {position:absolute;top:430px;left:200px;}
 #content03 #collabo .collabo_img .btn06 {position:absolute;top:467px;left:320px;}
 
-#content03 #collabo .collabo_list {padding-top:100px;}
+#content03 #collabo .collabo_list {padding-top:90px;}
 #content03 #collabo .collabo_list .close {display:none;}
 #content03 #collabo .collabo_list .collabo_item {display:flex;background: #fff; margin-bottom:20px;}
 #content03 #collabo .collabo_list .collabo_item .des {position:relative;width:421px;padding:40px 32px;}
@@ -309,7 +309,7 @@ body {font-family: 'Oswald', sans-serif;}
     /* content03 - collaboration */
     #content03 {background: #f3f3f3;padding:50px 0;}
     #content03 .container {position:relative;width:auto;margin:0 auto;padding:0 15px;}
-    #content03 .container h2 {font-size:25px;font-weight:400;text-align:center;margin-bottom:10px;}
+    #content03 .container h2 {font-size:25px;font-weight:400;text-align:center;margin:0 0 10px 0;}
     #content03 .container h2:before {content:"";display:none;position:absolute;top:50px;left:495px;background: #292929;width:2px;height:205px;z-index:999;}
     #content03 .container .subtitle {display:block;text-align:center;font-size:16px;font-weight:200;margin-bottom:40px;}
 
