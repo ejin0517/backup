@@ -186,6 +186,7 @@ body {font-family: 'Oswald', sans-serif;}
 .nav .navi .sns {margin-top:150px;}
 .nav .navi .sns:before {content:"";display:none;}
 .nav .navi .sns>ul li {font-size:20px;background:#0c0c0c;color:#fff;width:40px;height:40px;border-radius:50%;text-align:center;margin:0 auto;}
+.nav .navi .sns>ul li a {display:block;}
 .nav .navi .sns>ul li:hover {background:#92caff;}
 .nav .navi .sns>ul li~li {margin:15px auto;}
 
@@ -385,6 +386,7 @@ body {font-family: 'Oswald', sans-serif;}
     .nav .navi .sns {margin-top:0;}
     .nav .navi .sns:before {content:"";display:none;}
     .nav .navi .sns>ul li {display:inline-block;font-size:14px;background:#0c0c0c;color:#fff;width:25px;height:25px;border-radius:50%;text-align:center;margin:15px 5px;}
+    .nav .navi .sns>ul li a {display:block;}
     .nav .navi .sns>ul li:hover {background:#0c0c0c;}
     .nav .navi .sns>ul li~li {margin:0 5px;}
 
