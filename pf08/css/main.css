@@ -196,6 +196,8 @@ body {font-family: 'Oswald', sans-serif;}
 
 @media (max-width:768px){
 
+    *{border:1px solid #f00;}
+
     .fp-tableCell {width:auto;height:auto !important;}
 
     /* header */
@@ -338,7 +340,7 @@ body {font-family: 'Oswald', sans-serif;}
 
 
     /* content04 - best&buying item */
-    #content04 {padding:50px 0;}
+    #content04 {padding:30px 0;}
     #content04 .container {display:flex;flex-direction:column;width:auto;margin:0 auto;padding:0 15px;}
     #content04 figure {position:relative;text-align: center;line-height:90px;}
     #content04 figure.banner_best {background: url(../img/best_item.jpg) no-repeat center center/cover;width:100%;height:300px;}
@@ -346,7 +348,7 @@ body {font-family: 'Oswald', sans-serif;}
     #content04 figure.banner_best:hover strong {font-weight:200;}
     #content04 figure.banner_best strong {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);display:block;font-size:26px;width:205px;height:90px;background: #fff;font-weight: 200;}
 
-    #content04 figure.banner_buying {background: url(../img/buying_item.jpg) no-repeat center center/cover;width:100%;height:300px;margin-top:20px;}
+    #content04 figure.banner_buying {background: url(../img/buying_item.jpg) no-repeat center center/cover;width:100%;height:300px;margin-top:10px;}
     #content04 figure.banner_buying:hover {background: url(../img/buying_item.jpg) no-repeat center center/cover;}
     #content04 figure.banner_buying:hover strong {font-weight:200;}
     #content04 figure.banner_buying strong {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);display:block;font-size:26px;width:205px;height:90px;background: #fff;font-weight: 200;}
