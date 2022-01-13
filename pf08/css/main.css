@@ -196,8 +196,6 @@ body {font-family: 'Oswald', sans-serif;}
 
 @media (max-width:768px){
 
-    *{border:1px solid #f00;}
-
     /* header */
     #header {position:fixed;top:0;left:0;width:100%;height:auto;z-index:999;}
     #header:hover {background:transparent;}
