@@ -140,6 +140,7 @@ body {font-family: 'Oswald', sans-serif;}
 /* content04 - best&buying item */
 #content04 {}
 #content04 .container {display:flex;width:1200px;margin:0 auto;padding:0 15px;}
+#content04 .container h2 {display:none;}
 #content04 figure {position:relative;text-align: center;line-height:90px;}
 #content04 figure.banner_best {background: url(../img/best_item_bk.jpg) no-repeat center center/cover;width:585px;height:680px;transition:0.5s;}
 #content04 figure.banner_best:hover {background: url(../img/best_item.jpg) no-repeat center center/cover;}
@@ -227,7 +228,7 @@ body {font-family: 'Oswald', sans-serif;}
     #visual .main_slider .container {position:absolute;top:50%;left:0;transform:translateY(-50%);text-align:center;}
     #visual .main_slider .container h2 {font-size:30px;font-weight:500;margin-bottom:10px;}
     #visual .main_slider .container p {font-size:20px;font-weight:200;margin-bottom:25px;}
-    #visual .main_slider .container .btn {display:block;width:150px;height:35px;margin:0 auto;text-align:center;line-height:32px;background:transparent;border:1px solid #0c0c0c;color:#0c0c0c;letter-spacing:0.2em;}
+    #visual .main_slider .container .btn {display:block;width:150px;height:35px;margin:0 auto;font-size:14px;text-align:center;line-height:32px;background:transparent;border:1px solid #0c0c0c;color:#0c0c0c;letter-spacing:0.2em;}
     #visual .main_slider .sl02 .btn {background:transparent;border:1px solid #fff;color:#fff;}
     #visual .main_slider .sl01 .btn {margin:0;}
 
@@ -238,41 +239,41 @@ body {font-family: 'Oswald', sans-serif;}
 
 
     /* content01 - lookbook */
-    #content01 {background: #deebf2;}
+    #content01 {background: #deebf2;text-align:center;}
     #content01 .container {position:relative;display:flex;flex-direction:column;width:auto;margin:0 auto;padding:0 15px;}
-    #content01 .lookbook h2 {font-size:30px;font-weight:200;margin-bottom:5px;}
-    #content01 .lookbook strong {display:flex;flex-direction:column;font-size:80px;font-weight:400;margin-bottom:20px;}
+    #content01 .lookbook h2 {font-size:20px;font-weight:200;margin-bottom:5px;}
+    #content01 .lookbook strong {display:flex;flex-direction:column;font-size:55px;font-weight:400;margin-bottom:20px;}
     #content01 .lookbook p {display:block;font-family:'Noto Sans KR', sans-serif;font-size:2.7vw;margin-bottom:70px;line-height:1.4;}
     #content01 #lookbook_list {max-width:100%;overflow:hidden;} /*사이즈,overflow 안주면 오버됨*/
     #content01 #lookbook_list .list_imgS {position:relative;display:flex;flex-wrap:wrap;} /*3개씩 표시되도록*/
     #content01 #lookbook_list .list_imgS figure {flex:33.333%;}
     #content01 #lookbook_list .list_imgS img {width:100%;padding:2.5px;cursor:pointer;}
-    #content01 i {position:absolute;top:36%;font-size:20px;padding:5px;background:rgba(0,0,0,0.1);cursor:pointer;}
+    #content01 i {position:absolute;top:31%;font-size:20px;padding:5px;background:rgba(0,0,0,0.1);cursor:pointer;}
     #content01 i.xi-angle-left-thin {left:50%;transform:translateX(-50%);margin-left:-30px;}
     #content01 i.xi-angle-right-thin {left:50%;transform:translateX(-50%);margin-left:30px;}
 
     #content01 #lookbook_imgL {display:none;position:static;width:auto;}
     #content01 #lookbook_imgL.on {display:block;}
-    #content01 #lookbook_imgL figure {position:absolute;top:50px;left:50%;transform:translateX(-50%);overflow:hidden;width:100%;height:auto;background:rgba(0,0,0,0.7);visibility:hidden;}
+    #content01 #lookbook_imgL figure {position:absolute;top:5%;left:50%;transform:translateX(-50%);overflow:hidden;width:100%;height:auto;visibility:hidden;}
     #content01 #lookbook_imgL figure.on {visibility:visible;z-index:999;}
-    #content01 #lookbook_imgL figure img {width:100%;transform:scale(0.95);}
+    #content01 #lookbook_imgL figure img {width:100%;}
 
     #content01 .number {display:none;position:absolute;bottom:8px;right:44%;font-size:30px;text-align:right;}
     #content01 .number strong {font-size:14px;margin-left:5px;}
 
 
     /* content02 - new arrivals */
-    #content02 {padding:30px 0;}
-    #content02 h2 {font-size:25px;font-weight:400;text-align:center;margin-bottom:30px;}
-    #content02 .item_list {width:calc(100% - 30px);margin:0 auto;white-space:nowrap;overflow-x:scroll;overflow-y:hidden;}
+    #content02 {padding:50px 0;}
+    #content02 h2 {font-size:25px;font-weight:400;text-align:center;margin-bottom:20px;}
+    #content02 .item_list {width:calc(100% - 30px);margin:0 auto;white-space:nowrap;overflow-x:scroll;overflow-y:hidden;-webkit-overflow-scrolling:touch;}
     #content02 .item_list .item {display:inline-block;padding:10px;width:50%;height:100%;}
     #content02 .item_list .item img {height:400px;padding:0 15px;display:block;margin:0 auto 20px auto;}
 
     #content02 .item_list .item {text-align:center;}
-    #content02 .item_list .item .des strong {display:block;margin-bottom:10px;font-weight:18px;}
-    #content02 .item_list .item .des span {display:block;font-weight:500;margin-bottom:15px;}
+    #content02 .item_list .item .des strong {display:block;margin-bottom:5px;font-size:14px;}
+    #content02 .item_list .item .des span {display:block;font-weight:500;margin-bottom:15px;font-size:14px;}
 
-    #content02 .item_list .item .des .colorchip {display:flex;justify-content:center;margin-bottom:20px;}
+    #content02 .item_list .item .des .colorchip {display:flex;justify-content:center;margin-bottom:10px;}
     #content02 .item_list .item .des .colorchip span {display:block;border-radius:50%;width:13px;height:13px;margin:0 3px;;}
     #content02 .color01 {background: #a2a2a2;}
     #content02 .color02 {background: #ae9774;}
@@ -306,11 +307,11 @@ body {font-family: 'Oswald', sans-serif;}
     #content02 .item_list::-webkit-scrollbar-track {background:#ddd;border-radius:2.5px;box-shadow: inset 0px 0px 3px white;}
 
     /* content03 - collaboration */
-    #content03 {background: #f3f3f3;padding:40px 0;}
+    #content03 {background: #f3f3f3;padding:50px 0;}
     #content03 .container {position:relative;width:auto;margin:0 auto;padding:0 15px;}
     #content03 .container h2 {font-size:25px;font-weight:400;text-align:center;margin-bottom:10px;}
     #content03 .container h2:before {content:"";display:none;position:absolute;top:50px;left:495px;background: #292929;width:2px;height:205px;z-index:999;}
-    #content03 .container .subtitle {display:block;text-align:center;font-size:16px;font-weight:200;margin-bottom:60px;}
+    #content03 .container .subtitle {display:block;text-align:center;font-size:16px;font-weight:200;margin-bottom:40px;}
 
     #content03 .collabo_slider {height:auto;overflow:hidden;} /*높이와 overflow:hidden 줘야 오버되는 부분 안나오게함*/
     #content03 #collabo {display:flex;flex-direction:column;justify-content:space-between;}
@@ -342,15 +343,16 @@ body {font-family: 'Oswald', sans-serif;}
 
 
     /* content04 - best&buying item */
-    #content04 {padding:30px 0;}
+    #content04 {padding:50px 0;}
     #content04 .container {display:flex;flex-direction:column;width:auto;margin:0 auto;padding:0 15px;}
+    #content04 .container h2 {display:block;font-size:25px;font-weight:400;text-align:center;margin-bottom:30px;}
     #content04 figure {position:relative;text-align: center;line-height:90px;}
     #content04 figure.banner_best {background: url(../img/best_item.jpg) no-repeat center center/cover;width:100%;height:300px;}
     #content04 figure.banner_best:hover {background: url(../img/best_item.jpg) no-repeat center center/cover;}
     #content04 figure.banner_best:hover strong {font-weight:200;}
     #content04 figure.banner_best strong {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);display:block;font-size:26px;width:205px;height:90px;background: #fff;font-weight: 200;}
 
-    #content04 figure.banner_buying {background: url(../img/buying_item.jpg) no-repeat center center/cover;width:100%;height:300px;margin-top:10px;}
+    #content04 figure.banner_buying {background: url(../img/buying_item.jpg) no-repeat center center/cover;width:100%;height:300px;margin-top:5px;}
     #content04 figure.banner_buying:hover {background: url(../img/buying_item.jpg) no-repeat center center/cover;}
     #content04 figure.banner_buying:hover strong {font-weight:200;}
     #content04 figure.banner_buying strong {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);display:block;font-size:26px;width:205px;height:90px;background: #fff;font-weight: 200;}
