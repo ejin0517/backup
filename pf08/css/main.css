@@ -26,8 +26,10 @@ body {font-family: 'Oswald', sans-serif;}
 #visual .main_slider .main_slider03 {background: url(../img/main_visual03.jpg) no-repeat center center/cover;}
 
 #visual .main_slider .container {position:absolute;top:50%;left:0;transform:translateY(-50%);text-align:center;}
-#visual .main_slider .container h2 {font-size:50px;font-weight:500;margin-bottom: 25px;}
-#visual .main_slider .container p {font-size:30px;font-weight:200;}
+#visual .main_slider .container h2 {font-size:50px;font-weight:500;margin-bottom:25px;}
+#visual .main_slider .container p {font-size:30px;font-weight:200;margin-bottom:50px;}
+#visual .main_slider .container .btn {display:block;width:200px;height:50px;margin:0 auto;text-align:center;line-height:50px;background:rgba(0,0,0,0.8);color:#fff;letter-spacing:0.2em;}
+#visual .main_slider .sl02 .btn {background:rgba(255,255,255,0.9);color:#0c0c0c;}
 
 #visual .main_slider .sl01 {left:50%;}
 #visual .main_slider .sl02 {left:50%;transform:translateX(-50%);color:#fff;}
@@ -224,10 +226,13 @@ body {font-family: 'Oswald', sans-serif;}
 
     #visual .main_slider .container {position:absolute;top:50%;left:0;transform:translateY(-50%);text-align:center;}
     #visual .main_slider .container h2 {font-size:30px;font-weight:500;margin-bottom:10px;}
-    #visual .main_slider .container p {font-size:20px;font-weight:200;}
+    #visual .main_slider .container p {font-size:20px;font-weight:200;margin-bottom:25px;}
+    #visual .main_slider .container .btn {display:block;width:150px;height:35px;margin:0 auto;text-align:center;line-height:32px;background:transparent;border:1px solid #0c0c0c;color:#0c0c0c;letter-spacing:0.2em;}
+    #visual .main_slider .sl02 .btn {background:transparent;border:1px solid #fff;color:#fff;}
+    #visual .main_slider .sl01 .btn {margin:0;}
 
-    #visual .main_slider .sl01 {left:7%;transform:translateY(20px);text-align:left;}
-    #visual .main_slider .sl02 {left:50%;transform:translate(-50%, 50px);color:#fff;}
+    #visual .main_slider .sl01 {left:7%;transform:translateY(-20px);text-align:left;}
+    #visual .main_slider .sl02 {left:50%;transform:translate(-50%, 100px);color:#fff;}
     #visual .main_slider .sl02 h2 {font-size:70px;}
     #visual .main_slider .sl03 {left:12%;transform:translateY(70px);}
 
@@ -248,7 +253,7 @@ body {font-family: 'Oswald', sans-serif;}
 
     #content01 #lookbook_imgL {display:none;position:static;width:auto;}
     #content01 #lookbook_imgL.on {display:block;}
-    #content01 #lookbook_imgL figure {position:absolute;top:50px;left:50%;transform:translateX(-50%);overflow:hidden;width:100%;height:auto;background:rgba(0,0,0,0.1);visibility:hidden;}
+    #content01 #lookbook_imgL figure {position:absolute;top:50px;left:50%;transform:translateX(-50%);overflow:hidden;width:100%;height:auto;background:rgba(0,0,0,0.7);visibility:hidden;}
     #content01 #lookbook_imgL figure.on {visibility:visible;z-index:999;}
     #content01 #lookbook_imgL figure img {width:100%;transform:scale(0.95);}
 
