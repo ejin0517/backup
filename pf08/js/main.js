@@ -52,8 +52,8 @@ $('#content03 .collabo_slider').slick({
     arrows:false,
     autoplay:true,
     fade:true,
-    pauseOnHover:false,
-    pauseOnFocus:false,
+    pauseOnHover:true,
+    pauseOnFocus:true,
 });
 
 
@@ -74,6 +74,14 @@ $('.nav strong').on('click', function(){
 $('.mopen').on('click', function(){
     $(this).toggleClass('on');
     $('#header nav').toggleClass('on');
+});
+
+$('.list_imgS figure').on('click', function(){
+    $('#lookbook_imgL').addClass('on');
+});
+
+$('#lookbook_imgL').on('click', function(){
+    $(this).removeClass('on');
 });
 
 $('.xi-plus-circle').on('click', function(){
