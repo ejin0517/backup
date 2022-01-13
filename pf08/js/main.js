@@ -9,6 +9,7 @@ new fullpage('#fullpage', {
   });
 
 
+
 $('#visual .main_slider').slick({
     arrows:false,
     autoplay:true,
@@ -82,5 +83,15 @@ $('.xi-plus-circle').on('click', function(){
 $('.collabo_list .close').on('click', function(){
     $('.collabo_list').removeClass('on');
 });
+
+
+
+$(window).on('resize', function(){
+    if($(window).width()>768)
+        $('.menu').removeAttr("style");
+    
+   });
+
+
 //----------------------------------------
 })
