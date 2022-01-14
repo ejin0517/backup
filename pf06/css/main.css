@@ -51,16 +51,16 @@ body {font-size:1.6rem;color:var(--tx);}
 .con01 .fast_menu {width:117rem;display:flex;flex-wrap:wrap;position:absolute;bottom:-5rem;left:50%;transform: translateX(-50%);}
 .con01 .fast_menu .left {width:60%;}
 .con01 .fast_menu .left .banner_slider {width:100%;position:relative;}
-.con01 .fast_menu .left .banner_slider figure {padding:7rem 5rem;text-align:right;}
+.con01 .fast_menu .left .banner_slider figure {padding:7rem 3.5rem;text-align:right;}
 .con01 .fast_menu .left .banner_slider .banner01 {height:269px;background:url(../img/banner01.jpg) no-repeat center center/cover;}
-.con01 .fast_menu .left .banner_slider .banner02 {height:269px;background:url(../img/banner04.jpg) no-repeat center center/cover;}
+.con01 .fast_menu .left .banner_slider .banner02 {height:269px;background:url(../img/banner02.jpg) no-repeat center center/cover;}
 .con01 .fast_menu .left .banner_slider .banner03 {height:269px;background:url(../img/banner03.jpg) no-repeat center center/cover;}
-.con01 .fast_menu .left .banner_slider figure .icon {display:block;font-size:1.2rem;background:rgba(255,255,255,0.3);padding:0.2rem;width:5rem;text-align:center;border-radius:0.5rem;margin:0 0 1.2rem auto;}
+.con01 .fast_menu .left .banner_slider figure .icon {display:block;font-size:1.2rem;background:rgba(255,255,255,0.3);padding:0.2rem;width:5rem;text-align:center;border-radius:0.5rem;margin:0 0 1rem auto;}
 .con01 .fast_menu .left .banner_slider figure strong{display:block;font-size:3rem;font-weight:700;margin-bottom:1.5rem;}
 .con01 .fast_menu .left .banner_slider figure span{display:block;line-height:1.4;font-size:1.4rem;}
 
 .con01 .fast_menu .left .banner_slider .slick-dots {display:flex;position:absolute;bottom:1.5rem;left:50%;transform:translateX(-50%);}
-.con01 .fast_menu .left .banner_slider .slick-dots li {width:0.8rem;height:0.8rem;background:rgb(177, 177, 177);border-radius:50%;}
+.con01 .fast_menu .left .banner_slider .slick-dots li {width:0.8rem;height:0.8rem;background:#fff;border-radius:50%;}
 .con01 .fast_menu .left .banner_slider .slick-dots li.slick-active {background:var(--sc);}
 .con01 .fast_menu .left .banner_slider .slick-dots li~li {margin-left:0.5rem;}
 .con01 .fast_menu .left .banner_slider .slick-dots li button {display:none;}
@@ -304,12 +304,12 @@ body {font-size:1.6rem;color:var(--tx);}
     .con01 .fast_menu {width:100%;display:flex;flex-direction:column;flex-wrap:nowrap;position:relative;bottom:0;left:0;transform: translateX(0);}
     .con01 .fast_menu .left {width:100%;}
     .con01 .fast_menu .left .banner_slider {width:100%;position:relative;}
-    .con01 .fast_menu .left .banner_slider figure {padding:2rem;text-align:right;}
+    .con01 .fast_menu .left .banner_slider figure {padding:3rem 1rem;text-align:right;}
     .con01 .fast_menu .left .banner_slider .banner01 {height:15rem;background:url(../img/banner01.jpg) no-repeat center center/cover;}
-    .con01 .fast_menu .left .banner_slider .banner02 {height:15rem;background:url(../img/banner04.jpg) no-repeat center center/cover;}
+    .con01 .fast_menu .left .banner_slider .banner02 {height:15rem;background:url(../img/banner02.jpg) no-repeat center center/cover;}
     .con01 .fast_menu .left .banner_slider .banner03 {height:15rem;background:url(../img/banner03.jpg) no-repeat center center/cover;}
-    .con01 .fast_menu .left .banner_slider figure strong{display:block;font-size:2rem;font-weight:500;margin-bottom:1rem;}
-    .con01 .fast_menu .left .banner_slider figure span{display:block;font-weight:300;line-height:1.4;font-size:3vw;}
+    .con01 .fast_menu .left .banner_slider figure strong{display:block;font-size:1.8rem;font-weight:500;margin-bottom:1rem;}
+    .con01 .fast_menu .left .banner_slider figure span{display:block;font-weight:300;line-height:1.4;font-size:2.5vw;}
 
     .con01 .fast_menu .left .banner_slider .slick-dots {display:flex;position:absolute;bottom:1.5rem;left:50%;transform:translateX(-50%);z-index:999;}
     .con01 .fast_menu .left .banner_slider .slick-dots li {width:0.6rem;height:0.6rem;background:rgb(177, 177, 177);border-radius:50%;}
