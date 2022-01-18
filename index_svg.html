@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta namte="description" content="2022년 이은진 portfolio">
+    <title>Eunjin's Portfolio 2022</title>
+    <link rel="stylesheet" href="./lib/css/common.css">
+    <link rel="stylesheet" href="./lib/css/slick.css">
+    <link rel="stylesheet" href="./lib/css/fullpage.min.css">
+    <link rel="stylesheet" href="./portfolio_svg.css">
+    <script src="./lib/js/jquery-1.12.4.min.js"></script>
+    <script src="./lib/js/slick.min.js"></script>
+    <script src="./lib/js/fullpage.min.js"></script>
+    <script src="./lib/js/typed_cdn.js"></script>
+    <script src="./lib/js/circle-progress.min.js"></script>
+    <script src="./portfolio_svg.js"></script>
+</head>
+<body>
+    <div id="Wrap">
+        <header id="header">
+            <h1>
+                <a href="/">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460.9 264.49"><defs></defs><path class="cls-1" transform="translate(-25.53 -19.57)"/></svg>    
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#portfolio_01">portfolio_01</a></li>
+                    <li><a href="#portfolio_02">portfolio_02</a></li>
+                    <li><a href="#portfolio_03">portfolio_03</a></li>
+                    <li><a href="#portfolio_04">portfolio_04</a></li>
+                    <li><a href="#portfolio_05">portfolio_05</a></li>
+                    <li><a href="#profile">profile</a></li>
+                </ul>
+            </nav>
+            <div class="cover_btn">
+                <i class="xi-bars"></i>
+            </div>
+            
+        </header>
+        <main id="main">
+            <section class="section intro">
+                <div class="container">
+                    <div class="slogan">
+                        <h2><span id="slogan_txt"></span></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br>Harum accusamus voluptatem quo adipisci placeat sed at,</p>
+                        <strong>2022 Eunjin portfolio</strong>
+                    </div>
+                    <figure><img src="./lib/bsse/intro02.jpg" alt="2022 Eunjin portfolio"></figure>
+                </div>
+                <a href="#portfolio_01" class="wheel">
+                    <span>wheel</span>
+                </a>
+            </section>
+            <section class="section portfolio_01">
+                <div class="container">
+                    <div class="item mockup">
+                        <figure>
+                            <img src="./lib/bsse/portfolio01_img.jpg" alt="portfolio01"></img>
+                        </figure>
+                    </div>
+                    <div class="des">
+                        <div class="gooey">
+                            <span>0</span>
+                            <span>1</span>
+                        </div>
+                        <h3>Audi Korea</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Dolores inventore quae ad, fugit cupiditate amet<br>dicta nihil sequi assumenda at. Inventore officiis.</p>
+                        <dl>
+                            <dt>Font</dt>
+                            <dd>"Noto Sans Korean" , "Montserrat"</dd>
+                        </dl>
+                        <dl>
+                            <dt>Color</dt>
+                            <dd>
+                                <span></span>
+                                <strong>#0c0c0c</strong>
+                                <span></span>
+                                <strong>#ddd</strong>
+                                <span></span>
+                                <strong>#171717</strong>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>Process</dt>
+                            <dd>jQuery , Slick Slide , YTplayer</dd>
+                        </dl>
+                        <ul>
+                            <li><a href="https://ejin0517.github.io/pf02/index.html" target="blank">Website</a></li>
+                            <li><a href="#!">Style Guide</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section portfolio_02">
+                <div class="box_mask">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 267.43 267.43"><style>.cls-2{fill:#ffffff;}</style>
+                        <defs>
+                        <mask id="photo-mask">
+                            <path class="cls-2" d="M237.38,261,62.62,277a46.47,46.47,0,0,1-46.33-46.34V64.93A46.47,46.47,0,0,1,62.62,18.59l174.76,21a46.48,46.48,0,0,1,46.33,46.34V214.68A46.47,46.47,0,0,1,237.38,261Z" transform="translate(-16.29 -18.59)"/>
+                        </mask>
+                        </defs>
+                        <image mask="url(#photo-mask)" xlink:href="./lib/bsse/portfolio01_img.jpg"/>
+                    </svg>
+                </div>
+            </section>
+            <section class="section portfolio_03">03</section>
+            <section class="section portfolio_04">04</section>
+            <section class="section portfolio_05">05</section>
+            <section class="section profile">profile</section>
+        </main>
+        <footer id="footer">
+            <div class="toTop">
+                <a href="#intro"><i class="xi-arrow-top"></i></a>
+            </div>
+            <address>
+                &copy;2022 eunjin.
+            </address>
+        </footer>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+          <filter id="bbq">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -5" result="bbq" />
+            <feBlend in="SourceGraphic" in="bbq" />
+        </filter>
+        </defs>
+      </svg>
+</body>
+</html>
