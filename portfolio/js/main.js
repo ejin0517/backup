@@ -6,11 +6,16 @@ new fullpage('#fullpage', {
     keyboardScrolling: true,
     responsiveWidth:769,
 
-    afterLoad: function(origin,destination){ 
-      $(this).eq(destination.index).addClass('on').siblings().removeClass('on');
-
-    }
-
+    afterLoad: function(origin, destination, direction){
+      let txt = $('.section').eq(destination.index).find('strong').text();
+      $('.pg').text(txt);
+      $('.section').eq(destination.index).addClass('on').siblings().removeClass('on');
+      $('.gnb .dot').eq(destination.index).addClass('on').parent().siblings().find('.dot').removeClass('on');
+     
+      $('.now').text(txt);
+      destination.index==0 ? $('.header').fadeIn() : $('.header').fadeOut();
+      destination.index==0 ? $('.wheel').fadeIn() : $('.wheel').fadeOut();
+  },
 
   });
 
@@ -19,9 +24,7 @@ new fullpage('#fullpage', {
     $(this).parent().siblings().find('.dot').removeClass('on');
   });
 
-  //var idx= $('.section').index();
-  //$('.pg').text(idx+1);
-
+  
  // let type1 = new Typed ('#slogan_txt01', {
  //   strings: ['GROVE STORE'],
   //  typeSpeed: 200,
@@ -31,36 +34,6 @@ new fullpage('#fullpage', {
   //  loop: true,
 
 //});
-
- // let type2 = new Typed ('#slogan_txt02', {
- //   strings: ['AUDI KOREA'],
-  //  typeSpeed: 200,
- //   backSpeed: 200,
- //   smartBackspace: true,
-  //  cursorChar: '',
-  //  loop: true,
-
-//});
-
-  let type3 = new Typed ('#slogan_txt03', {
-    strings: ['NARS'],
-    typeSpeed: 200,
-    backSpeed: 200,
-    smartBackspace: true,
-    cursorChar: '',
-    loop: true,
-
-});
-
-  let type4 = new Typed ('#slogan_txt04', {
-    strings: ['RECTO'],
-    typeSpeed: 200,
-    backSpeed: 200,
-    smartBackspace: true,
-    cursorChar: '',
-    loop: true,
-
-});
 
 //-------------------------------
 })
