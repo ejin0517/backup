@@ -32,7 +32,7 @@ body {background:linear-gradient(23deg, rgba(239,239,239,1) 0%, rgba(216,216,203
 
 #header .gnb {position:fixed;top:50%;right:-8%;transform:translateY(-50%);z-index:998;}
 #header .gnb .circle {position:relative;width:300px;height:300px;border-radius:50%;border:1px solid var(--stx);transform:translateX(10%);z-index:999;}
-#header .gnb .circle .dot {width:7px;height:7px;background:var(--stx);border-radius:50%;color:var(--stx);}
+#header .gnb .circle .dot {width:5px;height:5px;background:var(--stx);border-radius:50%;color:var(--stx);}
 #header .gnb .circle .dot.on {background:var(--dc);color:var(--dc);transform:scale(1.2);animation:circle 2s;}
 #header .gnb .circle .dot01 {position:absolute;top:4%;left:27%;}
 #header .gnb .circle .dot02 {position:absolute;top:14%;left:13%;}
@@ -210,18 +210,36 @@ body {background:linear-gradient(23deg, rgba(239,239,239,1) 0%, rgba(216,216,203
 /* profile */
 #profile_pg .container {display:flex;font-family:'Noto Sans KR',sans-serif;}
 #profile_pg .container .pro_left {width:15%;height:100vh;border-right:1px solid var(--dc);}
-#profile_pg .container .pro_left .title {font-family: 'Antic Didone', serif;font-size:30px;writing-mode:vertical-rl;transform:rotate(180deg);position:absolute;top:30px;left:30px;}
+#profile_pg .container .pro_left .title {font-family: 'Antic Didone', serif;font-size:40px;writing-mode:vertical-rl;transform:rotate(180deg);position:absolute;top:30px;left:30px;}
 #profile_pg .container .pro_center {display:flex;flex-direction:column;position:relative;width:300px;height:100vh;border-right:1px solid var(--dc);padding:0 40px;}
-#profile_pg .container .pro_center figure {width:350px;height:350px;border:1px solid var(--dc);border-radius:50%;margin:150px 0 50px 0;transform:translateX(-65px);}
-#profile_pg .pro_title {display:block;font-size:20px;margin-bottom:12px;font-weight:500;font-family: 'Antic Didone', serif;}
+#profile_pg .container .pro_center figure {position:relative;width:350px;height:350px;padding:25px;border:1px solid var(--lc);border-radius:50%;margin:150px 0 50px 0;transform:translateX(-65px);}
+#profile_pg .container .pro_center figure img {width:100%;border-radius:50%;}
+#profile_pg .container .pro_center figure .cir {width:550px;height:150px;border:1px solid rgba(255,255,255,0.8);border-radius:50%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);animation:cir1 10s linear infinite;z-index:-1;}
+#profile_pg .container .pro_center figure .cir2 {animation:cir2 10s linear infinite;}
+#profile_pg .pro_title {display:block;font-size:24px;margin-bottom:12px;font-weight:500;font-family: 'Antic Didone', serif;}
+
+@keyframes cir1 {
+    0% {transform:translate(-50%,-50%) rotate(45deg);}
+    50% {transform:translate(-50%,-50%) rotate(360deg);}
+    100% {transform:translate(-50%,-50%) rotate(135deg);}
+}
+@keyframes cir2 {
+    0% {transform:translate(-50%,-50%) rotate(135deg);}
+    50% {transform:translate(-50%,-50%) rotate(495deg);}
+    100% {transform:translate(-50%,-50%) rotate(-45deg);}
+}
+
+
+#profile_pg {background:linear-gradient(29deg, rgba(249,241,243,1) 6%, rgba(231,231,219,1) 56%, rgba(226,210,206,1) 98%);}
 #profile_pg .container dl {font-size:15px;line-height:1.4;}
 #profile_pg .container dt {font-weight:500;color:var(--dt);}
-#profile_pg .container dd {font-weight:100;font-size:14px;margin-bottom:7px;}
+#profile_pg .container dd {position:relative;font-weight:100;font-size:14px;margin-bottom:7px;}
 
-#profile_pg .container .pro_right {display:flex;flex-wrap:wrap;width:50%;border-right:1px solid var(--dc);padding:220px 70px;}
-#profile_pg .container .pro_right dl {padding-left:20px;flex:50%;margin-bottom:60px;}
-#profile_pg .container .pro_right .skill {flex:50%;}
-#profile_pg .container i {position:relative;font-size:26px;padding:10px 10px 8px 10px;border-radius:50%;background:var(--dt);color:var(--lc);margin-right:5px;}
-#profile_pg .container .sk_des {position:absolute;bottom:-5px;left:50%;transform:translateX(-50%);font-size:12px;color:var(--dg);}
+#profile_pg .container .pro_right {display:flex;flex-wrap:wrap;width:50%;border-right:1px solid var(--dc);padding:200px 0 0 130px;}
+#profile_pg .container .pro_right dl {flex:50%;}
+#profile_pg .container i {position:relative;font-size:26px;padding:10px 10px 8px 10px;border-radius:50%;background:var(--dt);color:var(--lc);transition:0.5s;}
+#profile_pg .container dd.ski {display:inline-block;margin:0 20px 40px 0;}
+#profile_pg .container dd.ski:hover i{background:#efc7b8;}
+#profile_pg .container dd .skill_des {position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);font-size:10px;font-weight:300;color:var(--dt);}
 
 .fp-tableCell {height:auto !important;}
