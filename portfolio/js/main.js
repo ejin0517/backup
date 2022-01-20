@@ -24,6 +24,16 @@ new fullpage('#fullpage', {
     $(this).parent().siblings().find('.dot').removeClass('on');
   });
 
+  $('.mopen').on('click', function(){
+    $(this).toggleClass('on');
+    $('.content').slideToggle();
+  });
+
+  $('.content a').on('click', function(){
+    $('.content').slideUp();
+    $('.mopen').removeClass('on');
+  })
+
   
  // let type1 = new Typed ('#slogan_txt01', {
  //   strings: ['GROVE STORE'],
