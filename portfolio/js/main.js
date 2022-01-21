@@ -34,16 +34,13 @@ new fullpage('#fullpage', {
     $('.mopen').removeClass('on');
   })
 
-  
- // let type1 = new Typed ('#slogan_txt01', {
- //   strings: ['GROVE STORE'],
-  //  typeSpeed: 200,
-  //  backSpeed: 200,
-  //  smartBackspace: true,
-  //  cursorChar: '',
-  //  loop: true,
 
-//});
+  $(window).on('resize', function(){
+    if($(window).width()>768)
+        $('.menu').removeAttr("style");
+    
+   });
+
 
 //-------------------------------
 })
