@@ -78,7 +78,7 @@ body {background:linear-gradient(23deg, rgba(239,239,239,1) 0%, rgba(216,216,203
 /* main */
 #main .container {width:1200px;margin:0 auto;}
 #main .ma_title {font-size:90px;}
-#main .ma_circle {width:70px;height:20px;border-radius:50%;border:1px solid var(--dc);margin:0 auto;}
+#main .ma_circle {display:none;width:70px;height:20px;border-radius:50%;border:1px solid var(--dc);margin:0 auto;}
 #main .ma_circle01 {transform:rotate(45deg) translate(3%, 50%);animation:ma_circle 3s linear ;}
 #main .ma_circle02 {transform:rotate(135deg) translate(-5%, 70%);animation:ma_circle2 3s linear;}
 
