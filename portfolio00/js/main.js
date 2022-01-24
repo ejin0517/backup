@@ -4,7 +4,7 @@ $(function(){
 new fullpage('#fullpage', {
     anchors: ['main', 'project01', 'project02', 'project03', 'project04', 'project05', 'project06', 'profile'],
     keyboardScrolling: true,
-    responsiveWidth:769,
+    //responsiveWidth:769,
 
     afterLoad: function(origin, destination, direction){
       let txt = $('.section').eq(destination.index).find('strong').text();
