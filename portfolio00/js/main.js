@@ -10,18 +10,13 @@ new fullpage('#fullpage', {
       let txt = $('.section').eq(destination.index).find('strong').text();
       $('.pg').text(txt);
       $('.section').eq(destination.index).addClass('on').siblings().removeClass('on');
-      $('.gnb .dot').eq(destination.index).addClass('on').parent().siblings().find('.dot').removeClass('on');
-     
-      $('.now').text(txt);
-      destination.index==0 ? $('.header').fadeIn() : $('.header').fadeOut();
-      destination.index==0 ? $('.wheel').fadeIn() : $('.wheel').fadeOut();
+      $('.gnb a').eq(destination.index).addClass('on').siblings().removeClass('on');
   },
 
   });
 
-  $('.gnb .dot').on('click', function(){
-    $(this).addClass('on');
-    $(this).parent().siblings().find('.dot').removeClass('on');
+  $('.gnb a').on('click', function(){
+    $(this).addClass('on').siblings().removeClass('on');
   });
 
   $('.mopen').on('click', function(){
