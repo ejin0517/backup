@@ -262,10 +262,10 @@ h3 {font-size:20px;}
 
     .page_num {display:none;}
     .page_num .pg {color:var(--mc);}
-    h2 {position:static;margin-top:30px;font-size:20px;writing-mode:horizontal-tb;transform:rotate(0);}
+    h2 {position:static;margin-top:40px;font-size:20px;writing-mode:horizontal-tb;transform:rotate(0);}
 
 
-    .info_bx {position:absolute;bottom:-50%;left:5%;width:90%;background:var(--lc);padding:10px;font-family:'Noto Sans KR',sans-serif;line-height:1.6;font-size:2.5vw;transform:translateX(0);transition:1s 2s;opacity:0;}
+    .info_bx {position:absolute;bottom:-60%;left:5%;width:90%;background:var(--lc);padding:10px;font-family:'Noto Sans KR',sans-serif;line-height:1.6;font-size:2.5vw;transform:translateX(0);transition:1s 2s;opacity:0;}
     .info_bx .keyword {text-align:right;margin-bottom:10px;}
     .info_bx .keywd {display:inline-block;font-size:2.5vw;font-weight:100;padding:2px 7px 4px 7px;margin-right:3px;}
     .info_bx .ky01 {background:var(--stx);color:var(--lc);border-radius:3px;}
@@ -274,7 +274,7 @@ h3 {font-size:20px;}
 
     .info_bx dl dt {font-weight:500;float:left;width:40px;}
     .info_bx dl dd {font-weight:300;}
-    .info_bx dl dd.dd_info {margin-bottom:10px;clear:left;font-size:3vw;}
+    .info_bx dl dd.dd_info {margin-bottom:10px;clear:left;font-size:2.5vw;}
     .info_bx dl .color {display:inline-block;width:15px;height:15px;border-radius:50%;margin:3px 5px 0 0;}
 
 
