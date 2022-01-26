@@ -256,7 +256,7 @@ body {font-family: 'Urbanist', sans-serif;}
     #intro .text h1 {font-size:100px;animation:h1Ani 5s infinite ease alternate;}
     #intro .text h2 {position:absolute;font-size:26px;color:var(--lc);writing-mode:vertical-rl;transform:rotate(180deg);animation:h2Ani 5s infinite ease alternate;}
     #intro .text .sub_name {display:block;animation:nameAni 5s infinite ease alternate;}
-    #intro .sub_left {writing-mode:horizontal-tb;transform:rotate(0) translateX(-50%);position:absolute;top:calc(100vh - 10%);left:50%;}
+    #intro .sub_left {writing-mode:horizontal-tb;transform:rotate(0) translateX(-50%);position:absolute;top:calc(100vh - 15%);left:50%;}
 
     @keyframes boxAni {
         0% {width:1000px;height:700px;background:transparent;}
