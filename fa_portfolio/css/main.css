@@ -407,8 +407,8 @@ body {font-family: 'Urbanist', sans-serif;}
     #fd02 .bx_product figure {flex:50%;margin:5px;}
 
     #fd02 .bx_product .fd02_01 {background:url(../img/fashion_item05.jpg) no-repeat center center/cover;width:170px;height:220px;transition:0.5s;}
-    #fd02 .bx_product .fd02_02 {background:url(../img/fd02_02.JPG) no-repeat center center/cover;width:170px;height:220px;transition:0.5s;}
-    #fd02 .bx_product .fd02_03 {background:url(../img/fd02_03.jpg) no-repeat center center/cover;width:170px;height:220px;transition:0.5s;}
+    #fd02 .bx_product .fd02_02 {background:url(../img/fd02_02.jpg) no-repeat center center/cover;width:170px;height:220px;transition:0.5s;}
+    #fd02 .bx_product .fd02_03 {background:url(../img/fd02_03.JPG) no-repeat center center/cover;width:170px;height:220px;transition:0.5s;}
     #fd02 .bx_product .fd02_04 {background:url(../img/fd02_04.jpg) no-repeat center center/cover;width:170px;height:220px;transition:0.5s;}
 
     #fd02 .bx_product .fd02_01:hover {background:url(../img/fashion_item05.jpg) no-repeat center center/cover;}
@@ -425,7 +425,7 @@ body {font-family: 'Urbanist', sans-serif;}
 
     #fd03 .bx_product .fd03_01 {background:url(../img/fd03_01.JPG) no-repeat center center/cover;width:170px;height:220px;transition:0.5s;}
     #fd03 .bx_product .fd03_02 {background:url(../img/fd03_02.JPG) no-repeat center center/cover;width:170px;height:220px;transition:0.5s;}
-    #fd03 .bx_product .fd03_03 {background:url(../img/fd03_03.jpg) no-repeat center center/cover;width:170px;height:220px;transition:0.5s;}
+    #fd03 .bx_product .fd03_03 {background:url(../img/fd03_03.JPG) no-repeat center center/cover;width:170px;height:220px;transition:0.5s;}
     #fd03 .bx_product .fd03_04 {background:url(../img/fd03_04.jpg) no-repeat center center/cover;width:170px;height:220px;transition:0.5s;}
 
     #fd03 .bx_product .fd03_01:hover {background:url(../img/fashion_item09.jpg) no-repeat center center/cover;}
