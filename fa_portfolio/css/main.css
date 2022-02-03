@@ -374,12 +374,12 @@ body {font-family: 'Urbanist', sans-serif;}
 
 
     /* fashion design */
-    .fd_left {width:100%;height:20vh;padding:5% 3% 0 6%;transition:0.5s 0.5s;z-index:999;}
+    .fd_left {width:100%;height:20vh;padding:5% 3% 0 6%;transition:none;z-index:999;}
     .fd_right {position:relative;width:100%;height:80vh;padding:5% 2% 0 2%;}
 
     .fd_left h2 {font-size:20px;}
 
-    .bx_product {transform:translateX(100px);opacity:0;transition:0.5s 0.3s;}
+    .bx_product {transform:translateX(0);opacity:1;transition:none;}
     .section.on .bx_product {transform:translateX(0);opacity:1;}
     .fd_stx {display:block;color:var(--stx);font-size:10px;line-height:1.4;font-family:'Noto Sans KR',sans-serif;padding:5px;text-align:center;}
 
@@ -438,7 +438,7 @@ body {font-family: 'Urbanist', sans-serif;}
     #fd04 {background:linear-gradient(0deg, rgba(223,223,223,1) 0%, rgba(255,255,255,1) 100%);}
     #fd05 {background:linear-gradient(0deg, rgba(223,223,223,1) 0%, rgba(255,255,255,1) 100%);}
 
-    .fc_content {text-align:center;margin-bottom:10px;transform:translateY(100px);opacity:0;transition:0.5s 0.2s;}
+    .fc_content {text-align:center;margin-bottom:10px;transform:translateY(0);opacity:1;transition:none;}
     .section.on .fc_content {transform:translateY(0);opacity:1;}
 
     .fc_con .flip-card {background-color:transparent;width:300px;height:480px;perspective:1000px;margin:15px auto 15px auto;overflow:hidden;}
@@ -457,7 +457,7 @@ body {font-family: 'Urbanist', sans-serif;}
     .fd_cover h2 {font-size:20px;margin:60px 0 0 0;text-align:center;}
 
 
-    .fc_content03 {text-align:center;margin-bottom:15px;transform:translateY(100px);opacity:0;transition:0.5s 0.2s;}
+    .fc_content03 {text-align:center;margin-bottom:15px;transform:translateY(0);opacity:1;transition:none;}
     .section.on .fc_content03 {transform:translateY(0);opacity:1;}
 
     .fc_con03 figure {display:flex;justify-content:center;}
@@ -479,15 +479,15 @@ body {font-family: 'Urbanist', sans-serif;}
  
     /* 공통 */
     .cover {display:flex;flex-direction:column;}
-    .bx_left {width:auto;height:35vh;padding:20px;transform:translateX(-40%);transition:0.5s 0.5s;opacity:0;z-index:999;}
-    .bx_right {position:relative;width:auto;height:65vh;background:rgba(255,255,255,0.95);padding:0;transform:translateX(60%);transition:1s 1s;opacity:0;}
+    .bx_left {width:auto;height:35vh;padding:20px;transform:translateX(0);transition:none;opacity:1;z-index:999;}
+    .bx_right {position:relative;width:auto;height:65vh;background:rgba(255,255,255,0.95);padding:0;transform:translateX(0);transition:none;opacity:1;}
 
     .page_num {display:none;}
     .page_num .pg {color:var(--mc);}
     .cover h2 {position:static;margin-top:60px;font-size:20px;writing-mode:horizontal-tb;transform:rotate(0);}
 
 
-    .info_bx {position:absolute;bottom:-45%;left:5%;width:90%;background:var(--lc);padding:10px;font-family:'Noto Sans KR',sans-serif;line-height:1.6;font-size:2.5vw;transform:translateX(0);transition:1s 2s;opacity:0;}
+    .info_bx {position:absolute;bottom:-45%;left:5%;width:90%;background:var(--lc);padding:10px;font-family:'Noto Sans KR',sans-serif;line-height:1.6;font-size:2.5vw;transform:translateX(0);transition:none;opacity:1;}
     .info_bx .keyword {text-align:right;margin-bottom:10px;}
     .info_bx .keywd {display:inline-block;font-size:2.5vw;font-weight:100;padding:2px 7px 4px 7px;margin-right:3px;}
     .info_bx .ky01 {background:var(--stx);color:var(--lc);border-radius:3px;}
@@ -501,7 +501,7 @@ body {font-family: 'Urbanist', sans-serif;}
 
 
     .mock {position:relative;margin:20px 0 0 0;transform:scale(0.4) translate(-50%);width:100%;}
-    .mock .mobile {position:absolute;bottom:-20px;left:-20px;width:250px;height:354px;background:url(../img/mo_mockup02.png) no-repeat center top;padding:34px 25px 29px 75px;transform:translateY(-100px);opacity:0;transition:1s 2s;}
+    .mock .mobile {position:absolute;bottom:-20px;left:-20px;width:250px;height:354px;background:url(../img/mo_mockup02.png) no-repeat center top;padding:34px 25px 29px 75px;transform:translateY(0);opacity:1;transition:none;}
     .mo_cover {position:relative;width:100%;height:283px;overflow:hidden;border-radius:15px;}
     .mock .mo_cover .m_img {position:absolute;top:0;left:0;width:100%;cursor:pointer;transition:7s;}
     .mock .mo_cover .m_img:hover {transform:translateY(-100%);top:100%;}
@@ -575,14 +575,14 @@ body {font-family: 'Urbanist', sans-serif;}
 
     /* profile */
     #profile_pg {}
-    #profile_pg .bx_img {background:linear-gradient(0deg, rgba(201,201,201,1) 0%, rgba(212,216,223,1) 15%, rgba(236,212,189,1) 97%);position:relative;width:100%;height:35vh;padding:10px;transform:translateX(-40%);transition:0.5s 0.5s;opacity:0;z-index:999;}
+    #profile_pg .bx_img {background:linear-gradient(0deg, rgba(201,201,201,1) 0%, rgba(212,216,223,1) 15%, rgba(236,212,189,1) 97%);position:relative;width:100%;height:35vh;padding:10px;transform:translateX(0);transition:none;opacity:1;z-index:999;}
     #profile_pg .bx_img .bx_info {margin-top:50px;}
     #profile_pg .bx_img .copyright {display:none;}
     #profile_pg .bx_img h2 {display:none;}
-    #profile_pg .bx_img figure {position:absolute;top:75%;right:7%;transform:translateY(-100%);width:150px;height:150px;transition:1s 1s;opacity:0;}
+    #profile_pg .bx_img figure {position:absolute;top:75%;right:7%;transform:translateY(0);width:150px;height:150px;transition:none;opacity:1;}
     #profile_pg .bx_img figure img {width:100%;border-radius:50%;}
 
-    #profile_pg .bx_career {width:100%;height:65vh;display:flex;flex-wrap:wrap;padding:20px 0 0 0;transform:translateX(60%);transition:1s 1s;opacity:0;}
+    #profile_pg .bx_career {width:100%;height:65vh;display:flex;flex-wrap:wrap;padding:20px 0 0 0;transform:translateX(0);transition:none;opacity:1;}
     #profile_pg .pro_title {display:block;font-size:14px;margin-bottom:7px;font-family:'Urbanist', sans-serif;}
     #profile_pg dl {width:50%;height:auto;font-size:2.5vw;line-height:1.4;font-family:'Noto Sans KR',sans-serif;padding:10px 0 0 20px;}
     #profile_pg dt {font-weight:500;color:var(--dt);font-size:2.5vw;}
