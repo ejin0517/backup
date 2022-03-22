@@ -2,7 +2,7 @@ $(function(){
     new fullpage('#fullpage', {
         navigation: true,
         responsiveWidth: 700,
-        anchors: ['index', 'about', 'vision', 'member', 'brand', 'img','story','collection','collection01','collection02','lookbook','lookbook01','lookbook02','online','contact'],
+        anchors: ['index', 'about', 'vision', 'member', 'brand', 'img','story','collection','collection01','collection02','lookbook','lookbook01','lookbook02','website','contact'],
         parallax: true,
         onLeave: function(origin, destination, direction){
             console.log("Leaving section" + origin.index);
