@@ -1,7 +1,6 @@
 $(function(){
     new fullpage('#fullpage', {
         navigation: true,
-        responsiveWidth: 700,
         anchors: ['index', 'about', 'vision', 'member', 'brand', 'img','story','collection','collection01','collection02','lookbook','lookbook01','lookbook02','website','contact'],
         parallax: true,
         onLeave: function(origin, destination, direction){
@@ -11,6 +10,7 @@ $(function(){
         afterLoad: function(origin, destination, direction){
             $('.section').eq(destination.index).addClass('on').siblings().removeClass('on');
         },
+
     });
 
     $('.look_slide01').slick({
@@ -21,6 +21,16 @@ $(function(){
         speed:2000,
         slidesToShow:2,
         slidesToScroll:2,
+
+        responsive: [
+            {
+              breakpoint: 769,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll:1,
+              }
+            },
+        ]
         
     });
 
@@ -38,5 +48,20 @@ $(function(){
         $('.section10 .look_slide01').slick('slickNext');
     });
 
+
+	$(window).on('load resize', function() {
+		if($(window).width() > 768) {
+			Rsd.slick('unslick');
+		}else{
+			Rsd.not('.slick-initialized').slick(slickOptions);
+		}
+	});
+
+
+    $(window).on('resize', function(){
+        if($(window).width()>768)
+            $('.menu').removeAttr("style");
+        
+       });
 
 })
