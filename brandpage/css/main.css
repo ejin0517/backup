@@ -107,7 +107,7 @@
 /*.section09 .btn {font-size:30px;}
 .section09 i.xi-angle-left-thin {position:absolute;top:50%;left:-60px;transform:translateY(-50%);cursor:pointer;}
 .section09 i.xi-angle-right-thin {position:absolute;top:50%;right:-60px;transform:translateY(-50%);cursor:pointer;}*/
-.section09 figure {position:relative;}
+.section09 figure {position:relative;height:100vh;}
 .section09 figure .img_tran {transform:translateY(-250px);}
 .section09 figure strong {display:block;color:var(--dc);font-size:13px;line-height:1.2;position:absolute;top:20px;right:20px;text-align:right;}
 .section09 figure strong.lc {color:var(--lc);}
@@ -116,7 +116,7 @@
 /* section10 */
 .section10 {background:var(--bg);}
 .section10 .cover {overflow:hidden;width:100%;}
-.section10 figure {position:relative;}
+.section10 figure {position:relative;height:100vh;}
 .section10 figure .img_tran {transform:translateY(-250px);}
 .section10 figure strong {display:block;color:var(--dc);font-size:13px;line-height:1.2;position:absolute;top:20px;right:20px;text-align:right;}
 .section10 figure strong.lc {color:var(--lc);}
@@ -223,8 +223,8 @@
     .section03 .sec {width:auto;position:relative;}
     .section03 .bg_sec {background:url(../img/bg02.jpg) no-repeat top center;background-size:cover;height:40vh;}
 
-    .section03 .content {width:auto;position:static;height:60vh;top:30%;left:10%;transform:translateY(-50px);text-align:center;opacity:0;padding:40px 50px 0 50px;word-break:keep-all;}
-    .section03 h2 {font-size:30px;font-weight:100;margin-bottom:50px;}
+    .section03 .content {width:auto;position:static;height:60vh;top:30%;left:10%;transform:translateY(-50px);text-align:center;opacity:0;padding:30px 50px 0 50px;word-break:keep-all;}
+    .section03 h2 {font-size:30px;font-weight:100;margin-bottom:30px;}
     .section03 p {font-size:3vw;line-height:1.3;margin-bottom:30px;}
     .section03 strong {display:block;font-size:3vw;letter-spacing:0.3em;}
 
@@ -234,10 +234,10 @@
     /* section04 */
     .section04 .cover {display:flex;justify-content:space-between;flex-direction:column;}
     .section04 .sec {width:auto;position:relative;}
-    .section04 .text_sec {background:var(--lbg);height:65vh;}
-    .section04 .bg_sec {background:url(../img/bg03.jpg) no-repeat top center;background-size:cover;height:35vh;}
+    .section04 .text_sec {background:var(--lbg);height:60vh;}
+    .section04 .bg_sec {background:url(../img/bg03.jpg) no-repeat top center;background-size:cover;height:40vh;}
 
-    .section04 .content {width:100%;position:static;top:30%;left:15%;height:65vh;transform:translateY(-50px);opacity:0;padding:100px 10px 0 10px;}
+    .section04 .content {width:100%;position:static;top:30%;left:15%;height:60vh;transform:translateY(-50px);opacity:0;padding:100px 10px 0 10px;}
     .section04 h2 {font-size:20px;font-weight:100;margin-bottom:50px;}
     .section04 .content .part {margin-bottom:10px;}
     .section04 .content .part01 {margin-bottom:30px;}
@@ -291,24 +291,26 @@
     /* section09 */
     .section09 {background:var(--bg);}
     .section09 .cover {overflow:hidden;width:100%;margin-top:30px;}
-    .section09 figure {position:relative;overflow:hidden;padding:5px;}
+    .section09 figure {position:relative;overflow:hidden;padding:5px;height:auto;}
     .section09 figure .img_tran {transform:translateY(0);}
     .section09 figure strong {display:block;color:var(--dc);font-size:12px;line-height:1.2;position:absolute;top:20px;right:20px;text-align:right;}
     .section09 figure strong.lc {color:var(--lc);}
 
     .section09 .btn {display:block;font-size:20px;text-align:center;z-index:999;cursor:pointer;}
+    .section09 .btn i {background:rgba(0,0,0,0.2);padding:5px;color:var(--lc);}
     .section09 i.xi-angle-left-thin {margin:10px 30px 0 30px;}
     .section09 i.xi-angle-right-thin {margin:10px 30px 0 30px;}
 
     /* section10 */
     .section10 {background:var(--bg);}
     .section10 .cover {overflow:hidden;width:100%;margin-top:30px;}
-    .section10 figure {position:relative;overflow:hidden;padding:5px;}
+    .section10 figure {position:relative;overflow:hidden;padding:5px;height:auto;}
     .section10 figure .img_tran {transform:translateY(0);}
     .section10 figure strong {display:block;color:var(--dc);font-size:12px;line-height:1.2;position:absolute;top:20px;right:20px;text-align:right;}
     .section10 figure strong.lc {color:var(--lc);}
 
     .section10 .btn {display:block;font-size:20px;text-align:center;z-index:999;cursor:pointer;}
+    .section10 .btn i {background:rgba(0,0,0,0.2);padding:5px;color:var(--lc);}
     .section10 i.xi-angle-left-thin {margin:10px 30px 0 30px;}
     .section10 i.xi-angle-right-thin {margin:10px 30px 0 30px;}
 

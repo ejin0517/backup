@@ -1,6 +1,6 @@
 $(function(){
     new fullpage('#fullpage', {
-        navigation: true,
+        navigation:true,
         anchors: ['index', 'about', 'vision', 'member', 'brand', 'img','story','collection','collection01','collection02','lookbook','lookbook01','lookbook02','website','contact'],
         parallax: true,
         onLeave: function(origin, destination, direction){
@@ -10,7 +10,6 @@ $(function(){
         afterLoad: function(origin, destination, direction){
             $('.section').eq(destination.index).addClass('on').siblings().removeClass('on');
         },
-
     });
 
     $('.look_slide01').slick({
